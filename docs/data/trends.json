@@ -2724,16 +2724,18 @@
    "about": "Comments that mention race, ethnicity or racial data",
    "topics": [
     "race_ethnicity"
-   ]
+   ],
+   "tab": "Race & ethnicity"
   },
   {
    "key": "lgbtq",
-   "title": "LGBTQ+ comments per day",
+   "title": "LGBTQIA+ comments per day",
    "about": "Comments that mention LGBTQ+ people, same-sex couples, sexual orientation, or transgender, nonbinary and intersex people",
    "topics": [
     "lgbtq_same_sex",
     "trans_nonbinary_intersex"
-   ]
+   ],
+   "tab": "LGBTQIA+"
   },
   {
    "key": "imm",
@@ -2742,7 +2744,8 @@
    "topics": [
     "noncitizens_apportionment",
     "citizenship_question"
-   ]
+   ],
+   "tab": "Immigration"
   }
  ]
 }
