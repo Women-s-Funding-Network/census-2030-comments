@@ -16,8 +16,7 @@
             "org_type"
           ],
           "sort_desc": "posted",
-          "size": 50,
-          "searchmode": "raw"
+          "size": 50
         },
         "form_letters": {
           "description": "Identical or near-identical letters submitted 3+ times, with the number of copies.",
@@ -43,9 +42,29 @@
         },
         "about": {
           "description": "When this database was built and how it was made."
+        },
+        "all_comments": {
+          "description": "Every comment with its full text. Form-letter copies show the shared letter. Position and topic flags are assigned by keyword rules and are approximate.",
+          "facets": [
+            "position",
+            "comment_type",
+            "region",
+            "state"
+          ],
+          "sort_desc": "posted",
+          "size": 50
         }
       },
       "queries": {
+        "search": {
+          "title": "Search all comments",
+          "description_html": "<p>Form letters are listed once, with the number of copies sent, followed by organizations and individual comments. Matching words are shown in [brackets]. Each row links to the original on Regulations.gov (for form letters, one example copy).</p>",
+          "sql": "select type, comments, position, posted, state, organization, excerpt, url from (\n  select 'Form letter' as type, f.copies as comments, f.position, f.first_posted || ' to ' || f.last_posted as posted,\n         null as state, null as organization,\n         snippet(form_letters_fts, 0, '[', ']', ' … ', 40) as excerpt,\n         'https://www.regulations.gov/comment/' || (select min(comment_id) from comments c where c.form_letter_id = f.form_letter_id) as url,\n         0 as grp, f.copies as sort1, '' as sort2\n  from form_letters_fts join form_letters f on f.form_letter_id = form_letters_fts.rowid\n  where form_letters_fts match :q\n  union all\n  select case when c.commenter_type = 'organization' then 'Organization'\n              when c.edited_from_form_letter is not null then 'Edited form letter' else 'Own words' end,\n         1, c.position, c.posted, c.state, c.organization,\n         snippet(comments_fts, 0, '[', ']', ' … ', 40), c.url,\n         case when c.commenter_type = 'organization' then 1 else 2 end, 0, c.posted\n  from comments_fts join comments c on c.rowid = comments_fts.rowid\n  where comments_fts match :q\n) order by grp, sort1 desc, sort2 desc"
+        },
+        "search_counts": {
+          "title": "How many comments match",
+          "sql": "select\n  (select coalesce(sum(f.copies), 0) from form_letters f where f.form_letter_id in\n     (select rowid from form_letters_fts where form_letters_fts match :q)) as form_letter_copies,\n  (select count(*) from comments_fts where comments_fts match :q) as other_comments"
+        },
         "women_and_girls": {
           "title": "Comments that mention women and girls",
           "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_girls = 1 order by c.posted desc"

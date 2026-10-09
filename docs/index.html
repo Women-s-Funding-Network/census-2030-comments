@@ -22,7 +22,10 @@ h1{font-size:30px;line-height:1.2;margin:0 0 10px}
 form{display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap}
 input[type=search]{flex:1;min-width:220px;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
 button{font:inherit;font-weight:600;padding:12px 18px;border:0;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer}
-.hint{color:var(--muted);font-size:13px;margin:0 0 30px}
+.hint{color:var(--muted);font-size:13px;margin:0 0 18px}
+.examples{font-size:14px;color:var(--ink-2);margin:4px 0 8px;display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}
+.examples a{background:var(--chip);color:var(--accent-ink);border-radius:999px;padding:2px 10px;text-decoration:none;font-weight:600}
+.examples a:hover{text-decoration:underline}
 h2{font-size:19px;margin:36px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
 .card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink)}
@@ -62,13 +65,22 @@ button{color:var(--on-accent)}
 <span class="deadline">Comments due November 2, 2026</span>
 <h1>2030 Census Rule: Public Comment Explorer</h1>
 <p class="lede">Search every public comment on the Census Bureau's proposed rule on who is counted in 2030 and what the census asks. Compiled by Women's Funding Network for member funds and partners.</p>
-<p class="lag" id="lag"><strong>About timing.</strong> Comments appear on Regulations.gov after Census Bureau review, usually 1 to 5 days after they are submitted, and comments with offensive or threatening language are not posted. This site is updated periodically, so the most recent days are incomplete and totals here will run below the number of comments actually submitted.</p>
 
 <form id="search">
   <input type="search" id="q" placeholder='Search comments, e.g. women, "biological sex", tax records' aria-label="Search comments">
   <button type="submit">Search</button>
 </form>
-<p class="hint">Opens in Datasette, a free data explorer. Use quotes for exact phrases. Filter by position, state, region or organization type once results load.</p>
+<p class="examples" id="examples">Try:
+  <a href="#" data-q='"biological sex"'>"biological sex"</a>
+  <a href="#" data-q="maternal">maternal</a>
+  <a href="#" data-q='"tax records"'>"tax records"</a>
+  <a href="#" data-q="undocumented">undocumented</a>
+  <a href="#" data-q='"women and girls"'>"women and girls"</a>
+  <a href="#" data-q="nonbinary">nonbinary</a>
+</p>
+<p class="hint">Searches every comment, including form letters, which are listed once with the number of copies sent. Use quotes for an exact phrase.
+Results open in Datasette, a free data explorer; the first search takes about 30 seconds to load the database (19 MB), then it's quick.</p>
+<p class="lag" id="lag"><strong>About timing.</strong> Comments appear on Regulations.gov after Census Bureau review, usually 1 to 5 days after they are submitted, and comments with offensive or threatening language are not posted. This site is updated periodically, so the most recent days are incomplete and totals here will run below the number of comments actually submitted.</p>
 
 <div class="stats" id="stats"></div>
 
@@ -85,11 +97,20 @@ const here = new URL(".", location.href);
 const DB = new URL("data/census_comments.db", here).href;
 const META = new URL("data/metadata.json", here).href;
 const lite = (hash) => `https://lite.datasette.io/?url=${encodeURIComponent(DB)}&metadata=${encodeURIComponent(META)}#/census_comments${hash}`;
-document.getElementById("search").addEventListener("submit", e => {
-  e.preventDefault();
-  const q = document.getElementById("q").value.trim();
-  location.href = lite("/comments" + (q ? "?_search=" + encodeURIComponent(q) : ""));
-});
+// Full-text search syntax treats ' - . as operators; quote each word (keeping the user's own "phrases") so any text works
+const ftsQuery = q => {
+  if ((q.match(/"/g) || []).length % 2) q += '"';
+  return (q.match(/"[^"]*"|\S+/g) || []).filter(t => t !== '""')
+    .map(t => /^".*"$/.test(t) || /^(OR|AND|NOT)$/.test(t) ? t : `"${t.replace(/"/g, '""')}"`).join(" ");
+};
+const runSearch = q => {
+  q = q.trim();
+  location.href = q ? lite("/search?q=" + encodeURIComponent(ftsQuery(q))) : lite("/all_comments");
+};
+document.getElementById("search").addEventListener("submit", e => { e.preventDefault(); runSearch(document.getElementById("q").value); });
+document.querySelectorAll("#examples a").forEach(a => a.addEventListener("click", e => {
+  e.preventDefault(); document.getElementById("q").value = a.dataset.q; document.getElementById("search").requestSubmit();
+}));
 const DESCRIPTIONS = {
   women_girls: "The gender lens most comments are missing",
   black_maternal_health: "Comments raising maternal mortality among Black women",
@@ -117,7 +138,7 @@ const ORG_CARDS = [
   [lite("/organizations"), "All organizations", "Nonprofits, governments, tribes and coalitions"],
   [lite("/organizations_by_region"), "Organizations by region", "Where the gaps are"],
   [lite("/form_letters"), "Form letters", "Campaign templates and how many copies were sent"],
-  [lite("/individually_written"), "Comments in people's own words", "Everything that isn't a form letter"],
+  [lite("/all_comments?comment_type=Own+words"), "Comments in people's own words", "Everything that isn't a form letter or an organization"],
 ];
 function renderStartHere(topics) {
   let html = "";
@@ -127,7 +148,7 @@ function renderStartHere(topics) {
     const ts = [...lead, ...topics.filter(x => x.group === g).sort((a, b) => b.n - a.n)];
     if (!ts.length) continue;
     html += `<h3>${title}</h3><div class="grid">` + ts.map(x =>
-      card(lite(`/comments?${x.key}=1`), x.label, DESCRIPTIONS[x.key] || `Comments that mention ${x.label.toLowerCase()}`, x.n)).join("") + "</div>";
+      card(lite(`/all_comments?${x.key}=1`), x.label, DESCRIPTIONS[x.key] || `Comments that mention ${x.label.toLowerCase()}`, x.n)).join("") + "</div>";
   }
   html += `<h3>Organizations &amp; campaigns</h3><div class="grid">` + ORG_CARDS.map(([h, t, d]) => card(h, t, d)).join("") + "</div>";
   document.getElementById("startHere").innerHTML = html;
@@ -138,7 +159,7 @@ if (["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol 
   const banner = document.createElement("p");
   banner.className = "note"; banner.textContent = "Preview mode: " + msg;
   document.querySelector(".hint").after(banner);
-  window.__previewGuard = () => document.querySelectorAll("#startHere a.card").forEach(a => a.addEventListener("click", e => { e.preventDefault(); alert(msg); }));
+  window.__previewGuard = () => document.querySelectorAll("#startHere a.card, #examples a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); alert(msg); }));
   document.getElementById("search").addEventListener("submit", e => { e.stopImmediatePropagation(); e.preventDefault(); alert(msg); }, true);
 }
 fetch("data/trends.json").then(r => r.json()).then(t => {

@@ -192,16 +192,15 @@ const hideTip = () => tip.style.opacity = 0;
 const DB_FILE = new URL("data/census_comments.db", location.href).href, META_FILE = new URL("data/metadata.json", location.href).href;
 const dbLink = params => {
   const q = params.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`).join("&");
-  return `https://lite.datasette.io/?url=${encodeURIComponent(DB_FILE)}&metadata=${encodeURIComponent(META_FILE)}#/census_comments/comments?${q}`;
+  return `https://lite.datasette.io/?url=${encodeURIComponent(DB_FILE)}&metadata=${encodeURIComponent(META_FILE)}#/census_comments/all_comments?${q}`;
 };
 const LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol === "file:";
 const openDb = params => LOCAL ? alert("Preview mode: chart links open the database once this site is published on GitHub Pages.\n\n" + decodeURIComponent(dbLink(params).split("#")[1]))
                                : window.open(dbLink(params), "_blank", "noopener");
 const POS_FILTER = {oppose: [["position", "oppose"]], support: [["position", "support"]],
                     unclear: [["_where", "position not in ('oppose', 'support')"]]};
-const KIND_FILTER = {form: [["form_letter_id__notblank", "1"]], edited: [["edited_from_form_letter__notblank", "1"]],
-                     individual: [["commenter_type", "individual"], ["form_letter_id__isblank", "1"], ["edited_from_form_letter__isblank", "1"]],
-                     org: [["commenter_type", "organization"]]};
+const KIND_FILTER = {form: [["comment_type", "Form letter"]], edited: [["comment_type", "Edited form letter"]],
+                     individual: [["comment_type", "Own words"]], org: [["comment_type", "Organization"]]};
 const CLICK_HINT = `<div class="row" style="margin-top:4px;color:var(--accent-ink)">Click to open these comments</div>`;
 const legend = (id, items) => document.getElementById(id).innerHTML =
   items.map(([c, l]) => `<span><i style="background:${c}"></i>${l}</span>`).join("");
