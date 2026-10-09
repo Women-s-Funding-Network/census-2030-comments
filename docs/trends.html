@@ -56,6 +56,7 @@ a{color:var(--accent-ink)}
 h1{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:400;color:var(--brand-ink);letter-spacing:.005em}
 h2,h3{color:var(--brand-ink)}
 button{color:var(--on-accent)}
+.lag{background:var(--chip);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;font-size:14px;color:var(--ink);margin:0 0 24px;max-width:760px}
 </style>
 </head>
 <body>
@@ -71,6 +72,7 @@ button{color:var(--on-accent)}
 <nav><a href="index.html">Search</a><a href="trends.html" aria-current="page">Trends</a><a href="https://www.regulations.gov/docket/USBC-2026-0628">Docket on Regulations.gov</a></nav>
 <h1>What the comments show</h1>
 <p class="lede" id="lede">Trends in public comments on the proposed 2030 Census rule (docket USBC-2026-0628). Comments are due November 2, 2026.</p>
+<p class="lag" id="lag"><strong>About timing.</strong> The Census Bureau reviews comments before posting them on Regulations.gov, so comments can take days or weeks to appear, and some may not be posted at all. This site is updated periodically, so recent days are incomplete and totals here are lower than the number of comments actually submitted.</p>
 <div class="stats" id="stats"></div>
 
 <section>
@@ -251,6 +253,12 @@ function hbars(host, rows, {format = fmt, labelW = 230} = {}) {
 }
 
 fetch("data/trends.json").then(r => r.json()).then(t => {
+  const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"});
+  const lastPosted = t.daily.length ? t.daily[t.daily.length - 1].date : null;
+  document.getElementById("lag").innerHTML = `<strong>About timing.</strong> This site was last updated ${fmtDate(t.built.slice(0, 10))} and includes ` +
+    `${t.comments_included.toLocaleString("en-US")} of the ${t.comments_on_docket.toLocaleString("en-US")} comments posted on Regulations.gov so far` +
+    (lastPosted ? ` (posted through ${fmtDate(lastPosted)})` : "") + `. The Census Bureau reviews comments before posting them, so comments can take ` +
+    `days or weeks to appear, and some may not be posted at all. Counts for recent days are incomplete, and all totals here are lower than the number of comments actually submitted.`;
   const all = t.comments_included, P = t.position;
   const women = t.topics.find(x => x.key === "women_girls");
   document.getElementById("stats").innerHTML = [
