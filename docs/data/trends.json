@@ -1,0 +1,1639 @@
+{
+ "built": "2026-10-08 17:58",
+ "docket": "USBC-2026-0628",
+ "deadline": "2026-11-02",
+ "comments_included": 30904,
+ "comments_on_docket": 33296,
+ "daily": [
+  {
+   "date": "2026-09-15",
+   "form": 11,
+   "edited": 12,
+   "individual": 105,
+   "org": 4,
+   "oppose": 45,
+   "support": 20,
+   "unclear": 65,
+   "g_form": 4,
+   "g_edited": 3,
+   "g_individual": 12,
+   "g_org": 2,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-16",
+   "form": 20,
+   "edited": 320,
+   "individual": 418,
+   "org": 1,
+   "oppose": 39,
+   "support": 470,
+   "unclear": 250,
+   "g_form": 4,
+   "g_edited": 50,
+   "g_individual": 31,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-17",
+   "form": 3,
+   "edited": 13,
+   "individual": 68,
+   "org": 2,
+   "oppose": 16,
+   "support": 26,
+   "unclear": 42,
+   "g_form": 1,
+   "g_edited": 5,
+   "g_individual": 10,
+   "g_org": 2,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-18",
+   "form": 2,
+   "edited": 11,
+   "individual": 76,
+   "org": 2,
+   "oppose": 29,
+   "support": 15,
+   "unclear": 45,
+   "g_form": 0,
+   "g_edited": 1,
+   "g_individual": 11,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-21",
+   "form": 970,
+   "edited": 65,
+   "individual": 405,
+   "org": 1,
+   "oppose": 1114,
+   "support": 78,
+   "unclear": 249,
+   "g_form": 958,
+   "g_edited": 34,
+   "g_individual": 50,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-22",
+   "form": 2352,
+   "edited": 91,
+   "individual": 150,
+   "org": 0,
+   "oppose": 2483,
+   "support": 9,
+   "unclear": 101,
+   "g_form": 2350,
+   "g_edited": 78,
+   "g_individual": 23,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-23",
+   "form": 1443,
+   "edited": 267,
+   "individual": 382,
+   "org": 8,
+   "oppose": 1834,
+   "support": 23,
+   "unclear": 240,
+   "g_form": 1275,
+   "g_edited": 79,
+   "g_individual": 59,
+   "g_org": 4,
+   "wfn": 1
+  },
+  {
+   "date": "2026-09-24",
+   "form": 631,
+   "edited": 58,
+   "individual": 147,
+   "org": 5,
+   "oppose": 714,
+   "support": 8,
+   "unclear": 118,
+   "g_form": 573,
+   "g_edited": 28,
+   "g_individual": 8,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-25",
+   "form": 1395,
+   "edited": 64,
+   "individual": 95,
+   "org": 5,
+   "oppose": 1489,
+   "support": 9,
+   "unclear": 57,
+   "g_form": 1344,
+   "g_edited": 29,
+   "g_individual": 11,
+   "g_org": 1,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-29",
+   "form": 4424,
+   "edited": 671,
+   "individual": 202,
+   "org": 8,
+   "oppose": 4340,
+   "support": 835,
+   "unclear": 126,
+   "g_form": 2936,
+   "g_edited": 106,
+   "g_individual": 25,
+   "g_org": 2,
+   "wfn": 0
+  },
+  {
+   "date": "2026-09-30",
+   "form": 2705,
+   "edited": 299,
+   "individual": 77,
+   "org": 9,
+   "oppose": 2995,
+   "support": 36,
+   "unclear": 56,
+   "g_form": 2412,
+   "g_edited": 100,
+   "g_individual": 7,
+   "g_org": 4,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-01",
+   "form": 1471,
+   "edited": 205,
+   "individual": 114,
+   "org": 10,
+   "oppose": 1669,
+   "support": 55,
+   "unclear": 74,
+   "g_form": 1294,
+   "g_edited": 69,
+   "g_individual": 6,
+   "g_org": 5,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-02",
+   "form": 1352,
+   "edited": 159,
+   "individual": 170,
+   "org": 19,
+   "oppose": 750,
+   "support": 838,
+   "unclear": 108,
+   "g_form": 395,
+   "g_edited": 47,
+   "g_individual": 14,
+   "g_org": 7,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-05",
+   "form": 1091,
+   "edited": 79,
+   "individual": 125,
+   "org": 5,
+   "oppose": 798,
+   "support": 427,
+   "unclear": 73,
+   "g_form": 503,
+   "g_edited": 26,
+   "g_individual": 13,
+   "g_org": 1,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-06",
+   "form": 5725,
+   "edited": 173,
+   "individual": 102,
+   "org": 0,
+   "oppose": 5838,
+   "support": 99,
+   "unclear": 63,
+   "g_form": 5065,
+   "g_edited": 126,
+   "g_individual": 7,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-07",
+   "form": 2029,
+   "edited": 54,
+   "individual": 24,
+   "org": 0,
+   "oppose": 2058,
+   "support": 33,
+   "unclear": 16,
+   "g_form": 1464,
+   "g_edited": 36,
+   "g_individual": 2,
+   "g_org": 0,
+   "wfn": 0
+  }
+ ],
+ "position": {
+  "oppose": 26211,
+  "unclear": 1683,
+  "support": 2981,
+  "extension request": 24,
+  "mixed": 3,
+  "unknown (text not extractable)": 2
+ },
+ "form_letter_share": 0.8291483303132281,
+ "campaign": null,
+ "topics": [
+  {
+   "key": "women_girls",
+   "label": "Women, girls & maternal health",
+   "group": "gender",
+   "n": 5706,
+   "share": 0.18463629303650014,
+   "oppose": 5656,
+   "support": 15,
+   "unclear": 35
+  },
+  {
+   "key": "black_maternal_health",
+   "label": "Black maternal health",
+   "group": "gender",
+   "n": 5438,
+   "share": 0.17596427646906548,
+   "oppose": 5431,
+   "support": 0,
+   "unclear": 7
+  },
+  {
+   "key": "women_of_color",
+   "label": "Women of color",
+   "group": "gender",
+   "n": 5,
+   "share": 0.00016179135387004917,
+   "oppose": 4,
+   "support": 0,
+   "unclear": 1
+  },
+  {
+   "key": "sex_gender_general",
+   "label": "Sex & gender (general)",
+   "group": "gender",
+   "n": 166,
+   "share": 0.005371472948485633,
+   "oppose": 66,
+   "support": 35,
+   "unclear": 65
+  },
+  {
+   "key": "biological_sex",
+   "label": "\"Biological sex\"",
+   "group": "gender",
+   "n": 42,
+   "share": 0.0013590473725084132,
+   "oppose": 24,
+   "support": 3,
+   "unclear": 15
+  },
+  {
+   "key": "trans_nonbinary_intersex",
+   "label": "Transgender, nonbinary & intersex",
+   "group": "gender",
+   "n": 41,
+   "share": 0.0013266891017344033,
+   "oppose": 25,
+   "support": 2,
+   "unclear": 14
+  },
+  {
+   "key": "lgbtq_same_sex",
+   "label": "LGBTQ+ & same-sex couples",
+   "group": "gender",
+   "n": 21515,
+   "share": 0.6961881957028216,
+   "oppose": 21314,
+   "support": 72,
+   "unclear": 129
+  },
+  {
+   "key": "noncitizens_apportionment",
+   "label": "Noncitizens & apportionment",
+   "group": "policy",
+   "n": 26063,
+   "share": 0.8433536111830183,
+   "oppose": 23009,
+   "support": 2524,
+   "unclear": 530
+  },
+  {
+   "key": "constitution",
+   "label": "Constitution",
+   "group": "policy",
+   "n": 26069,
+   "share": 0.8435477608076625,
+   "oppose": 23456,
+   "support": 2274,
+   "unclear": 339
+  },
+  {
+   "key": "race_ethnicity",
+   "label": "Race & ethnicity",
+   "group": "policy",
+   "n": 23774,
+   "share": 0.7692855293813099,
+   "oppose": 23032,
+   "support": 169,
+   "unclear": 573
+  },
+  {
+   "key": "residence_tax",
+   "label": "Usual residence & tax status",
+   "group": "policy",
+   "n": 20458,
+   "share": 0.6619855034946932,
+   "oppose": 17941,
+   "support": 2258,
+   "unclear": 259
+  },
+  {
+   "key": "funding_programs",
+   "label": "Federal funding",
+   "group": "policy",
+   "n": 12565,
+   "share": 0.4065816722754336,
+   "oppose": 12277,
+   "support": 34,
+   "unclear": 254
+  },
+  {
+   "key": "citizenship_question",
+   "label": "Citizenship question",
+   "group": "policy",
+   "n": 8833,
+   "share": 0.2858206057468289,
+   "oppose": 6474,
+   "support": 2232,
+   "unclear": 127
+  },
+  {
+   "key": "democracy_voting",
+   "label": "Democracy & voting",
+   "group": "policy",
+   "n": 4745,
+   "share": 0.1535399948226767,
+   "oppose": 2195,
+   "support": 2269,
+   "unclear": 281
+  },
+  {
+   "key": "privacy_dhs",
+   "label": "Privacy & data sharing",
+   "group": "policy",
+   "n": 160,
+   "share": 0.0051773233238415735,
+   "oppose": 70,
+   "support": 32,
+   "unclear": 58
+  },
+  {
+   "key": "algorithms_estimates",
+   "label": "Algorithms & estimates",
+   "group": "policy",
+   "n": 72,
+   "share": 0.0023297954957287085,
+   "oppose": 21,
+   "support": 22,
+   "unclear": 29
+  },
+  {
+   "key": "children_youth",
+   "label": "Children & youth",
+   "group": "community",
+   "n": 5142,
+   "share": 0.16638622831995858,
+   "oppose": 5072,
+   "support": 15,
+   "unclear": 55
+  },
+  {
+   "key": "students",
+   "label": "Students & college",
+   "group": "community",
+   "n": 5671,
+   "share": 0.1835037535594098,
+   "oppose": 5555,
+   "support": 38,
+   "unclear": 78
+  },
+  {
+   "key": "schools_education",
+   "label": "Schools & education",
+   "group": "community",
+   "n": 11344,
+   "share": 0.36707222366036757,
+   "oppose": 11159,
+   "support": 17,
+   "unclear": 168
+  },
+  {
+   "key": "disability",
+   "label": "Disability",
+   "group": "community",
+   "n": 4803,
+   "share": 0.15541677452756925,
+   "oppose": 4777,
+   "support": 9,
+   "unclear": 17
+  },
+  {
+   "key": "seniors",
+   "label": "Seniors & older adults",
+   "group": "community",
+   "n": 77,
+   "share": 0.0024915868495987573,
+   "oppose": 59,
+   "support": 3,
+   "unclear": 15
+  },
+  {
+   "key": "veterans_military",
+   "label": "Veterans & military",
+   "group": "community",
+   "n": 3672,
+   "share": 0.11881957028216412,
+   "oppose": 3621,
+   "support": 14,
+   "unclear": 37
+  },
+  {
+   "key": "health",
+   "label": "Health & public health",
+   "group": "community",
+   "n": 969,
+   "share": 0.03135516438001553,
+   "oppose": 837,
+   "support": 6,
+   "unclear": 126
+  },
+  {
+   "key": "housing",
+   "label": "Housing & homelessness",
+   "group": "community",
+   "n": 243,
+   "share": 0.00786305979808439,
+   "oppose": 171,
+   "support": 6,
+   "unclear": 66
+  },
+  {
+   "key": "black_communities",
+   "label": "Black communities",
+   "group": "community",
+   "n": 6904,
+   "share": 0.22340150142376392,
+   "oppose": 6835,
+   "support": 9,
+   "unclear": 60
+  },
+  {
+   "key": "latino_hispanic",
+   "label": "Latino & Hispanic communities",
+   "group": "community",
+   "n": 45,
+   "share": 0.0014561221848304426,
+   "oppose": 32,
+   "support": 2,
+   "unclear": 11
+  },
+  {
+   "key": "aapi_nhpi",
+   "label": "Asian American & Pacific Islander",
+   "group": "community",
+   "n": 161,
+   "share": 0.005209681594615584,
+   "oppose": 153,
+   "support": 1,
+   "unclear": 7
+  },
+  {
+   "key": "native_tribal",
+   "label": "Native & tribal communities",
+   "group": "community",
+   "n": 135,
+   "share": 0.004368366554491328,
+   "oppose": 79,
+   "support": 11,
+   "unclear": 45
+  },
+  {
+   "key": "mena",
+   "label": "Middle Eastern & North African",
+   "group": "community",
+   "n": 85,
+   "share": 0.002750453015790836,
+   "oppose": 77,
+   "support": 2,
+   "unclear": 6
+  },
+  {
+   "key": "rural",
+   "label": "Rural communities",
+   "group": "community",
+   "n": 96,
+   "share": 0.003106393994304944,
+   "oppose": 63,
+   "support": 1,
+   "unclear": 32
+  },
+  {
+   "key": "incarceration",
+   "label": "Incarceration",
+   "group": "community",
+   "n": 144,
+   "share": 0.004659590991457417,
+   "oppose": 128,
+   "support": 4,
+   "unclear": 12
+  },
+  {
+   "key": "wfn_campaign_language",
+   "label": "WFN campaign language",
+   "group": "internal",
+   "n": 1,
+   "share": 3.235827077400984e-05,
+   "oppose": 1,
+   "support": 0,
+   "unclear": 0
+  }
+ ],
+ "states": [
+  {
+   "state": "CA",
+   "name": "California",
+   "n": 2591,
+   "per100k": 6.6
+  },
+  {
+   "state": "NY",
+   "name": "New York",
+   "n": 1255,
+   "per100k": 6.3
+  },
+  {
+   "state": "PA",
+   "name": "Pennsylvania",
+   "n": 906,
+   "per100k": 6.9
+  },
+  {
+   "state": "FL",
+   "name": "Florida",
+   "n": 788,
+   "per100k": 3.4
+  },
+  {
+   "state": "WA",
+   "name": "Washington",
+   "n": 736,
+   "per100k": 9.2
+  },
+  {
+   "state": "IL",
+   "name": "Illinois",
+   "n": 713,
+   "per100k": 5.6
+  },
+  {
+   "state": "MI",
+   "name": "Michigan",
+   "n": 606,
+   "per100k": 6.0
+  },
+  {
+   "state": "OH",
+   "name": "Ohio",
+   "n": 569,
+   "per100k": 4.8
+  },
+  {
+   "state": "TX",
+   "name": "Texas",
+   "n": 557,
+   "per100k": 1.8
+  },
+  {
+   "state": "OR",
+   "name": "Oregon",
+   "n": 543,
+   "per100k": 12.7
+  },
+  {
+   "state": "CO",
+   "name": "Colorado",
+   "n": 521,
+   "per100k": 8.7
+  },
+  {
+   "state": "NJ",
+   "name": "New Jersey",
+   "n": 507,
+   "per100k": 5.3
+  },
+  {
+   "state": "AZ",
+   "name": "Arizona",
+   "n": 480,
+   "per100k": 6.3
+  },
+  {
+   "state": "MA",
+   "name": "Massachusetts",
+   "n": 457,
+   "per100k": 6.4
+  },
+  {
+   "state": "MN",
+   "name": "Minnesota",
+   "n": 442,
+   "per100k": 7.6
+  },
+  {
+   "state": "NC",
+   "name": "North Carolina",
+   "n": 428,
+   "per100k": 3.9
+  },
+  {
+   "state": "WI",
+   "name": "Wisconsin",
+   "n": 378,
+   "per100k": 6.3
+  },
+  {
+   "state": "VA",
+   "name": "Virginia",
+   "n": 364,
+   "per100k": 4.1
+  },
+  {
+   "state": "MO",
+   "name": "Missouri",
+   "n": 353,
+   "per100k": 5.7
+  },
+  {
+   "state": "MD",
+   "name": "Maryland",
+   "n": 348,
+   "per100k": 5.6
+  },
+  {
+   "state": "IN",
+   "name": "Indiana",
+   "n": 292,
+   "per100k": 4.2
+  },
+  {
+   "state": "GA",
+   "name": "Georgia",
+   "n": 289,
+   "per100k": 2.6
+  },
+  {
+   "state": "TN",
+   "name": "Tennessee",
+   "n": 220,
+   "per100k": 3.0
+  },
+  {
+   "state": "CT",
+   "name": "Connecticut",
+   "n": 206,
+   "per100k": 5.6
+  },
+  {
+   "state": "NM",
+   "name": "New Mexico",
+   "n": 194,
+   "per100k": 9.1
+  },
+  {
+   "state": "IA",
+   "name": "Iowa",
+   "n": 179,
+   "per100k": 5.5
+  },
+  {
+   "state": "ME",
+   "name": "Maine",
+   "n": 159,
+   "per100k": 11.3
+  },
+  {
+   "state": "NH",
+   "name": "New Hampshire",
+   "n": 153,
+   "per100k": 10.9
+  },
+  {
+   "state": "KS",
+   "name": "Kansas",
+   "n": 148,
+   "per100k": 5.0
+  },
+  {
+   "state": "SC",
+   "name": "South Carolina",
+   "n": 137,
+   "per100k": 2.5
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "n": 128,
+   "per100k": 2.8
+  },
+  {
+   "state": "AR",
+   "name": "Arkansas",
+   "n": 127,
+   "per100k": 4.1
+  },
+  {
+   "state": "NV",
+   "name": "Nevada",
+   "n": 117,
+   "per100k": 3.6
+  },
+  {
+   "state": "UT",
+   "name": "Utah",
+   "n": 95,
+   "per100k": 2.7
+  },
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "n": 83,
+   "per100k": 1.6
+  },
+  {
+   "state": "VT",
+   "name": "Vermont",
+   "n": 78,
+   "per100k": 12.0
+  },
+  {
+   "state": "LA",
+   "name": "Louisiana",
+   "n": 78,
+   "per100k": 1.7
+  },
+  {
+   "state": "WV",
+   "name": "West Virginia",
+   "n": 73,
+   "per100k": 4.1
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "n": 69,
+   "per100k": 1.7
+  },
+  {
+   "state": "NE",
+   "name": "Nebraska",
+   "n": 69,
+   "per100k": 3.4
+  },
+  {
+   "state": "HI",
+   "name": "Hawaii",
+   "n": 69,
+   "per100k": 4.8
+  },
+  {
+   "state": "ID",
+   "name": "Idaho",
+   "n": 69,
+   "per100k": 3.4
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "n": 68,
+   "per100k": 6.0
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "n": 67,
+   "per100k": 6.4
+  },
+  {
+   "state": "AK",
+   "name": "Alaska",
+   "n": 62,
+   "per100k": 8.4
+  },
+  {
+   "state": "RI",
+   "name": "Rhode Island",
+   "n": 57,
+   "per100k": 5.1
+  },
+  {
+   "state": "WY",
+   "name": "Wyoming",
+   "n": 34,
+   "per100k": 5.8
+  },
+  {
+   "state": "SD",
+   "name": "South Dakota",
+   "n": 23,
+   "per100k": 2.5
+  },
+  {
+   "state": "MS",
+   "name": "Mississippi",
+   "n": 19,
+   "per100k": 0.6
+  },
+  {
+   "state": "ND",
+   "name": "North Dakota",
+   "n": 18,
+   "per100k": 2.3
+  },
+  {
+   "state": "PR",
+   "name": "Puerto Rico",
+   "n": 1,
+   "per100k": 0.0
+  }
+ ],
+ "org_types": [
+  {
+   "group": "Foundations & funders",
+   "total": 23,
+   "oppose": 12,
+   "support": 0,
+   "extension": 10,
+   "other": 1
+  },
+  {
+   "group": "State & local government",
+   "total": 17,
+   "oppose": 9,
+   "support": 0,
+   "extension": 4,
+   "other": 4
+  },
+  {
+   "group": "Civil rights & immigrant rights",
+   "total": 14,
+   "oppose": 7,
+   "support": 0,
+   "extension": 7,
+   "other": 0
+  },
+  {
+   "group": "Other nonprofits & coalitions",
+   "total": 9,
+   "oppose": 8,
+   "support": 0,
+   "extension": 1,
+   "other": 0
+  },
+  {
+   "group": "Health & education",
+   "total": 6,
+   "oppose": 5,
+   "support": 0,
+   "extension": 1,
+   "other": 0
+  },
+  {
+   "group": "Researchers, Demographers, and Data Users",
+   "total": 4,
+   "oppose": 4,
+   "support": 0,
+   "extension": 0,
+   "other": 0
+  },
+  {
+   "group": "Tribes & tribal organizations",
+   "total": 3,
+   "oppose": 2,
+   "support": 0,
+   "extension": 1,
+   "other": 0
+  },
+  {
+   "group": "Conservative groups",
+   "total": 2,
+   "oppose": 0,
+   "support": 2,
+   "extension": 0,
+   "other": 0
+  },
+  {
+   "group": "Business & law firms",
+   "total": 1,
+   "oppose": 0,
+   "support": 1,
+   "extension": 0,
+   "other": 0
+  }
+ ],
+ "organizations": [
+  {
+   "name": "Virginia Municipal League",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "VA",
+   "posted": "2026-10-05",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22619"
+  },
+  {
+   "name": "Farmington Metropolitan Planning Organization (NM)",
+   "group": "State & local government",
+   "position": "Unknown",
+   "state": "NM",
+   "posted": "2026-10-05",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22483"
+  },
+  {
+   "name": "Horizon Foundation",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "MD",
+   "posted": "2026-10-05",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22846"
+  },
+  {
+   "name": "Foundation for Appalachian Kentucky",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "KY",
+   "posted": "2026-10-05",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22042"
+  },
+  {
+   "name": "City of Fitchburg, Massachusetts",
+   "group": "State & local government",
+   "position": "Mixed",
+   "state": "MA",
+   "posted": "2026-10-05",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22880"
+  },
+  {
+   "name": "Santo Domingo Pueblo",
+   "group": "Tribes & tribal organizations",
+   "position": "Oppose",
+   "state": "NM",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20442"
+  },
+  {
+   "name": "Arlington County, Virginia",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "VA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20294"
+  },
+  {
+   "name": "Prince William County (VA) Demographer",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "VA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20434"
+  },
+  {
+   "name": "Dignity in Schools Campaign-NY",
+   "group": "Health & education",
+   "position": "Oppose",
+   "state": "NY",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20381"
+  },
+  {
+   "name": "Public Health Alliance of Southern California",
+   "group": "Health & education",
+   "position": "Oppose",
+   "state": "CA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20528"
+  },
+  {
+   "name": "Skillman Foundation (Detroit)",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "MI",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21042"
+  },
+  {
+   "name": "Moapa Band of Paiutes",
+   "group": "Tribes & tribal organizations",
+   "position": "Oppose",
+   "state": "NV",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20773"
+  },
+  {
+   "name": "Homecrest Community Services",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "NY",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19971"
+  },
+  {
+   "name": "Arkansas Community Foundation",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "AR",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20303"
+  },
+  {
+   "name": "Washington State Association of Local Public Health Officials",
+   "group": "Health & education",
+   "position": "Oppose",
+   "state": "WA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20347"
+  },
+  {
+   "name": "Alliance for Boys and Men of Color",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "CA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21058"
+  },
+  {
+   "name": "League of Women Voters of the United States",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20416"
+  },
+  {
+   "name": "Association of Metropolitan Planning Organizations (AMPO)",
+   "group": "State & local government",
+   "position": "Mixed",
+   "state": "National",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21155"
+  },
+  {
+   "name": "Connecticut State Representative, 128th District",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "CT",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20833"
+  },
+  {
+   "name": "Minnesotans for the ACS and 2030 Census (MACS)",
+   "group": "Other nonprofits & coalitions",
+   "position": "Asked for more time",
+   "state": "MN",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20233"
+  },
+  {
+   "name": "Collective for Racial & Disability Justice, UCLA School of Law (CRDJ)",
+   "group": "Researchers, Demographers, and Data Users",
+   "position": "Oppose",
+   "state": "CA",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20840"
+  },
+  {
+   "name": "Neutral Zone",
+   "group": "Health & education",
+   "position": "Oppose",
+   "state": "MI",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20192"
+  },
+  {
+   "name": "Hill-Snowdon Foundation",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21055"
+  },
+  {
+   "name": "City of Athens, Ohio",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "OH",
+   "posted": "2026-10-02",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19951"
+  },
+  {
+   "name": "Population Association of America & Association of Population Centers",
+   "group": "Researchers, Demographers, and Data Users",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18516"
+  },
+  {
+   "name": "California Association of Nonprofits (CalNonprofits)",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "CA",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19548"
+  },
+  {
+   "name": "National League of Cities, U.S. Conference of Mayors & International City/County Management Association",
+   "group": "State & local government",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19123"
+  },
+  {
+   "name": "Kate B. Reynolds Charitable Trust (NC)",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "NC",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19265"
+  },
+  {
+   "name": "Keystone Federated Republican Women (Jefferson County, FL)",
+   "group": "Conservative groups",
+   "position": "Support",
+   "state": "FL",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19122"
+  },
+  {
+   "name": "State demographers in the Federal-State Cooperative for Population Estimates",
+   "group": "Researchers, Demographers, and Data Users",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19446"
+  },
+  {
+   "name": "Data Foundation & Data Coalition",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18580"
+  },
+  {
+   "name": "California Budget & Policy Center",
+   "group": "Researchers, Demographers, and Data Users",
+   "position": "Oppose",
+   "state": "CA",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19554"
+  },
+  {
+   "name": "Minnesota Council on Latino Affairs",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "MN",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18951"
+  },
+  {
+   "name": "Tooele City, Utah",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "UT",
+   "posted": "2026-10-01",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19228"
+  },
+  {
+   "name": "Colorado Health Foundation",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "CO",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15367"
+  },
+  {
+   "name": "City of Santa Clara, Utah",
+   "group": "State & local government",
+   "position": "Mixed",
+   "state": "UT",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15360"
+  },
+  {
+   "name": "Massachusetts Census Equity Fund",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "MA",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15021"
+  },
+  {
+   "name": "Agua Fund, Inc.",
+   "group": "Foundations & funders",
+   "position": "Unknown",
+   "state": "",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15370"
+  },
+  {
+   "name": "Muslim Community Network",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "NY",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15271"
+  },
+  {
+   "name": "Metropolitan Asian Deaf Association",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "NY",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15198"
+  },
+  {
+   "name": "Nonprofit Association of Oregon",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "OR",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15321"
+  },
+  {
+   "name": "American Association of University Women (AAUW), New Mexico chapter",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "NM",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15152"
+  },
+  {
+   "name": "Grossmont Education Association (CA)",
+   "group": "Health & education",
+   "position": "Oppose",
+   "state": "CA",
+   "posted": "2026-09-30",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15377"
+  },
+  {
+   "name": "Association of Metropolitan Planning Organizations, National Association of Development Organizations & National Association of Regional Councils",
+   "group": "State & local government",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9724"
+  },
+  {
+   "name": "National Association of Counties (NACo)",
+   "group": "State & local government",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9884"
+  },
+  {
+   "name": "SaySomething / One Human Race",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10076"
+  },
+  {
+   "name": "Prince William County (VA) Board of County Supervisors member, Occoquan District",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "VA",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14850"
+  },
+  {
+   "name": "Community Foundation of the Eastern Shore (MD)",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "MD",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9711"
+  },
+  {
+   "name": "The Fund for New Jersey",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "NJ",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14873"
+  },
+  {
+   "name": "National Black Deaf Advocates (NBDA)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10306"
+  },
+  {
+   "name": "Mekong NYC (Bronx, NY)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "NY",
+   "posted": "2026-09-29",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10013"
+  },
+  {
+   "name": "Virginia Funders Network",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "VA",
+   "posted": "2026-09-25",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-8785"
+  },
+  {
+   "name": "Housing Opportunities Made Equal of Virginia (HOME)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "VA",
+   "posted": "2026-09-25",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9318"
+  },
+  {
+   "name": "The Cambodian Family Community Center (Santa Ana, CA)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "CA",
+   "posted": "2026-09-25",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9315"
+  },
+  {
+   "name": "Woka Foundation",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "",
+   "posted": "2026-09-25",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9417"
+  },
+  {
+   "name": "Foundation for Child Development (NY)",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "NY",
+   "posted": "2026-09-25",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9096"
+  },
+  {
+   "name": "KABOOM!",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "National",
+   "posted": "2026-09-24",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7448"
+  },
+  {
+   "name": "North Star Civic Foundation (Oregon)",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "OR",
+   "posted": "2026-09-24",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7608"
+  },
+  {
+   "name": "Forefront",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "IL",
+   "posted": "2026-09-24",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7417"
+  },
+  {
+   "name": "National Congress of American Indians (NCAI)",
+   "group": "Tribes & tribal organizations",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-24",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7597"
+  },
+  {
+   "name": "Avengers Youth Mentoring Organization (Detroit, MI & Houston, TX)",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "MI",
+   "posted": "2026-09-24",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7978"
+  },
+  {
+   "name": "Grantmakers Concerned with Immigrants and Refugees (GCIR)",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6197"
+  },
+  {
+   "name": "Center for Renewing America",
+   "group": "Conservative groups",
+   "position": "Support",
+   "state": "National",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5957"
+  },
+  {
+   "name": "Southeast Asia Resource Action Center (SEARAC)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6844"
+  },
+  {
+   "name": "Jail and Outreach Ministry (Pontiac, MI)",
+   "group": "Other nonprofits & coalitions",
+   "position": "Oppose",
+   "state": "MI",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6000"
+  },
+  {
+   "name": "21 state attorneys general (joint letter)",
+   "group": "State & local government",
+   "position": "Asked for more time",
+   "state": "WA",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5759"
+  },
+  {
+   "name": "Clinton, Oklahoma City Council member",
+   "group": "State & local government",
+   "position": "Oppose",
+   "state": "OK",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7045"
+  },
+  {
+   "name": "Fair Housing Resource Center, Inc. (Ohio)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "OH",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7124"
+  },
+  {
+   "name": "Women's Fund of Rhode Island",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "RI",
+   "posted": "2026-09-23",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6078"
+  },
+  {
+   "name": "Onion Foundation (Maine)",
+   "group": "Foundations & funders",
+   "position": "Oppose",
+   "state": "ME",
+   "posted": "2026-09-21",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1645"
+  },
+  {
+   "name": "Grove Foundation",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "",
+   "posted": "2026-09-18",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1047"
+  },
+  {
+   "name": "National Education Association",
+   "group": "Health & education",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-18",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0996"
+  },
+  {
+   "name": "Funders' Committee for Civic Participation (FCCP)",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-17",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0932"
+  },
+  {
+   "name": "Leadership Conference on Civil and Human Rights and 10 organizations",
+   "group": "Civil rights & immigrant rights",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-17",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0953"
+  },
+  {
+   "name": "Garifuna Coalition USA, Inc. (Bronx, NY)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "NY",
+   "posted": "2026-09-16",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0843"
+  },
+  {
+   "name": "Hogar del Inmigrante, Inc. (North Carolina)",
+   "group": "Civil rights & immigrant rights",
+   "position": "Oppose",
+   "state": "NC",
+   "posted": "2026-09-15",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0085"
+  },
+  {
+   "name": "Latino Community Foundation",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "CA",
+   "posted": "2026-09-15",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0100"
+  },
+  {
+   "name": "Goldstein Law Partners (PA)",
+   "group": "Business & law firms",
+   "position": "Support",
+   "state": "PA",
+   "posted": "2026-09-15",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0063"
+  },
+  {
+   "name": "Census Funder Collaborative",
+   "group": "Foundations & funders",
+   "position": "Asked for more time",
+   "state": "National",
+   "posted": "2026-09-15",
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0013"
+  }
+ ],
+ "templates": [
+  {
+   "id": 1,
+   "copies": 10167
+  },
+  {
+   "id": 2,
+   "copies": 5199
+  },
+  {
+   "id": 3,
+   "copies": 2751
+  },
+  {
+   "id": 4,
+   "copies": 2126
+  },
+  {
+   "id": 5,
+   "copies": 1274
+  },
+  {
+   "id": 6,
+   "copies": 1175
+  },
+  {
+   "id": 7,
+   "copies": 406
+  },
+  {
+   "id": 8,
+   "copies": 387
+  },
+  {
+   "id": 9,
+   "copies": 379
+  },
+  {
+   "id": 10,
+   "copies": 163
+  }
+ ]
+}

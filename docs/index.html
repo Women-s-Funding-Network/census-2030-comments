@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Census Comment Explorer</title>
+<meta name="description" content="Search and explore public comments on the proposed 2030 Census rule, compiled by Women's Funding Network.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+:root{--grid:#e3e6e4;--axis:#c5c8cf;--on-accent:#ffffff;color-scheme:light;--page:#ffffff;--surface:#f6f7f6;--ink:#2d3047;--ink-2:#3f3f3f;--muted:#77798a;--line:#e3e6e4;--accent:#5c2f52;--accent-ink:#5c2f52;--chip:#fff5dc;--brand-ink:#2d3047}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--grid:#3d4060;--axis:#4a4d6b;--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--line:#3d4060;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}}
+:root[data-theme="dark"]{--grid:#3d4060;--axis:#4a4d6b;--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--line:#3d4060;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:16px/1.55 Catamaran,"Helvetica Neue",Helvetica,Arial,sans-serif}
+main{max-width:960px;margin:0 auto;padding:24px 16px 64px}
+nav{display:flex;gap:18px;font-size:14px;margin-bottom:28px}
+nav a{color:var(--ink-2);text-decoration:none}nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-size:30px;line-height:1.2;margin:0 0 10px}
+.lede{color:var(--ink-2);font-size:17px;max-width:720px;margin:0 0 24px}
+.deadline{display:inline-block;background:var(--chip);color:var(--accent-ink);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600;margin-bottom:18px}
+form{display:flex;gap:8px;margin:0 0 10px;flex-wrap:wrap}
+input[type=search]{flex:1;min-width:220px;font:inherit;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink)}
+button{font:inherit;font-weight:600;padding:12px 18px;border:0;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer}
+.hint{color:var(--muted);font-size:13px;margin:0 0 30px}
+h2{font-size:19px;margin:36px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.card:hover{border-color:var(--accent)}
+.card b{display:block;margin-bottom:3px}.card span{color:var(--ink-2);font-size:14px}
+.card .n{float:right;color:var(--muted);font-size:13px;font-weight:600;margin-left:8px}
+h3{font-size:15px;margin:22px 0 10px;color:var(--ink-2);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:8px 0 0}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.stat b{display:block;font-size:24px}.stat span{color:var(--ink-2);font-size:13px}
+.note{color:var(--ink-2);font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+a{color:var(--accent-ink)}
+
+
+.brand-band{background:#5c2f52;border-bottom:4px solid #ffaf87}
+.brand{max-width:960px;margin:0 auto;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand a.logo-link{display:block;line-height:0}.brand img{height:52px;width:auto}
+.brand .tag{color:#fff5dc;font-size:15px;font-weight:600;letter-spacing:.02em}
+h1{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:400;color:var(--brand-ink);letter-spacing:.005em}
+h2,h3{color:var(--brand-ink)}
+button{color:var(--on-accent)}
+</style>
+</head>
+<body>
+<div class="brand-band">
+<header class="brand">
+  <a class="logo-link" href="https://www.womensfundingnetwork.org" aria-label="Women's Funding Network">
+    <img src="assets/wfn-logo-white.png" alt="Women's Funding Network">
+  </a>
+  <span class="tag">A project of Women's Funding Network</span>
+</header>
+</div>
+<main>
+<nav><a href="index.html" aria-current="page">Search</a><a href="trends.html">Trends</a><a href="https://www.regulations.gov/docket/USBC-2026-0628">Docket on Regulations.gov</a></nav>
+<span class="deadline">Comments due November 2, 2026</span>
+<h1>2030 Census Rule: Public Comment Explorer</h1>
+<p class="lede">Search every public comment on the Census Bureau's proposed rule on who is counted in 2030 and what the census asks. Compiled by Women's Funding Network for member funds and partners.</p>
+
+<form id="search">
+  <input type="search" id="q" placeholder='Search comments, e.g. women, "biological sex", tax records' aria-label="Search comments">
+  <button type="submit">Search</button>
+</form>
+<p class="hint">Opens in Datasette, a free data explorer. Use quotes for exact phrases. Filter by position, state, region or organization type once results load.</p>
+
+<div class="stats" id="stats"></div>
+
+<h2>Start here</h2>
+<div id="startHere"></div>
+
+<h2>About this data</h2>
+<p class="note"><strong>Privacy.</strong> Individual commenters are not named: names, signatures, addresses, ZIP codes, emails and phone numbers are removed automatically, and individuals' attachments are not included. Organizations and public officials are named. Every comment links to the original on Regulations.gov. Redaction is automated, so if you spot a name that slipped through, please let us know.<br><br>
+<strong>Method.</strong> Position (oppose, support, unclear) and topics are assigned by keyword rules, so treat them as approximate. State is inferred from the comment text where a commenter names it. Form letters are identical or near-identical letters sent three or more times; their shared text is stored once.</p>
+<footer id="built">Women's Funding Network · Data from Regulations.gov</footer>
+</main>
+<script>
+const here = new URL(".", location.href);
+const DB = new URL("data/census_comments.db", here).href;
+const META = new URL("data/metadata.json", here).href;
+const lite = (hash) => `https://lite.datasette.io/?url=${encodeURIComponent(DB)}&metadata=${encodeURIComponent(META)}#/census_comments${hash}`;
+document.getElementById("search").addEventListener("submit", e => {
+  e.preventDefault();
+  const q = document.getElementById("q").value.trim();
+  location.href = lite("/comments" + (q ? "?_search=" + encodeURIComponent(q) : ""));
+});
+const DESCRIPTIONS = {
+  women_girls: "The gender lens most comments are missing",
+  black_maternal_health: "Comments raising maternal mortality among Black women",
+  women_of_color: "Comments that name women and girls of color specifically",
+  sex_gender_general: "Sex and gender as data the census collects",
+  biological_sex: "Comments on writing a sex definition into regulation",
+  trans_nonbinary_intersex: "Who would have no way to be counted as who they are",
+  lgbtq_same_sex: "Sexual orientation and data on same-sex couples",
+  noncitizens_apportionment: "Excluding noncitizens from the count for Congress",
+  constitution: "The 14th Amendment and the “whole number of persons”",
+  race_ethnicity: "Dropping race and ethnicity questions",
+  residence_tax: "Defining where people live by tax records and “lawful” presence",
+  funding_programs: "Federal funding guided by census data",
+  citizenship_question: "Adding a question on citizenship or legal status",
+  democracy_voting: "Representation, voting and elections",
+  privacy_dhs: "Linking census answers to Homeland Security records",
+  algorithms_estimates: "Statistical estimates, algorithms and imputation",
+};
+const GROUPS = [["policy", "Policy issues"], ["community", "Communities named"]];
+const card = (href, title, desc, n) =>
+  `<a class="card" href="${href}">${n != null ? `<span class="n">${n.toLocaleString("en-US")}</span>` : ""}<b>${title}</b><span>${desc}</span></a>`;
+const ORG_CARDS = [
+  [lite("/funders"), "Foundations & funder networks", "Philanthropy's comments so far"],
+  [lite("/organizations"), "All organizations", "Nonprofits, governments, tribes and coalitions"],
+  [lite("/organizations_by_region"), "Organizations by region", "Where the gaps are"],
+  [lite("/form_letters"), "Form letters", "Campaign templates and how many copies were sent"],
+  [lite("/individually_written"), "Comments in people's own words", "Everything that isn't a form letter"],
+];
+function renderStartHere(topics) {
+  let html = "";
+  for (const [g, title] of GROUPS) {
+    // gender-lens topics lead the communities section, in their set order; other communities follow by size
+    const ts = g === "community"
+      ? [...topics.filter(x => x.group === "gender"), ...topics.filter(x => x.group === g).sort((a, b) => b.n - a.n)]
+      : topics.filter(x => x.group === g).sort((a, b) => b.n - a.n);
+    if (!ts.length) continue;
+    html += `<h3>${title}</h3><div class="grid">` + ts.map(x =>
+      card(lite(`/comments?${x.key}=1`), x.label, DESCRIPTIONS[x.key] || `Comments that mention ${x.label.toLowerCase()}`, x.n)).join("") + "</div>";
+  }
+  html += `<h3>Organizations &amp; campaigns</h3><div class="grid">` + ORG_CARDS.map(([h, t, d]) => card(h, t, d)).join("") + "</div>";
+  document.getElementById("startHere").innerHTML = html;
+}
+// Datasette Lite can only load the database from a public https address, so local previews explain that instead of erroring.
+if (["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol === "file:") {
+  const msg = "Search opens once this site is published on GitHub Pages. (In a local preview, the search tool can't read the database.)";
+  const banner = document.createElement("p");
+  banner.className = "note"; banner.textContent = "Preview mode: " + msg;
+  document.querySelector(".hint").after(banner);
+  window.__previewGuard = () => document.querySelectorAll("#startHere a.card").forEach(a => a.addEventListener("click", e => { e.preventDefault(); alert(msg); }));
+  document.getElementById("search").addEventListener("submit", e => { e.stopImmediatePropagation(); e.preventDefault(); alert(msg); }, true);
+}
+fetch("data/trends.json").then(r => r.json()).then(t => {
+  renderStartHere(t.topics);
+  if (window.__previewGuard) window.__previewGuard();
+  const fmt = n => n.toLocaleString("en-US");
+  const pct = n => Math.round(n * 100) + "%";
+  const opp = t.position.oppose || 0, all = t.comments_included;
+  const women = t.topics.find(x => x.key === "women_girls");
+  document.getElementById("stats").innerHTML = [
+    [fmt(t.comments_on_docket), "comments on the docket"],
+    [pct(opp / all), "oppose the rule"],
+    [pct(t.form_letter_share), "are form letters"],
+    [women ? (women.share * 100).toFixed(1) + "%" : "–", "mention women, girls or maternal health"],
+  ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+  document.getElementById("built").textContent =
+    `Women's Funding Network · Data from Regulations.gov · Updated ${t.built} · ${fmt(all)} of ${fmt(t.comments_on_docket)} comments included`;
+}).catch(() => {});
+</script>
+</body>
+</html>

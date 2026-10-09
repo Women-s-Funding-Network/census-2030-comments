@@ -1,0 +1,7 @@
+# Whitelist: only the public site and its docs are published.
+# Everything else in this folder (API keys, raw comment pulls, attachments,
+# logs, drafts, member checks) stays on this computer.
+/*
+!/.gitignore
+!/README.md
+!/docs/

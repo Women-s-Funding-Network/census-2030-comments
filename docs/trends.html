@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Census Comment Trends</title>
+<meta name="description" content="Trends in public comments on the proposed 2030 Census rule: volume, positions, topics, states and organizations.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+:root{--on-accent:#ffffff;color-scheme:light;--page:#ffffff;--surface:#f6f7f6;--ink:#2d3047;--ink-2:#3f3f3f;--muted:#77798a;--grid:#e3e6e4;--axis:#c5c8cf;--line:#e3e6e4;
+  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#86b6ef;--neutral:#c3c2b7;--accent:#5c2f52;--accent-ink:#5c2f52;--chip:#fff5dc;--brand-ink:#2d3047}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#1c5cab;--neutral:#52514e;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}}
+:root[data-theme="dark"]{--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#1c5cab;--neutral:#52514e;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:16px/1.55 Catamaran,"Helvetica Neue",Helvetica,Arial,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 64px}
+nav{display:flex;gap:18px;font-size:14px;margin-bottom:28px}
+nav a{color:var(--ink-2);text-decoration:none}nav a[aria-current]{color:var(--ink);font-weight:600}
+h1{font-size:28px;line-height:1.2;margin:0 0 8px}
+.lede{color:var(--ink-2);margin:0 0 22px;max-width:760px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.stat b{display:block;font-size:26px;line-height:1.2}.stat span{color:var(--ink-2);font-size:13px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 18px 12px;margin-top:16px}
+section h2{font-size:18px;margin:0 0 2px}
+section p.sub{color:var(--ink-2);font-size:14px;margin:0 0 10px}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--ink-2);margin:0 0 6px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.chart{position:relative;width:100%}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font:12px system-ui,-apple-system,"Segoe UI",sans-serif;fill:var(--muted);font-variant-numeric:tabular-nums}
+.chart text.lbl{fill:var(--ink-2)}.chart text.val{fill:var(--ink-2)}
+.tip{position:absolute;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:13px;box-shadow:0 4px 14px rgba(0,0,0,.12);white-space:nowrap;opacity:0;transition:opacity .08s;z-index:2}
+.tip b{display:block}.tip .row{display:flex;gap:8px;align-items:center;color:var(--ink-2)}.tip i{width:8px;height:8px;border-radius:2px;display:inline-block}
+details{margin-top:8px;font-size:14px}summary{color:var(--accent-ink);cursor:pointer}
+table{border-collapse:collapse;margin-top:8px;font-size:13px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:4px 12px 4px 0;border-bottom:1px solid var(--line)}th{color:var(--ink-2);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media (max-width:760px){.two{grid-template-columns:1fr}}
+.two section{margin-top:16px}
+.note{color:var(--muted);font-size:13px;margin-top:18px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0 10px}
+.filters input,.filters select{font:inherit;font-size:14px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.filters input{flex:1;min-width:180px}.count{color:var(--muted);font-size:13px}
+.tablewrap{max-height:520px;overflow:auto}#orgTable{width:100%}#orgTable td a{color:var(--ink);text-decoration:none;font-weight:600}#orgTable td a:hover{color:var(--accent-ink);text-decoration:underline}
+#orgTable th{position:sticky;top:0;background:var(--surface)}
+a{color:var(--accent-ink)}
+
+
+.brand-band{background:#5c2f52;border-bottom:4px solid #ffaf87}
+.brand{max-width:1000px;margin:0 auto;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand a.logo-link{display:block;line-height:0}.brand img{height:52px;width:auto}
+.brand .tag{color:#fff5dc;font-size:15px;font-weight:600;letter-spacing:.02em}
+h1{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:400;color:var(--brand-ink);letter-spacing:.005em}
+h2,h3{color:var(--brand-ink)}
+button{color:var(--on-accent)}
+</style>
+</head>
+<body>
+<div class="brand-band">
+<header class="brand">
+  <a class="logo-link" href="https://www.womensfundingnetwork.org" aria-label="Women's Funding Network">
+    <img src="assets/wfn-logo-white.png" alt="Women's Funding Network">
+  </a>
+  <span class="tag">A project of Women's Funding Network</span>
+</header>
+</div>
+<main>
+<nav><a href="index.html">Search</a><a href="trends.html" aria-current="page">Trends</a><a href="https://www.regulations.gov/docket/USBC-2026-0628">Docket on Regulations.gov</a></nav>
+<h1>What the comments show</h1>
+<p class="lede" id="lede">Trends in public comments on the proposed 2030 Census rule (docket USBC-2026-0628). Comments are due November 2, 2026.</p>
+<div class="stats" id="stats"></div>
+
+<section>
+  <h2>Comments posted per day</h2>
+  <p class="sub" id="dailySub">Most volume comes from organized form-letter campaigns.</p>
+  <div class="legend" id="dailyLegend"></div>
+  <div class="chart" id="daily"></div>
+  <details><summary>Show as table</summary><div id="dailyTable"></div></details>
+</section>
+
+<section id="genderSection">
+  <h2>Gender-related comments per day</h2>
+  <p class="sub">Comments that mention women and girls, maternal health, women of color, sex and gender, "biological sex," transgender, nonbinary and intersex people, or LGBTQ+ people and same-sex couples. Form letters are left out here (see the table) so individual and organizational responses, where campaign effects show up, stay visible. <span id="genderFormNote"></span></p>
+  <div class="legend" id="genderLegend"></div>
+  <div class="chart" id="gender"></div>
+  <div id="wfnBlock" hidden>
+  <h2 style="margin-top:18px;font-size:16px">Comments using WFN campaign language</h2>
+  <p class="sub">Mentions of "women's funds," "Women's Funding Network," "gender lens" or "gender justice fund": a fingerprint of our outreach.</p>
+  <div class="chart" id="wfn"></div>
+  </div>
+  <details><summary>Show as table</summary><div id="genderTable"></div></details>
+</section>
+
+<section>
+  <h2>Position by day</h2>
+  <p class="sub">Share of each day's comments that oppose or support the rule (keyword-based, approximate).</p>
+  <div class="legend" id="posLegend"></div>
+  <div class="chart" id="pos"></div>
+</section>
+
+<section>
+  <h2>What commenters talk about</h2>
+  <p class="sub" id="topicSub">Share of all comments that mention each topic, split by the commenter's position. <b>Bold</b> topics are gender-related; the eight most-mentioned other topics are shown (all topics are in the table).</p>
+  <div class="legend" id="topicLegend"></div>
+  <div class="chart" id="topics"></div>
+  <details><summary>Show as table</summary><div id="topicTable"></div></details>
+</section>
+
+<div class="two">
+<section>
+  <h2>Comments per 100,000 residents</h2>
+  <p class="sub">Top 15 states, where a commenter's state could be identified.</p>
+  <div class="chart" id="states"></div>
+  <details><summary>All states</summary><div id="stateTable"></div></details>
+</section>
+<section>
+  <h2>Organizations that have filed</h2>
+  <p class="sub">By type and position, as reviewed by WFN.</p>
+  <div class="legend" id="orgLegend"></div>
+  <div class="chart" id="orgs"></div>
+</section>
+</div>
+
+<section id="orgListSection">
+  <h2>All organizations that have filed</h2>
+  <p class="sub">Click a name to read the comment on Regulations.gov. Click a bar in the chart above to filter by type.</p>
+  <div class="filters">
+    <input type="search" id="orgQ" placeholder="Search organizations" aria-label="Search organizations">
+    <select id="orgGroup" aria-label="Filter by type"><option value="">All types</option></select>
+    <select id="orgPos" aria-label="Filter by position"><option value="">All positions</option></select>
+    <span class="count" id="orgCount"></span>
+  </div>
+  <div class="tablewrap"><table id="orgTable"></table></div>
+</section>
+
+<p class="note" id="note"></p>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = n => Number(n).toLocaleString("en-US");
+const pct = (n, d = 0) => (n * 100).toFixed(d) + "%";
+const tip = document.getElementById("tip");
+const NS = "http://www.w3.org/2000/svg";
+const el = (name, attrs = {}, parent) => { const e = document.createElementNS(NS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+const shortDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "short", day: "numeric"});
+
+function showTip(evt, html, host) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const r = tip.getBoundingClientRect(), x = evt.clientX + 14, y = evt.clientY + 14;
+  tip.style.left = Math.min(x, innerWidth - r.width - 8) + scrollX + "px";
+  tip.style.top = Math.min(y, innerHeight - r.height - 8) + scrollY + "px";
+}
+const hideTip = () => tip.style.opacity = 0;
+const legend = (id, items) => document.getElementById(id).innerHTML =
+  items.map(([c, l]) => `<span><i style="background:${c}"></i>${l}</span>`).join("");
+const table = (id, head, rows) => document.getElementById(id).innerHTML =
+  `<table><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr>${rows.map(r => `<tr>${r.map(c => `<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
+
+function niceMax(v) { const p = Math.pow(10, Math.floor(Math.log10(v || 1))); return Math.ceil(v / p) * p; }
+
+// Stacked columns, one per day. series: [{key, label, color}]; share=true stacks to 100%.
+function columns(host, rows, series, {share = false, height = 260, yFmt = null, marker = null} = {}) {
+  const W = Math.max(320, host.clientWidth), H = height, m = {t: 10, r: 8, b: 26, l: share ? 40 : 52};
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img"}); host.innerHTML = ""; host.appendChild(svg);
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const totals = rows.map(r => series.reduce((s, x) => s + r[x.key], 0));
+  let max = share ? 1 : niceMax(Math.max(...totals, yFmt ? 0.01 : 1));
+  if (!share && !yFmt) max = Math.max(4, Math.ceil(max / 4) * 4);  // whole-number ticks for counts
+  const axisFmt = share ? (v => pct(v)) : (yFmt || fmt);
+  const y = v => m.t + ih - v / max * ih;
+  for (let i = 0; i <= 4; i++) {
+    const v = max * i / 4, yy = y(v);
+    el("line", {x1: m.l, x2: W - m.r, y1: yy, y2: yy, stroke: i ? css("--grid") : css("--axis"), "stroke-width": 1}, svg);
+    el("text", {x: m.l - 8, y: yy + 4, "text-anchor": "end"}, svg).textContent = axisFmt(v);
+  }
+  const step = iw / rows.length, bw = Math.max(4, Math.min(28, step * 0.7));
+  rows.forEach((r, i) => {
+    const cx = m.l + step * i + step / 2, tot = totals[i] || 1;
+    let acc = 0;
+    series.forEach((s, j) => {
+      const v = share ? r[s.key] / tot : r[s.key];
+      if (!v) return;
+      const y0 = y(acc), y1 = y(acc + v); acc += v;
+      const top = series.slice(j + 1).every(x => !r[x.key]);
+      const h = Math.max(0, y0 - y1 - (top ? 0 : 2));
+      el("rect", {x: cx - bw / 2, y: y1 + (top ? 0 : 0), width: bw, height: h, rx: top ? 4 : 0, fill: s.color}, svg);
+    });
+    if (i % Math.max(1, Math.ceil(rows.length / Math.floor(W / 56))) === 0)
+      el("text", {x: cx, y: H - 8, "text-anchor": "middle"}, svg).textContent = shortDate(r.date);
+    const hit = el("rect", {x: cx - step / 2, y: m.t, width: step, height: ih, fill: "transparent"}, svg);
+    hit.addEventListener("mousemove", e => showTip(e, `<b>${shortDate(r.date)}</b>` + series.map(s =>
+      `<div class="row"><i style="background:${s.color}"></i>${s.label}: ${share ? pct(r[s.key] / tot) : axisFmt(r[s.key])}</div>`).join("") +
+      (r.note ? `<div class="row">${r.note}</div>` : share ? `<div class="row">${fmt(tot)} comments</div>` : series.length > 1 ? `<div class="row">Total: ${fmt(tot)}</div>` : "")));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+  if (marker && marker.launch) {  // dashed line at the campaign launch
+    let i = rows.findIndex(r => r.date >= marker.launch);
+    if (i < 0) i = rows.length;
+    const x = m.l + step * i;
+    el("line", {x1: x, x2: x, y1: m.t, y2: m.t + ih, stroke: css("--ink-2"), "stroke-width": 1.5, "stroke-dasharray": "4 4"}, svg);
+    const t = el("text", {x: x + 6, y: m.t + 12, class: "lbl"}, svg);
+    t.textContent = (marker.label || "Campaign launch") + " · " + shortDate(marker.launch);
+  }
+}
+
+// Horizontal stacked bars. rows: [{label, bold, parts: [{value, color, label}], total, tipHtml}]
+function hstack(host, rows, {format = fmt, labelW = 230} = {}) {
+  const W = Math.max(320, host.clientWidth), rowH = 28, m = {t: 4, r: 56, b: 4, l: Math.min(labelW, W * 0.42)};
+  const H = m.t + m.b + rows.length * rowH;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img"}); host.innerHTML = ""; host.appendChild(svg);
+  const max = Math.max(...rows.map(r => r.total)) || 1, iw = W - m.l - m.r;
+  rows.forEach((r, i) => {
+    const yy = m.t + i * rowH;
+    const lab = el("text", {x: m.l - 10, y: yy + rowH / 2 + 4, "text-anchor": "end", class: "lbl"}, svg);
+    lab.textContent = r.label; if (r.bold) { lab.setAttribute("font-weight", "700"); lab.style.fill = css("--ink"); }
+    let x = m.l;
+    const parts = r.parts.filter(p => p.value > 0);
+    parts.forEach((p, j) => {
+      const w = p.value / max * iw, last = j === parts.length - 1;
+      const gap = last ? 0 : Math.min(2, w / 2);
+      el("rect", {x, y: yy + 7, width: Math.max(0, w - gap), height: rowH - 14, rx: last ? 4 : 0, fill: p.color}, svg);
+      x += w;
+    });
+    el("text", {x: m.l + Math.max(2, r.total / max * iw) + 8, y: yy + rowH / 2 + 4, class: "val"}, svg).textContent = format(r.total);
+    const hit = el("rect", {x: 0, y: yy, width: W, height: rowH, fill: "transparent"}, svg);
+    if (r.group !== undefined) { hit.dataset.group = r.group; hit.style.cursor = "pointer"; }
+    hit.addEventListener("mousemove", e => showTip(e, r.tipHtml));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+// Horizontal bars. rows: [{label, value, color?, tipHtml?}]
+function hbars(host, rows, {format = fmt, labelW = 230} = {}) {
+  const W = Math.max(320, host.clientWidth), rowH = 28, m = {t: 4, r: 56, b: 4, l: Math.min(labelW, W * 0.42)};
+  const H = m.t + m.b + rows.length * rowH;
+  const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img"}); host.innerHTML = ""; host.appendChild(svg);
+  const max = Math.max(...rows.map(r => r.value)) || 1, iw = W - m.l - m.r;
+  rows.forEach((r, i) => {
+    const yy = m.t + i * rowH, w = Math.max(2, r.value / max * iw);
+    el("text", {x: m.l - 10, y: yy + rowH / 2 + 4, "text-anchor": "end", class: "lbl"}, svg).textContent = r.label;
+    el("rect", {x: m.l, y: yy + 7, width: w, height: rowH - 14, rx: 4, fill: r.color || css("--s1")}, svg);
+    el("text", {x: m.l + w + 8, y: yy + rowH / 2 + 4, class: "val"}, svg).textContent = format(r.value);
+    const hit = el("rect", {x: 0, y: yy, width: W, height: rowH, fill: "transparent"}, svg);
+    hit.addEventListener("mousemove", e => showTip(e, r.tipHtml || `<b>${r.label}</b>${format(r.value)}`));
+    hit.addEventListener("mouseleave", hideTip);
+  });
+}
+
+fetch("data/trends.json").then(r => r.json()).then(t => {
+  const all = t.comments_included, P = t.position;
+  const women = t.topics.find(x => x.key === "women_girls");
+  document.getElementById("stats").innerHTML = [
+    [fmt(t.comments_on_docket), "comments on the docket"],
+    [pct((P.oppose || 0) / all), "oppose the rule"],
+    [pct((P.support || 0) / all), "support it"],
+    [pct(t.form_letter_share), "are form-letter copies"],
+    [pct(women.share, 1), "mention women, girls or maternal health"],
+  ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  const draw = () => {
+    const S = [{key: "form", label: "Form-letter copies", color: css("--s1")},
+               {key: "edited", label: "Edited form letters", color: css("--s4")},
+               {key: "individual", label: "Written in their own words", color: css("--s2")},
+               {key: "org", label: "Organizations", color: css("--s3")}];
+    legend("dailyLegend", S.map(s => [s.color, s.label]));
+    columns(document.getElementById("daily"), t.daily, S);
+    const G = [{key: "g_individual", label: "Written in their own words", color: css("--s2")},
+               {key: "g_edited", label: "Edited form letters", color: css("--s1")},
+               {key: "g_org", label: "Organizations", color: css("--s3")}];
+    legend("genderLegend", G.map(s => [s.color, s.label]));
+    columns(document.getElementById("gender"), t.daily.map(d => ({...d,
+      note: d.g_form ? `Plus ${fmt(d.g_form)} form-letter copies` : ""})), G, {marker: t.campaign});
+    if (!document.getElementById("wfnBlock").hidden) columns(document.getElementById("wfn"), t.daily, [{key: "wfn", label: "Use WFN campaign language", color: css("--s3")}],
+            {height: 180, marker: t.campaign});
+    const Pos = [{key: "oppose", label: "Oppose", color: css("--s1")},
+                 {key: "support", label: "Support", color: css("--s2")},
+                 {key: "unclear", label: "Unclear", color: css("--neutral")}];
+    legend("posLegend", Pos.map(s => [s.color, s.label]));
+    columns(document.getElementById("pos"), t.daily, Pos, {share: true, height: 220});
+
+    const gender = new Set(t.topics.filter(x => x.group === "gender").map(x => x.key));
+    const PS = [["oppose", "Oppose", css("--s1")], ["support", "Support", css("--s2")], ["unclear", "Unclear", css("--neutral")]];
+    legend("topicLegend", PS.map(([, l, c]) => [c, l]));
+    // all gender topics, plus the eight most-mentioned other topics
+    const others = t.topics.filter(x => x.group !== "gender" && x.group !== "internal").sort((a, b) => b.share - a.share).slice(0, 8);
+    const topics = [...t.topics.filter(x => x.group === "gender"), ...others].sort((a, b) => b.share - a.share);
+    hstack(document.getElementById("topics"), topics.map(x => ({
+      label: x.label, bold: gender.has(x.key), total: x.share,
+      parts: PS.map(([k, , c]) => ({value: x[k] / all, color: c})),
+      tipHtml: `<b>${x.label}</b>${pct(x.share, 1)} of comments (${fmt(x.n)})` + PS.map(([k, l, c]) =>
+        `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(x[k])} (${x.n ? pct(x[k] / x.n) : "0%"} of these)</div>`).join("")})),
+      {format: v => pct(v, 1)});
+
+    const st = t.states.filter(s => s.per100k != null).sort((a, b) => b.per100k - a.per100k);
+    hbars(document.getElementById("states"), st.slice(0, 15).map(s => ({label: s.name, value: s.per100k,
+      tipHtml: `<b>${s.name}</b>${s.per100k} per 100,000 residents<br>${fmt(s.n)} comments`})), {format: v => v.toFixed(1), labelW: 150});
+    const OP = [["oppose", "Oppose", css("--s1")], ["support", "Support", css("--s2")],
+                ["extension", "Asked for more time", css("--s3")], ["other", "Mixed or unknown", css("--neutral")]];
+    legend("orgLegend", OP.map(([, l, c]) => [c, l]));
+    hstack(document.getElementById("orgs"), t.org_types.map(r => ({
+      label: r.group, group: r.group, total: r.total, parts: OP.map(([k, , c]) => ({value: r[k], color: c})),
+      tipHtml: `<b>${r.group}</b>${fmt(r.total)} organizations` + OP.filter(([k]) => r[k]).map(([k, l, c]) =>
+        `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(r[k])}</div>`).join("")})), {labelW: 240});
+  };
+  draw();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
+  new MutationObserver(draw).observe(document.documentElement, {attributes: true, attributeFilter: ["data-theme"]});
+
+  table("dailyTable", ["Date", "Form-letter copies", "Edited form letters", "Own words", "Organizations", "Oppose", "Support", "Unclear"],
+        t.daily.map(d => [d.date, fmt(d.form), fmt(d.edited), fmt(d.individual), fmt(d.org), fmt(d.oppose), fmt(d.support), fmt(d.unclear)]));
+  const gf = t.daily.reduce((a, d) => a + d.g_form, 0);
+  document.getElementById("genderFormNote").textContent = gf ? `Form-letter copies that raise gender so far: ${fmt(gf)}, almost all from one Black maternal health letter.` : "";
+  table("genderTable", ["Date", "Gender-related: form letters", "Edited form letters", "Own words", "Organizations"],
+        t.daily.map(d => [d.date, fmt(d.g_form), fmt(d.g_edited), fmt(d.g_individual), fmt(d.g_org)]));
+  table("topicTable", ["Topic", "Comments", "Share of all comments", "Oppose", "Support", "Unclear"],
+        t.topics.filter(x => x.group !== "internal").sort((a, b) => b.n - a.n)
+          .map(x => [x.label, fmt(x.n), pct(x.share, 1), fmt(x.oppose), fmt(x.support), fmt(x.unclear)]));
+  table("stateTable", ["State", "Comments", "Per 100,000 residents"], t.states.map(s => [s.name, fmt(s.n), s.per100k ?? "–"]));
+  // full organization list with filters
+  const O = t.organizations || [], og = document.getElementById("orgGroup"), opos = document.getElementById("orgPos"), oq = document.getElementById("orgQ");
+  [...new Set(O.map(o => o.group))].sort().forEach(g => og.add(new Option(g, g)));
+  [...new Set(O.map(o => o.position))].sort().forEach(p => opos.add(new Option(p, p)));
+  const esc = x => String(x ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+  const renderOrgs = () => {
+    const q = oq.value.trim().toLowerCase();
+    const rows = O.filter(o => (!og.value || o.group === og.value) && (!opos.value || o.position === opos.value) &&
+                               (!q || (o.name + " " + o.state).toLowerCase().includes(q)));
+    document.getElementById("orgCount").textContent = `${rows.length} of ${O.length}`;
+    document.getElementById("orgTable").innerHTML = `<tr><th>Organization</th><th>Type</th><th>Position</th><th>State</th><th>Filed</th></tr>` +
+      rows.map(o => `<tr><td><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.name)}</a></td><td>${esc(o.group)}</td>` +
+                    `<td>${esc(o.position)}</td><td>${esc(o.state)}</td><td>${esc(o.posted)}</td></tr>`).join("");
+  };
+  [oq, og, opos].forEach(x => x.addEventListener("input", renderOrgs));
+  renderOrgs();
+  document.getElementById("orgs").addEventListener("click", e => {
+    const r = e.target.closest("rect"); if (!r || r.dataset.group === undefined) return;
+    og.value = r.dataset.group; renderOrgs();
+    document.getElementById("orgListSection").scrollIntoView({behavior: "smooth", block: "start"});
+  });
+  const partial = t.comments_included < t.comments_on_docket;
+  document.getElementById("dailySub").textContent = "Most volume comes from organized form-letter campaigns." +
+    (partial ? ` Recent days are still being collected (${fmt(all)} of ${fmt(t.comments_on_docket)} comments so far).` : "");
+  document.getElementById("note").innerHTML = `Updated ${t.built}. Position and topics are assigned by keyword rules and are approximate. ` +
+    `State is inferred from comment text; form letters that include the signer's address make some states more visible than others. ` +
+    `Population: 2024 American Community Survey. Source: <a href="https://www.regulations.gov/docket/USBC-2026-0628">Regulations.gov</a>. Compiled by Women's Funding Network.`;
+});
+</script>
+</body>
+</html>
