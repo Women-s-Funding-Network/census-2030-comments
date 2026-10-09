@@ -57,6 +57,10 @@ h1{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:40
 h2,h3{color:var(--brand-ink)}
 button{color:var(--on-accent)}
 .lag{background:var(--chip);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;font-size:14px;color:var(--ink);margin:0 0 24px;max-width:760px}
+.pos{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.pos i{width:9px;height:9px;border-radius:2px;display:inline-block}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:999px;padding:1px 7px;margin-left:6px;background:var(--chip);color:var(--accent-ink);vertical-align:1px}
+#campTable{width:100%}#campTable td{vertical-align:top}#campTable td.op{max-width:420px;white-space:normal}#campTable .src{color:var(--ink-2);font-size:12px;display:block;margin-top:2px}
+#campTable td.num{text-align:right;white-space:nowrap}#campTable th.num{text-align:right}.spark{display:block}
 </style>
 </head>
 <body>
@@ -101,6 +105,18 @@ button{color:var(--on-accent)}
   <p class="sub">Share of each day's comments that oppose or support the rule (keyword-based, approximate).</p>
   <div class="legend" id="posLegend"></div>
   <div class="chart" id="pos"></div>
+</section>
+
+<section id="campaignSection">
+  <h2>Form-letter templates and how they're performing</h2>
+  <p class="sub">Every template sent 25 or more times. <b>Reach</b> is the number of copies, and their share of all comments. <b>Personalized</b> counts copies where people changed the wording, a sign of deeper engagement. <b>Last 7 days</b> shows whether a campaign is still growing. Sources are named only where we confirmed them.</p>
+  <div class="filters">
+    <select id="campPos" aria-label="Filter by position"><option value="">All positions</option><option value="oppose">Oppose</option><option value="support">Support</option><option value="other">Other</option></select>
+    <select id="campSort" aria-label="Sort by"><option value="total">Sort by reach</option><option value="recent">Sort by last 7 days</option><option value="edited">Sort by personalized</option><option value="first">Sort by newest</option></select>
+    <label class="count"><input type="checkbox" id="campGender"> Only templates that raise gender</label>
+    <span class="count" id="campCount"></span>
+  </div>
+  <div class="tablewrap"><table id="campTable"></table></div>
 </section>
 
 <section>
@@ -352,6 +368,41 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     og.value = r.dataset.group; renderOrgs();
     document.getElementById("orgListSection").scrollIntoView({behavior: "smooth", block: "start"});
   });
+  // form-letter template tracker
+  const C = t.campaigns || [];
+  const days = t.daily.map(d => d.date), lastDay = days[days.length - 1];
+  const weekAgo = new Date(new Date(lastDay + "T12:00:00") - 6 * 864e5).toISOString().slice(0, 10);
+  const posColor = p => p === "oppose" ? css("--s1") : p === "support" ? css("--s2") : css("--neutral");
+  const posLabel = p => ({oppose: "Oppose", support: "Support", "extension request": "More time"}[p] || "Unclear");
+  C.forEach(c => { c.total = c.copies + c.edited; c.recent = Object.entries(c.daily).filter(([d]) => d >= weekAgo).reduce((a, [, n]) => a + n, 0); });
+  const DB_URL = new URL("data/census_comments.db", location.href).href, META_URL = new URL("data/metadata.json", location.href).href;
+  const letterUrl = id => `https://lite.datasette.io/?url=${encodeURIComponent(DB_URL)}&metadata=${encodeURIComponent(META_URL)}#/census_comments/form_letters/${id}`;
+  const spark = c => {
+    const w = 140, h = 28, bw = w / days.length, max = Math.max(...C.map(x => Math.max(...Object.values(x.daily))));
+    return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="Copies per day">` + days.map((d, i) => {
+      const n = c.daily[d] || 0, bh = n ? Math.max(2, Math.sqrt(n / max) * h) : 0;
+      return n ? `<rect x="${(i * bw).toFixed(1)}" y="${(h - bh).toFixed(1)}" width="${Math.max(1, bw - 1).toFixed(1)}" height="${bh.toFixed(1)}" rx="1" fill="${posColor(c.position)}"><title>${shortDate(d)}: ${fmt(n)}</title></rect>` : "";
+    }).join("") + `<line x1="0" x2="${w}" y1="${h - 0.5}" y2="${h - 0.5}" stroke="${css("--axis")}"/></svg>`;
+  };
+  const cp = document.getElementById("campPos"), cs = document.getElementById("campSort"), cg = document.getElementById("campGender");
+  const renderCamps = () => {
+    const key = cs.value;
+    const rows = C.filter(c => (!cp.value || (cp.value === "other" ? !["oppose", "support"].includes(c.position) : c.position === cp.value)) && (!cg.checked || c.gender))
+      .sort((a, b) => key === "first" ? b.first.localeCompare(a.first) : b[key] - a[key]);
+    document.getElementById("campCount").textContent = `${rows.length} of ${C.length} templates`;
+    document.getElementById("campTable").innerHTML =
+      `<tr><th>Template</th><th>Position</th><th class="num">Reach</th><th class="num">Personalized</th><th class="num">Last 7 days</th><th>Copies per day</th><th>Active</th></tr>` +
+      rows.map(c => `<tr><td class="op"><a href="${letterUrl(c.id)}" target="_blank" rel="noopener">${esc(c.opening)}</a>` +
+        (c.first >= weekAgo ? `<span class="badge">New</span>` : "") + (c.gender ? `<span class="badge">Gender</span>` : "") +
+        (c.sponsor ? `<span class="src">Source: ${c.sponsor_url ? `<a href="${esc(c.sponsor_url)}" target="_blank" rel="noopener">${esc(c.sponsor)}</a>` : esc(c.sponsor)}</span>` : "") + `</td>` +
+        `<td><span class="pos"><i style="background:${posColor(c.position)}"></i>${posLabel(c.position)}</span></td>` +
+        `<td class="num">${fmt(c.total)}<span class="src">${pct(c.total / all, 1)} of all</span></td>` +
+        `<td class="num">${fmt(c.edited)}<span class="src">${pct(c.edited / c.total)}</span></td>` +
+        `<td class="num">${fmt(c.recent)}</td><td>${spark(c)}</td>` +
+        `<td style="white-space:nowrap">${shortDate(c.first)} – ${shortDate(c.last)}</td></tr>`).join("");
+  };
+  [cp, cs, cg].forEach(x => x.addEventListener("input", renderCamps));
+  renderCamps();
   const partial = t.comments_included < t.comments_on_docket;
   document.getElementById("dailySub").textContent = "Most volume comes from organized form-letter campaigns." +
     (partial ? ` Recent days are still being collected (${fmt(all)} of ${fmt(t.comments_on_docket)} comments so far).` : "");

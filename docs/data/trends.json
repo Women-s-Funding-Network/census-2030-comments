@@ -1,9 +1,9 @@
 {
- "built": "2026-10-09 12:20",
+ "built": "2026-10-09 14:44",
  "docket": "USBC-2026-0628",
  "deadline": "2026-11-02",
- "comments_included": 34396,
- "comments_on_docket": 34396,
+ "comments_included": 34696,
+ "comments_on_docket": 34696,
  "daily": [
   {
    "date": "2026-09-15",
@@ -142,8 +142,8 @@
   },
   {
    "date": "2026-09-29",
-   "form": 4426,
-   "edited": 669,
+   "form": 4427,
+   "edited": 668,
    "individual": 202,
    "org": 8,
    "oppose": 4340,
@@ -262,44 +262,720 @@
   },
   {
    "date": "2026-10-09",
-   "form": 922,
-   "edited": 63,
-   "individual": 115,
+   "form": 1197,
+   "edited": 77,
+   "individual": 126,
    "org": 0,
-   "oppose": 608,
-   "support": 417,
-   "unclear": 75,
-   "g_form": 215,
-   "g_edited": 12,
-   "g_individual": 8,
+   "oppose": 867,
+   "support": 451,
+   "unclear": 82,
+   "g_form": 248,
+   "g_edited": 14,
+   "g_individual": 9,
    "g_org": 0,
    "wfn": 0
   }
  ],
  "position": {
-  "oppose": 28316,
-  "unclear": 1995,
-  "support": 4056,
+  "oppose": 28575,
+  "unclear": 2002,
+  "support": 4090,
   "extension request": 24,
   "mixed": 3,
   "unknown (text not extractable)": 2
  },
- "form_letter_share": 0.822770089545296,
+ "form_letter_share": 0.8236107908692645,
  "women_outside_top_template": {
   "n": 291,
-  "share": 0.008460286079776717,
+  "share": 0.008387133963569288,
   "template_id": 2,
-  "template_copies": 5940
+  "template_copies": 5956
  },
+ "campaigns": [
+  {
+   "id": 1,
+   "position": "oppose",
+   "copies": 10683,
+   "edited": 260,
+   "first": "2026-09-21",
+   "last": "2026-10-09",
+   "opening": "I urge the Census Bureau and Department of Commerce to withdraw the proposed rule changing residence criteria for the decennial Census and restricting demographic questions.The proposal would exclude\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 1595,
+    "2026-09-25": 1311,
+    "2026-09-22": 2361,
+    "2026-09-21": 956,
+    "2026-09-23": 1217,
+    "2026-10-01": 299,
+    "2026-10-05": 449,
+    "2026-09-24": 559,
+    "2026-09-30": 320,
+    "2026-10-02": 203,
+    "2026-10-06": 809,
+    "2026-10-07": 661,
+    "2026-10-08": 108,
+    "2026-10-09": 95
+   }
+  },
+  {
+   "id": 2,
+   "position": "oppose",
+   "copies": 5957,
+   "edited": 157,
+   "first": "2026-10-05",
+   "last": "2026-10-09",
+   "opening": "The U.S. Constitution requires the Census to count \u201cthe whole number of persons in each State\u201d every ten years\u2014not the whole number of citizens, and not only the people the administration finds\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-05": 1,
+    "2026-10-06": 4241,
+    "2026-10-07": 1597,
+    "2026-10-08": 155,
+    "2026-10-09": 120
+   }
+  },
+  {
+   "id": 3,
+   "position": "oppose",
+   "copies": 2751,
+   "edited": 343,
+   "first": "2026-09-15",
+   "last": "2026-10-09",
+   "opening": "I am [add a description of who you are and/or state where you live], and I care about a fair and accurate census because census data and other federal datasets based on the census are used to make\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-01": 874,
+    "2026-09-30": 1889,
+    "2026-10-02": 111,
+    "2026-09-29": 64,
+    "2026-10-07": 27,
+    "2026-09-23": 55,
+    "2026-09-24": 10,
+    "2026-09-21": 9,
+    "2026-09-16": 3,
+    "2026-09-22": 4,
+    "2026-10-05": 11,
+    "2026-09-25": 7,
+    "2026-09-15": 2,
+    "2026-09-18": 1,
+    "2026-10-06": 7,
+    "2026-10-08": 10,
+    "2026-10-09": 10
+   }
+  },
+  {
+   "id": 4,
+   "position": "support",
+   "copies": 2526,
+   "edited": 75,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "The U.S. Census Bureau's proposed rule to strengthen the US Census is critical to fair representation and the future of America.",
+   "gender": false,
+   "sponsor": "Heritage Action",
+   "sponsor_url": "https://heritageaction.com/put-common-sense-back-in-the-us-census",
+   "daily": {
+    "2026-10-02": 801,
+    "2026-09-29": 789,
+    "2026-10-05": 412,
+    "2026-09-30": 31,
+    "2026-10-01": 34,
+    "2026-10-06": 88,
+    "2026-10-07": 97,
+    "2026-10-08": 15,
+    "2026-10-09": 334
+   }
+  },
+  {
+   "id": 5,
+   "position": "oppose",
+   "copies": 1766,
+   "edited": 4,
+   "first": "2026-10-02",
+   "last": "2026-10-09",
+   "opening": "All persons in the United States have a right to be counted, as the 14th Amendment of the Constitution plainly establishes.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-05": 164,
+    "2026-10-02": 63,
+    "2026-10-06": 531,
+    "2026-10-07": 518,
+    "2026-10-08": 2,
+    "2026-10-09": 492
+   }
+  },
+  {
+   "id": 6,
+   "position": "oppose",
+   "copies": 1176,
+   "edited": 18,
+   "first": "2026-09-24",
+   "last": "2026-10-07",
+   "opening": "I am [add a description of who you are, such as your profession and/or state where you live], and I care about a fair and accurate census because census data and other federal datasets based on the\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 1178,
+    "2026-09-30": 4,
+    "2026-10-01": 2,
+    "2026-10-07": 5,
+    "2026-10-02": 4,
+    "2026-09-24": 1
+   }
+  },
+  {
+   "id": 7,
+   "position": "support",
+   "copies": 433,
+   "edited": 132,
+   "first": "2026-10-07",
+   "last": "2026-10-09",
+   "opening": "The 14th Amendment is clearly about defining U.S. citizenship, and this amendment governs how the Census Bureau should count persons in the United States.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-07": 352,
+    "2026-10-08": 122,
+    "2026-10-09": 91
+   }
+  },
+  {
+   "id": 18,
+   "position": "oppose",
+   "copies": 39,
+   "edited": 445,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "I urge the Census Bureau and Department of Commerce to withdraw the proposed rule that would add a citizenship question and restrict demographic questions.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 259,
+    "2026-09-30": 82,
+    "2026-10-01": 60,
+    "2026-10-02": 32,
+    "2026-10-05": 7,
+    "2026-10-07": 21,
+    "2026-10-09": 7,
+    "2026-10-06": 11,
+    "2026-10-08": 5
+   }
+  },
+  {
+   "id": 29,
+   "position": "oppose",
+   "copies": 16,
+   "edited": 444,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "I strongly oppose the proposed 2030 Census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 247,
+    "2026-09-30": 80,
+    "2026-10-01": 49,
+    "2026-10-02": 32,
+    "2026-10-07": 12,
+    "2026-10-09": 7,
+    "2026-10-05": 13,
+    "2026-10-06": 17,
+    "2026-10-08": 3
+   }
+  },
+  {
+   "id": 8,
+   "position": "oppose",
+   "copies": 417,
+   "edited": 16,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "I urge the Census Bureau to withdraw this proposed rule immediately.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 237,
+    "2026-10-05": 7,
+    "2026-10-02": 29,
+    "2026-09-30": 87,
+    "2026-10-01": 41,
+    "2026-10-06": 14,
+    "2026-10-07": 10,
+    "2026-10-08": 1,
+    "2026-10-09": 7
+   }
+  },
+  {
+   "id": 9,
+   "position": "oppose",
+   "copies": 407,
+   "edited": 17,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "Our local public services depend on accurate population counts to secure their fair share of federal support.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 227,
+    "2026-09-30": 84,
+    "2026-10-01": 41,
+    "2026-10-02": 23,
+    "2026-10-05": 6,
+    "2026-10-06": 11,
+    "2026-10-07": 21,
+    "2026-10-08": 7,
+    "2026-10-09": 4
+   }
+  },
+  {
+   "id": 10,
+   "position": "oppose",
+   "copies": 393,
+   "edited": 26,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "Please withdraw the proposed census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 224,
+    "2026-09-30": 90,
+    "2026-10-01": 40,
+    "2026-10-02": 30,
+    "2026-10-05": 1,
+    "2026-10-06": 14,
+    "2026-10-07": 9,
+    "2026-10-08": 2,
+    "2026-10-09": 9
+   }
+  },
+  {
+   "id": 11,
+   "position": "oppose",
+   "copies": 164,
+   "edited": 176,
+   "first": "2026-09-21",
+   "last": "2026-10-09",
+   "opening": "The census has counted all residents for apportionment regardless of legal status for 230 years.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 22,
+    "2026-09-24": 11,
+    "2026-09-23": 287,
+    "2026-09-25": 9,
+    "2026-10-07": 2,
+    "2026-10-09": 1,
+    "2026-10-02": 1,
+    "2026-10-01": 2,
+    "2026-09-21": 1,
+    "2026-09-30": 2,
+    "2026-10-06": 1,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "id": 23,
+   "position": "support",
+   "copies": 20,
+   "edited": 241,
+   "first": "2026-09-16",
+   "last": "2026-10-09",
+   "opening": "I am addressing sections 60.4 and 70.2 of the NPRM.",
+   "gender": false,
+   "sponsor": "RedState article by Dennis Santiago",
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-24": 2,
+    "2026-09-16": 207,
+    "2026-09-17": 6,
+    "2026-09-18": 6,
+    "2026-09-21": 10,
+    "2026-09-22": 4,
+    "2026-09-23": 3,
+    "2026-09-25": 2,
+    "2026-09-29": 6,
+    "2026-10-01": 2,
+    "2026-10-02": 5,
+    "2026-10-05": 3,
+    "2026-10-07": 2,
+    "2026-09-30": 1,
+    "2026-10-09": 2
+   }
+  },
+  {
+   "id": 12,
+   "position": "oppose",
+   "copies": 145,
+   "edited": 3,
+   "first": "2026-09-24",
+   "last": "2026-10-09",
+   "opening": "As Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month comes to a close, I write to urge you to support AANHPI students by cosponsoring the All Students Count Act.",
+   "gender": true,
+   "sponsor": "Southeast Asia Resource Action Center (SEARAC)",
+   "sponsor_url": "https://searac.org",
+   "daily": {
+    "2026-09-30": 14,
+    "2026-09-25": 29,
+    "2026-09-29": 13,
+    "2026-09-24": 4,
+    "2026-10-02": 26,
+    "2026-10-05": 19,
+    "2026-10-01": 1,
+    "2026-10-06": 17,
+    "2026-10-07": 20,
+    "2026-10-08": 3,
+    "2026-10-09": 2
+   }
+  },
+  {
+   "id": 97,
+   "position": "support",
+   "copies": 5,
+   "edited": 135,
+   "first": "2026-09-16",
+   "last": "2026-10-09",
+   "opening": "I am commenting as an individual and I am addressing sections 60.4 and 70.2 of the NPRM.",
+   "gender": true,
+   "sponsor": "RedState article by Dennis Santiago",
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-16": 113,
+    "2026-09-17": 5,
+    "2026-09-18": 4,
+    "2026-09-23": 3,
+    "2026-09-30": 1,
+    "2026-09-21": 3,
+    "2026-09-22": 1,
+    "2026-09-25": 1,
+    "2026-09-29": 2,
+    "2026-10-01": 1,
+    "2026-10-02": 2,
+    "2026-10-05": 1,
+    "2026-10-06": 1,
+    "2026-10-08": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "id": 13,
+   "position": "oppose",
+   "copies": 132,
+   "edited": 3,
+   "first": "2026-09-21",
+   "last": "2026-10-09",
+   "opening": "This proposed rule makes significant changes to the 2030 Census, including leaving noncitizens without green cards out of the count used to divide seats in Congress, removing race and ethnicity\u2026",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-24": 6,
+    "2026-09-23": 1,
+    "2026-09-29": 2,
+    "2026-09-30": 2,
+    "2026-10-01": 2,
+    "2026-10-02": 13,
+    "2026-10-05": 1,
+    "2026-10-07": 45,
+    "2026-10-08": 29,
+    "2026-10-09": 32,
+    "2026-09-21": 2
+   }
+  },
+  {
+   "id": 14,
+   "position": "oppose",
+   "copies": 120,
+   "edited": 0,
+   "first": "2026-10-01",
+   "last": "2026-10-09",
+   "opening": "As and educator, and I care about a fair and accurate census because census data and other federal datasets based on the census are used to make key decisions that affect our nation\u2019s students,\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-02": 20,
+    "2026-10-05": 30,
+    "2026-10-01": 1,
+    "2026-10-06": 15,
+    "2026-10-07": 22,
+    "2026-10-08": 9,
+    "2026-10-09": 23
+   }
+  },
+  {
+   "id": 65,
+   "position": "oppose",
+   "copies": 9,
+   "edited": 77,
+   "first": "2026-09-15",
+   "last": "2026-10-09",
+   "opening": "I am [add a description of who you are, such as your profession and/or state where you live], and I care about a fair and accurate census because [add a brief description of why you care].",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-29": 12,
+    "2026-10-01": 15,
+    "2026-10-02": 16,
+    "2026-10-05": 5,
+    "2026-10-07": 15,
+    "2026-10-09": 4,
+    "2026-09-24": 7,
+    "2026-09-30": 1,
+    "2026-09-25": 3,
+    "2026-09-15": 1,
+    "2026-09-17": 1,
+    "2026-10-06": 4,
+    "2026-10-08": 2
+   }
+  },
+  {
+   "id": 15,
+   "position": "oppose",
+   "copies": 62,
+   "edited": 18,
+   "first": "2026-09-21",
+   "last": "2026-10-07",
+   "opening": "I strongly object to a change that would radically alter who is counted for congressional apportionment, which local communities are resourced, and whether we can track progress on civil rights\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-23": 67,
+    "2026-09-24": 4,
+    "2026-09-29": 3,
+    "2026-09-30": 1,
+    "2026-10-01": 3,
+    "2026-09-21": 1,
+    "2026-10-07": 1
+   }
+  },
+  {
+   "id": 82,
+   "position": "oppose",
+   "copies": 6,
+   "edited": 71,
+   "first": "2026-09-21",
+   "last": "2026-10-09",
+   "opening": "As Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month comes to a close, I write to urge you to support AANHPI students by cosponsoring the All Students Count Act.",
+   "gender": true,
+   "sponsor": "Southeast Asia Resource Action Center (SEARAC)",
+   "sponsor_url": "https://searac.org",
+   "daily": {
+    "2026-09-25": 2,
+    "2026-09-29": 11,
+    "2026-10-02": 10,
+    "2026-10-06": 2,
+    "2026-09-21": 9,
+    "2026-09-23": 15,
+    "2026-09-22": 5,
+    "2026-09-24": 4,
+    "2026-09-30": 1,
+    "2026-10-01": 5,
+    "2026-10-05": 2,
+    "2026-10-07": 6,
+    "2026-10-08": 3,
+    "2026-10-09": 2
+   }
+  },
+  {
+   "id": 17,
+   "position": "oppose",
+   "copies": 43,
+   "edited": 16,
+   "first": "2026-09-25",
+   "last": "2026-10-06",
+   "opening": "The new proposed provisions would severely compromise the integrity of the 2030 Census, leading to far less accurate population counts and the under-counting, under-representation, and under-funding\u2026",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-25": 53,
+    "2026-09-29": 4,
+    "2026-10-05": 1,
+    "2026-10-06": 1
+   }
+  },
+  {
+   "id": 81,
+   "position": "unclear",
+   "copies": 6,
+   "edited": 43,
+   "first": "2026-09-16",
+   "last": "2026-10-09",
+   "opening": "First, keep race and ethnicity questions on the 2030 Census.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-24": 22,
+    "2026-09-25": 7,
+    "2026-10-05": 1,
+    "2026-09-22": 1,
+    "2026-09-29": 10,
+    "2026-09-16": 1,
+    "2026-09-21": 1,
+    "2026-09-23": 1,
+    "2026-09-30": 1,
+    "2026-10-01": 1,
+    "2026-10-02": 2,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "id": 16,
+   "position": "oppose",
+   "copies": 45,
+   "edited": 0,
+   "first": "2026-09-29",
+   "last": "2026-10-09",
+   "opening": "I care about a fair and accurate census because census data and other federal datasets based on the census are used to make key decisions that affect our nation\u2019s students, educators, and schools.",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-30": 22,
+    "2026-09-29": 11,
+    "2026-10-01": 8,
+    "2026-10-02": 1,
+    "2026-10-06": 1,
+    "2026-10-07": 1,
+    "2026-10-09": 1
+   }
+  },
+  {
+   "id": 36,
+   "position": "oppose",
+   "copies": 14,
+   "edited": 31,
+   "first": "2026-09-30",
+   "last": "2026-10-09",
+   "opening": "I urge the Census Bureau to withdraw the proposed rule that changes residence criteria and restricts demographic questions for the decennial Census.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-01": 22,
+    "2026-09-30": 16,
+    "2026-10-09": 2,
+    "2026-10-02": 4,
+    "2026-10-08": 1
+   }
+  },
+  {
+   "id": 67,
+   "position": "oppose",
+   "copies": 8,
+   "edited": 36,
+   "first": "2026-10-02",
+   "last": "2026-10-09",
+   "opening": "I live in New York City and I think everyone should be counted in the census.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-05": 8,
+    "2026-10-02": 18,
+    "2026-10-06": 3,
+    "2026-10-08": 3,
+    "2026-10-09": 4,
+    "2026-10-07": 8
+   }
+  },
+  {
+   "id": 20,
+   "position": "oppose",
+   "copies": 23,
+   "edited": 5,
+   "first": "2026-09-21",
+   "last": "2026-10-08",
+   "opening": "This rule makes significant changes to the 2030 Census, including the exclusion of race and ethnicity questions and the possible inclusion of a citizenship or immigration status question.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-24": 7,
+    "2026-09-29": 4,
+    "2026-10-01": 3,
+    "2026-10-02": 2,
+    "2026-09-30": 4,
+    "2026-09-21": 1,
+    "2026-10-07": 4,
+    "2026-10-08": 2,
+    "2026-09-23": 1
+   }
+  },
+  {
+   "id": 19,
+   "position": "oppose",
+   "copies": 25,
+   "edited": 0,
+   "first": "2026-09-21",
+   "last": "2026-10-07",
+   "opening": "I strongly urge the Census Bureau and Department of Commerce to withdraw the proposed rule changing residence criteria for the decennial Census and restricting demographic questions.The proposal\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-21": 2,
+    "2026-09-22": 9,
+    "2026-09-23": 1,
+    "2026-09-24": 2,
+    "2026-09-25": 2,
+    "2026-09-29": 3,
+    "2026-09-30": 1,
+    "2026-10-05": 1,
+    "2026-10-06": 1,
+    "2026-10-07": 3
+   }
+  },
+  {
+   "id": 31,
+   "position": "oppose",
+   "copies": 15,
+   "edited": 10,
+   "first": "2026-09-29",
+   "last": "2026-10-07",
+   "opening": "I am a retired educator, and I care about a fair and accurate census because census data and other federal datasets based on the census are used to make key decisions that affect our nation\u2019s\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-30": 11,
+    "2026-10-01": 8,
+    "2026-09-29": 3,
+    "2026-10-02": 2,
+    "2026-10-07": 1
+   }
+  }
+ ],
  "campaign": null,
  "topics": [
   {
    "key": "women_girls",
    "label": "Women and girls",
    "group": "gender",
-   "n": 6506,
-   "share": 0.18914990115129665,
-   "oppose": 6449,
+   "n": 6522,
+   "share": 0.18797555914226424,
+   "oppose": 6465,
    "support": 17,
    "unclear": 40
   },
@@ -307,9 +983,9 @@
    "key": "black_maternal_health",
    "label": "Black maternal health",
    "group": "gender",
-   "n": 6217,
-   "share": 0.18074776136760087,
-   "oppose": 6210,
+   "n": 6233,
+   "share": 0.17964606871109062,
+   "oppose": 6226,
    "support": 0,
    "unclear": 7
   },
@@ -318,7 +994,7 @@
    "label": "Women of color",
    "group": "gender",
    "n": 6,
-   "share": 0.00017443888824281894,
+   "share": 0.00017293059718699561,
    "oppose": 5,
    "support": 0,
    "unclear": 1
@@ -327,9 +1003,9 @@
    "key": "sex_gender_general",
    "label": "Sex & gender (general)",
    "group": "gender",
-   "n": 178,
-   "share": 0.0051750203512036285,
-   "oppose": 73,
+   "n": 181,
+   "share": 0.005216739681807701,
+   "oppose": 76,
    "support": 36,
    "unclear": 69
   },
@@ -338,7 +1014,7 @@
    "label": "\"Biological sex\"",
    "group": "gender",
    "n": 43,
-   "share": 0.0012501453657402023,
+   "share": 0.001239335946506802,
    "oppose": 24,
    "support": 3,
    "unclear": 16
@@ -347,9 +1023,9 @@
    "key": "trans_nonbinary_intersex",
    "label": "Transgender, nonbinary & intersex",
    "group": "gender",
-   "n": 45,
-   "share": 0.001308291661821142,
-   "oppose": 27,
+   "n": 46,
+   "share": 0.0013258012451002998,
+   "oppose": 28,
    "support": 2,
    "unclear": 16
   },
@@ -357,9 +1033,9 @@
    "key": "lgbtq_same_sex",
    "label": "LGBTQ+ & same-sex couples",
    "group": "gender",
-   "n": 22978,
-   "share": 0.6680427956739156,
-   "oppose": 22768,
+   "n": 23012,
+   "share": 0.6632464837445239,
+   "oppose": 22802,
    "support": 73,
    "unclear": 137
   },
@@ -367,29 +1043,29 @@
    "key": "noncitizens_apportionment",
    "label": "Noncitizens & apportionment",
    "group": "policy",
-   "n": 28832,
-   "share": 0.8382370043028259,
-   "oppose": 24691,
-   "support": 3514,
-   "unclear": 627
+   "n": 28909,
+   "share": 0.8332084390131427,
+   "oppose": 24734,
+   "support": 3545,
+   "unclear": 630
   },
   {
    "key": "constitution",
    "label": "Constitution",
    "group": "policy",
-   "n": 29015,
-   "share": 0.8435573903942319,
-   "oppose": 25382,
-   "support": 3212,
-   "unclear": 421
+   "n": 29304,
+   "share": 0.8445930366612866,
+   "oppose": 25638,
+   "support": 3243,
+   "unclear": 423
   },
   {
    "key": "race_ethnicity",
    "label": "Race & ethnicity",
    "group": "policy",
-   "n": 25737,
-   "share": 0.7482556111175718,
-   "oppose": 24941,
+   "n": 25987,
+   "share": 0.7489912381830759,
+   "oppose": 25191,
    "support": 174,
    "unclear": 622
   },
@@ -397,49 +1073,49 @@
    "key": "residence_tax",
    "label": "Usual residence & tax status",
    "group": "policy",
-   "n": 22019,
-   "share": 0.640161646703105,
-   "oppose": 19078,
-   "support": 2661,
-   "unclear": 280
+   "n": 22275,
+   "share": 0.6420048420567213,
+   "oppose": 19313,
+   "support": 2681,
+   "unclear": 281
   },
   {
    "key": "funding_programs",
    "label": "Federal funding",
    "group": "policy",
-   "n": 13711,
-   "share": 0.3986219327828817,
-   "oppose": 13362,
-   "support": 62,
-   "unclear": 287
+   "n": 13749,
+   "share": 0.39627046345400047,
+   "oppose": 13395,
+   "support": 64,
+   "unclear": 290
   },
   {
    "key": "citizenship_question",
    "label": "Citizenship question",
    "group": "policy",
-   "n": 10738,
-   "share": 0.3121874636585649,
-   "oppose": 7412,
-   "support": 3171,
+   "n": 10792,
+   "share": 0.31104450080700946,
+   "oppose": 7436,
+   "support": 3201,
    "unclear": 155
   },
   {
    "key": "democracy_voting",
    "label": "Democracy & voting",
    "group": "policy",
-   "n": 5700,
-   "share": 0.16571694383067798,
-   "oppose": 2658,
-   "support": 2701,
-   "unclear": 341
+   "n": 5942,
+   "share": 0.17125893474752132,
+   "oppose": 2879,
+   "support": 2721,
+   "unclear": 342
   },
   {
    "key": "privacy_dhs",
    "label": "Privacy & data sharing",
    "group": "policy",
-   "n": 177,
-   "share": 0.005145947203163159,
-   "oppose": 78,
+   "n": 178,
+   "share": 0.005130274383214203,
+   "oppose": 79,
    "support": 38,
    "unclear": 61
   },
@@ -447,9 +1123,9 @@
    "key": "algorithms_estimates",
    "label": "Algorithms & estimates",
    "group": "policy",
-   "n": 89,
-   "share": 0.0025875101756018142,
-   "oppose": 26,
+   "n": 90,
+   "share": 0.0025939589578049343,
+   "oppose": 27,
    "support": 30,
    "unclear": 33
   },
@@ -457,9 +1133,9 @@
    "key": "children_youth",
    "label": "Children & youth",
    "group": "community",
-   "n": 5403,
-   "share": 0.15708221886265844,
-   "oppose": 5317,
+   "n": 5410,
+   "share": 0.15592575513027437,
+   "oppose": 5324,
    "support": 20,
    "unclear": 66
   },
@@ -467,9 +1143,9 @@
    "key": "students",
    "label": "Students & college",
    "group": "community",
-   "n": 5824,
-   "share": 0.16932201418769624,
-   "oppose": 5690,
+   "n": 5827,
+   "share": 0.16794443163477057,
+   "oppose": 5693,
    "support": 40,
    "unclear": 94
   },
@@ -477,9 +1153,9 @@
    "key": "schools_education",
    "label": "Schools & education",
    "group": "community",
-   "n": 12402,
-   "share": 0.3605651819979067,
-   "oppose": 12199,
+   "n": 12430,
+   "share": 0.35825455383905924,
+   "oppose": 12227,
    "support": 19,
    "unclear": 184
   },
@@ -487,9 +1163,9 @@
    "key": "disability",
    "label": "Disability",
    "group": "community",
-   "n": 4880,
-   "share": 0.14187696243749273,
-   "oppose": 4852,
+   "n": 4883,
+   "share": 0.1407366843440166,
+   "oppose": 4855,
    "support": 9,
    "unclear": 19
   },
@@ -498,7 +1174,7 @@
    "label": "Seniors & older adults",
    "group": "community",
    "n": 85,
-   "share": 0.0024712175834399348,
+   "share": 0.0024498501268157714,
    "oppose": 62,
    "support": 4,
    "unclear": 19
@@ -507,9 +1183,9 @@
    "key": "veterans_military",
    "label": "Veterans & military",
    "group": "community",
-   "n": 3801,
-   "share": 0.1105070357018258,
-   "oppose": 3741,
+   "n": 3804,
+   "share": 0.10963799861655522,
+   "oppose": 3744,
    "support": 18,
    "unclear": 42
   },
@@ -517,9 +1193,9 @@
    "key": "health",
    "label": "Health & public health",
    "group": "community",
-   "n": 1068,
-   "share": 0.03105012210722177,
-   "oppose": 921,
+   "n": 1073,
+   "share": 0.030925755130274384,
+   "oppose": 926,
    "support": 9,
    "unclear": 138
   },
@@ -527,9 +1203,9 @@
    "key": "housing",
    "label": "Housing & homelessness",
    "group": "community",
-   "n": 382,
-   "share": 0.011105942551459472,
-   "oppose": 302,
+   "n": 387,
+   "share": 0.011154023518561217,
+   "oppose": 307,
    "support": 8,
    "unclear": 72
   },
@@ -537,19 +1213,19 @@
    "key": "black_communities",
    "label": "Black communities",
    "group": "community",
-   "n": 8086,
-   "share": 0.23508547505523897,
-   "oppose": 8014,
+   "n": 8319,
+   "share": 0.23976827299976944,
+   "oppose": 8246,
    "support": 9,
-   "unclear": 63
+   "unclear": 64
   },
   {
    "key": "latino_hispanic",
    "label": "Latino & Hispanic communities",
    "group": "community",
-   "n": 53,
-   "share": 0.0015408768461449005,
-   "oppose": 40,
+   "n": 54,
+   "share": 0.0015563753746829605,
+   "oppose": 41,
    "support": 2,
    "unclear": 11
   },
@@ -558,7 +1234,7 @@
    "label": "Asian American & Pacific Islander",
    "group": "community",
    "n": 174,
-   "share": 0.0050587277590417494,
+   "share": 0.0050149873184228725,
    "oppose": 165,
    "support": 1,
    "unclear": 8
@@ -567,9 +1243,9 @@
    "key": "native_tribal",
    "label": "Native & tribal communities",
    "group": "community",
-   "n": 161,
-   "share": 0.004680776834515642,
-   "oppose": 97,
+   "n": 162,
+   "share": 0.004669126124048881,
+   "oppose": 98,
    "support": 14,
    "unclear": 50
   },
@@ -578,7 +1254,7 @@
    "label": "Middle Eastern & North African",
    "group": "community",
    "n": 90,
-   "share": 0.002616583323642284,
+   "share": 0.0025939589578049343,
    "oppose": 79,
    "support": 2,
    "unclear": 9
@@ -587,10 +1263,10 @@
    "key": "rural",
    "label": "Rural communities",
    "group": "community",
-   "n": 661,
-   "share": 0.019217350854750553,
+   "n": 672,
+   "share": 0.01936822688494351,
    "oppose": 75,
-   "support": 541,
+   "support": 552,
    "unclear": 45
   },
   {
@@ -598,7 +1274,7 @@
    "label": "Incarceration",
    "group": "community",
    "n": 177,
-   "share": 0.005145947203163159,
+   "share": 0.0051014526170163705,
    "oppose": 160,
    "support": 4,
    "unclear": 13
@@ -608,7 +1284,7 @@
    "label": "WFN campaign language",
    "group": "internal",
    "n": 1,
-   "share": 2.907314804046982e-05,
+   "share": 2.8821766197832605e-05,
    "oppose": 1,
    "support": 0,
    "unclear": 0
@@ -618,13 +1294,13 @@
   {
    "state": "CA",
    "name": "California",
-   "n": 2700,
-   "per100k": 6.8
+   "n": 2706,
+   "per100k": 6.9
   },
   {
    "state": "NY",
    "name": "New York",
-   "n": 1310,
+   "n": 1314,
    "per100k": 6.6
   },
   {
@@ -648,13 +1324,13 @@
   {
    "state": "IL",
    "name": "Illinois",
-   "n": 745,
+   "n": 746,
    "per100k": 5.9
   },
   {
    "state": "MI",
    "name": "Michigan",
-   "n": 667,
+   "n": 668,
    "per100k": 6.6
   },
   {
@@ -666,7 +1342,7 @@
   {
    "state": "TX",
    "name": "Texas",
-   "n": 588,
+   "n": 591,
    "per100k": 1.9
   },
   {
@@ -678,7 +1354,7 @@
   {
    "state": "CO",
    "name": "Colorado",
-   "n": 542,
+   "n": 544,
    "per100k": 9.1
   },
   {
@@ -714,14 +1390,14 @@
   {
    "state": "WI",
    "name": "Wisconsin",
-   "n": 389,
+   "n": 390,
    "per100k": 6.5
   },
   {
    "state": "VA",
    "name": "Virginia",
-   "n": 383,
-   "per100k": 4.3
+   "n": 384,
+   "per100k": 4.4
   },
   {
    "state": "MD",
@@ -738,7 +1414,7 @@
   {
    "state": "GA",
    "name": "Georgia",
-   "n": 317,
+   "n": 318,
    "per100k": 2.8
   },
   {
@@ -768,8 +1444,8 @@
   {
    "state": "IA",
    "name": "Iowa",
-   "n": 184,
-   "per100k": 5.7
+   "n": 188,
+   "per100k": 5.8
   },
   {
    "state": "ME",
@@ -838,22 +1514,22 @@
    "per100k": 12.3
   },
   {
+   "state": "WV",
+   "name": "West Virginia",
+   "n": 76,
+   "per100k": 4.3
+  },
+  {
    "state": "ID",
    "name": "Idaho",
-   "n": 75,
-   "per100k": 3.7
+   "n": 76,
+   "per100k": 3.8
   },
   {
    "state": "NE",
    "name": "Nebraska",
    "n": 74,
    "per100k": 3.7
-  },
-  {
-   "state": "WV",
-   "name": "West Virginia",
-   "n": 74,
-   "per100k": 4.2
   },
   {
    "state": "OK",
@@ -906,8 +1582,8 @@
   {
    "state": "MS",
    "name": "Mississippi",
-   "n": 19,
-   "per100k": 0.6
+   "n": 20,
+   "per100k": 0.7
   },
   {
    "state": "ND",
@@ -1633,11 +2309,11 @@
  "templates": [
   {
    "id": 1,
-   "copies": 10670
+   "copies": 10683
   },
   {
    "id": 2,
-   "copies": 5941
+   "copies": 5957
   },
   {
    "id": 3,
@@ -1645,11 +2321,11 @@
   },
   {
    "id": 4,
-   "copies": 2509
+   "copies": 2526
   },
   {
    "id": 5,
-   "copies": 1555
+   "copies": 1766
   },
   {
    "id": 6,
@@ -1657,7 +2333,7 @@
   },
   {
    "id": 7,
-   "copies": 425
+   "copies": 433
   },
   {
    "id": 8,
@@ -1665,7 +2341,7 @@
   },
   {
    "id": 9,
-   "copies": 406
+   "copies": 407
   },
   {
    "id": 10,
