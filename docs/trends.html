@@ -108,6 +108,7 @@ button{color:var(--on-accent)}
   </div>
   <details><summary>Show as table</summary><div id="genderTable"></div></details>
 </section>
+<div id="trackerSections"></div>
 
 <section id="campaignSection">
   <h2>Form-letter templates and how they're performing</h2>
@@ -371,6 +372,12 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     `after they are submitted, and comments with offensive or threatening language are not posted. The most recent days are incomplete, and totals here ` +
     `will run below the number of comments actually submitted.`;
   const all = t.comments_included, P = t.position;
+  // topic trackers: same layout as the gender chart
+  document.getElementById("trackerSections").innerHTML = (t.trackers || []).map(k => `<section>
+    <h2>${k.title}</h2>
+    <p class="sub">${k.about}. Form letters are left out of the bars (they're in the tooltip and table) so individual and organizational responses stay visible. <span id="${k.key}FormNote"></span></p>
+    <div class="legend" id="${k.key}Legend"></div><div class="chart" id="${k.key}Chart"></div>
+    <details><summary>Show as table</summary><div id="${k.key}Table"></div></details></section>`).join("");
   window.GENDER_WHERE = "(" + t.topics.filter(x => x.group === "gender").map(x => `${x.key} = 1`).join(" or ") + ")";
   const women = t.topics.find(x => x.key === "women_girls");
   document.getElementById("stats").innerHTML = [
@@ -398,6 +405,16 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
       link: (r, k) => [["posted", r.date], ["_where", GENDER_WHERE], ...(k ? KIND_FILTER[k.slice(2)] : [])]});
     if (!document.getElementById("wfnBlock").hidden) columns(document.getElementById("wfn"), t.daily, [{key: "wfn", label: "Use WFN campaign language", color: css("--s3")}],
             {height: 180, marker: t.campaign});
+    (t.trackers || []).forEach(k => {
+      const TS = [{key: `${k.key}_individual`, label: "Written in their own words", color: css("--s2")},
+                  {key: `${k.key}_edited`, label: "Edited form letters", color: css("--s1")},
+                  {key: `${k.key}_org`, label: "Organizations", color: css("--s3")}];
+      const where = "(" + k.topics.map(x => `${x} = 1`).join(" or ") + ")";
+      legend(`${k.key}Legend`, TS.map(s => [s.color, s.label]));
+      columns(document.getElementById(`${k.key}Chart`), t.daily.map(d => ({...d,
+        note: d[`${k.key}_form`] ? `Plus ${fmt(d[`${k.key}_form`])} form-letter copies` : ""})), TS,
+        {link: (r, s) => [["posted", r.date], ["_where", where], ...(s ? KIND_FILTER[s.slice(k.key.length + 1)] : [])]});
+    });
     const Pos = [{key: "oppose", label: "Oppose", color: css("--s1")},
                  {key: "support", label: "Support", color: css("--s2")},
                  {key: "unclear", label: "Unclear", color: css("--neutral")}];
@@ -444,6 +461,12 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
   document.getElementById("genderFormNote").textContent = gf ? `Form-letter copies that raise gender so far: ${fmt(gf)}, almost all from one Black maternal health letter.` : "";
   table("genderTable", ["Date", "Gender-related: form letters", "Edited form letters", "Own words", "Organizations"],
         t.daily.map(d => [d.date, fmt(d.g_form), fmt(d.g_edited), fmt(d.g_individual), fmt(d.g_org)]));
+  (t.trackers || []).forEach(k => {
+    const f = t.daily.reduce((a, d) => a + (d[`${k.key}_form`] || 0), 0);
+    document.getElementById(`${k.key}FormNote`).textContent = f ? `Form-letter copies so far: ${fmt(f)}.` : "";
+    table(`${k.key}Table`, ["Date", "Form letters", "Edited form letters", "Own words", "Organizations"],
+          t.daily.map(d => [d.date, fmt(d[`${k.key}_form`]), fmt(d[`${k.key}_edited`]), fmt(d[`${k.key}_individual`]), fmt(d[`${k.key}_org`])]));
+  });
   table("topicTable", ["Topic", "Comments", "Share of all comments", "Oppose", "Support", "Unclear"],
         t.topics.filter(x => x.group !== "internal").sort((a, b) => b.n - a.n)
           .map(x => [x.label, fmt(x.n), pct(x.share, 1), fmt(x.oppose), fmt(x.support), fmt(x.unclear)]));

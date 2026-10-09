@@ -18,7 +18,19 @@
    "g_edited": 3,
    "g_individual": 12,
    "g_org": 2,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 5,
+   "race_edited": 7,
+   "race_individual": 30,
+   "race_org": 3,
+   "lgbtq_form": 4,
+   "lgbtq_edited": 3,
+   "lgbtq_individual": 9,
+   "lgbtq_org": 2,
+   "imm_form": 11,
+   "imm_edited": 12,
+   "imm_individual": 43,
+   "imm_org": 3
   },
   {
    "date": "2026-09-16",
@@ -33,7 +45,19 @@
    "g_edited": 50,
    "g_individual": 31,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 4,
+   "race_edited": 72,
+   "race_individual": 67,
+   "race_org": 1,
+   "lgbtq_form": 3,
+   "lgbtq_edited": 32,
+   "lgbtq_individual": 23,
+   "lgbtq_org": 0,
+   "imm_form": 13,
+   "imm_edited": 134,
+   "imm_individual": 146,
+   "imm_org": 1
   },
   {
    "date": "2026-09-17",
@@ -48,7 +72,19 @@
    "g_edited": 5,
    "g_individual": 10,
    "g_org": 2,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 1,
+   "race_edited": 7,
+   "race_individual": 23,
+   "race_org": 2,
+   "lgbtq_form": 1,
+   "lgbtq_edited": 5,
+   "lgbtq_individual": 6,
+   "lgbtq_org": 2,
+   "imm_form": 2,
+   "imm_edited": 9,
+   "imm_individual": 20,
+   "imm_org": 2
   },
   {
    "date": "2026-09-18",
@@ -63,7 +99,19 @@
    "g_edited": 1,
    "g_individual": 11,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 1,
+   "race_edited": 2,
+   "race_individual": 31,
+   "race_org": 0,
+   "lgbtq_form": 0,
+   "lgbtq_edited": 1,
+   "lgbtq_individual": 6,
+   "lgbtq_org": 0,
+   "imm_form": 1,
+   "imm_edited": 7,
+   "imm_individual": 27,
+   "imm_org": 2
   },
   {
    "date": "2026-09-21",
@@ -78,7 +126,19 @@
    "g_edited": 33,
    "g_individual": 50,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 966,
+   "race_edited": 47,
+   "race_individual": 102,
+   "race_org": 1,
+   "lgbtq_form": 959,
+   "lgbtq_edited": 28,
+   "lgbtq_individual": 28,
+   "lgbtq_org": 0,
+   "imm_form": 968,
+   "imm_edited": 52,
+   "imm_individual": 128,
+   "imm_org": 1
   },
   {
    "date": "2026-09-22",
@@ -93,7 +153,19 @@
    "g_edited": 76,
    "g_individual": 23,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 2352,
+   "race_edited": 81,
+   "race_individual": 72,
+   "race_org": 0,
+   "lgbtq_form": 2352,
+   "lgbtq_edited": 74,
+   "lgbtq_individual": 13,
+   "lgbtq_org": 0,
+   "imm_form": 2352,
+   "imm_edited": 85,
+   "imm_individual": 32,
+   "imm_org": 0
   },
   {
    "date": "2026-09-23",
@@ -108,7 +180,19 @@
    "g_edited": 79,
    "g_individual": 59,
    "g_org": 4,
-   "wfn": 1
+   "wfn": 1,
+   "race_form": 1272,
+   "race_edited": 74,
+   "race_individual": 121,
+   "race_org": 5,
+   "lgbtq_form": 1274,
+   "lgbtq_edited": 68,
+   "lgbtq_individual": 40,
+   "lgbtq_org": 2,
+   "imm_form": 1442,
+   "imm_edited": 227,
+   "imm_individual": 84,
+   "imm_org": 5
   },
   {
    "date": "2026-09-24",
@@ -123,7 +207,19 @@
    "g_edited": 27,
    "g_individual": 8,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 623,
+   "race_edited": 43,
+   "race_individual": 61,
+   "race_org": 3,
+   "lgbtq_form": 574,
+   "lgbtq_edited": 26,
+   "lgbtq_individual": 5,
+   "lgbtq_org": 0,
+   "imm_form": 630,
+   "imm_edited": 49,
+   "imm_individual": 27,
+   "imm_org": 2
   },
   {
    "date": "2026-09-25",
@@ -138,7 +234,19 @@
    "g_edited": 26,
    "g_individual": 11,
    "g_org": 1,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 1352,
+   "race_edited": 35,
+   "race_individual": 48,
+   "race_org": 1,
+   "lgbtq_form": 1346,
+   "lgbtq_edited": 24,
+   "lgbtq_individual": 7,
+   "lgbtq_org": 0,
+   "imm_form": 1355,
+   "imm_edited": 41,
+   "imm_individual": 30,
+   "imm_org": 2
   },
   {
    "date": "2026-09-29",
@@ -153,7 +261,19 @@
    "g_edited": 104,
    "g_individual": 25,
    "g_org": 2,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 2953,
+   "race_edited": 125,
+   "race_individual": 62,
+   "race_org": 4,
+   "lgbtq_form": 2937,
+   "lgbtq_edited": 88,
+   "lgbtq_individual": 19,
+   "lgbtq_org": 1,
+   "imm_form": 4196,
+   "imm_edited": 412,
+   "imm_individual": 103,
+   "imm_org": 4
   },
   {
    "date": "2026-09-30",
@@ -168,7 +288,19 @@
    "g_edited": 100,
    "g_individual": 7,
    "g_org": 4,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 2427,
+   "race_edited": 120,
+   "race_individual": 20,
+   "race_org": 6,
+   "lgbtq_form": 2411,
+   "lgbtq_edited": 100,
+   "lgbtq_individual": 5,
+   "lgbtq_org": 3,
+   "imm_form": 2617,
+   "imm_edited": 211,
+   "imm_individual": 22,
+   "imm_org": 6
   },
   {
    "date": "2026-10-01",
@@ -183,7 +315,19 @@
    "g_edited": 69,
    "g_individual": 6,
    "g_org": 5,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 1310,
+   "race_edited": 90,
+   "race_individual": 26,
+   "race_org": 8,
+   "lgbtq_form": 1294,
+   "lgbtq_edited": 67,
+   "lgbtq_individual": 4,
+   "lgbtq_org": 3,
+   "imm_form": 1423,
+   "imm_edited": 150,
+   "imm_individual": 48,
+   "imm_org": 7
   },
   {
    "date": "2026-10-02",
@@ -198,7 +342,19 @@
    "g_edited": 47,
    "g_individual": 14,
    "g_org": 7,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 474,
+   "race_edited": 54,
+   "race_individual": 40,
+   "race_org": 14,
+   "lgbtq_form": 395,
+   "lgbtq_edited": 45,
+   "lgbtq_individual": 9,
+   "lgbtq_org": 4,
+   "imm_form": 1269,
+   "imm_edited": 119,
+   "imm_individual": 65,
+   "imm_org": 13
   },
   {
    "date": "2026-10-05",
@@ -213,7 +369,19 @@
    "g_edited": 26,
    "g_individual": 13,
    "g_org": 1,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 670,
+   "race_edited": 32,
+   "race_individual": 46,
+   "race_org": 2,
+   "lgbtq_form": 502,
+   "lgbtq_edited": 25,
+   "lgbtq_individual": 10,
+   "lgbtq_org": 1,
+   "imm_form": 925,
+   "imm_edited": 60,
+   "imm_individual": 49,
+   "imm_org": 2
   },
   {
    "date": "2026-10-06",
@@ -228,7 +396,19 @@
    "g_edited": 124,
    "g_individual": 7,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 5595,
+   "race_edited": 129,
+   "race_individual": 34,
+   "race_org": 0,
+   "lgbtq_form": 5065,
+   "lgbtq_edited": 123,
+   "lgbtq_individual": 3,
+   "lgbtq_org": 0,
+   "imm_form": 5189,
+   "imm_edited": 148,
+   "imm_individual": 31,
+   "imm_org": 0
   },
   {
    "date": "2026-10-07",
@@ -243,7 +423,19 @@
    "g_edited": 98,
    "g_individual": 24,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 2895,
+   "race_edited": 109,
+   "race_individual": 55,
+   "race_org": 0,
+   "lgbtq_form": 2326,
+   "lgbtq_edited": 96,
+   "lgbtq_individual": 16,
+   "lgbtq_org": 0,
+   "imm_form": 2777,
+   "imm_edited": 223,
+   "imm_individual": 125,
+   "imm_org": 0
   },
   {
    "date": "2026-10-08",
@@ -258,7 +450,19 @@
    "g_edited": 15,
    "g_individual": 2,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 316,
+   "race_edited": 20,
+   "race_individual": 13,
+   "race_org": 0,
+   "lgbtq_form": 282,
+   "lgbtq_edited": 15,
+   "lgbtq_individual": 1,
+   "lgbtq_org": 0,
+   "imm_form": 441,
+   "imm_edited": 50,
+   "imm_individual": 24,
+   "imm_org": 0
   },
   {
    "date": "2026-10-09",
@@ -273,7 +477,19 @@
    "g_edited": 14,
    "g_individual": 9,
    "g_org": 0,
-   "wfn": 0
+   "wfn": 0,
+   "race_form": 773,
+   "race_edited": 22,
+   "race_individual": 28,
+   "race_org": 0,
+   "lgbtq_form": 246,
+   "lgbtq_edited": 13,
+   "lgbtq_individual": 5,
+   "lgbtq_org": 0,
+   "imm_form": 713,
+   "imm_edited": 61,
+   "imm_individual": 42,
+   "imm_org": 0
   }
  ],
  "position": {
@@ -2499,6 +2715,34 @@
   {
    "id": 10,
    "copies": 393
+  }
+ ],
+ "trackers": [
+  {
+   "key": "race",
+   "title": "Race and ethnicity comments per day",
+   "about": "Comments that mention race, ethnicity or racial data",
+   "topics": [
+    "race_ethnicity"
+   ]
+  },
+  {
+   "key": "lgbtq",
+   "title": "LGBTQ+ comments per day",
+   "about": "Comments that mention LGBTQ+ people, same-sex couples, sexual orientation, or transgender, nonbinary and intersex people",
+   "topics": [
+    "lgbtq_same_sex",
+    "trans_nonbinary_intersex"
+   ]
+  },
+  {
+   "key": "imm",
+   "title": "Immigration comments per day",
+   "about": "Comments that mention immigrants, noncitizens, legal status, apportionment, or a citizenship question",
+   "topics": [
+    "noncitizens_apportionment",
+    "citizenship_question"
+   ]
   }
  ]
 }
