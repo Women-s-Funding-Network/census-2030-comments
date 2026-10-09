@@ -59,63 +59,78 @@
         "search": {
           "title": "Search all comments",
           "description_html": "<p>Form letters are listed once, with the number of copies sent, followed by organizations and individual comments. Matching words are shown in [brackets]. Each row links to the original on Regulations.gov (for form letters, one example copy).</p>",
-          "sql": "select type, comments, position, posted, state, organization, excerpt, url from (\n  select 'Form letter' as type, f.copies as comments, f.position, f.first_posted || ' to ' || f.last_posted as posted,\n         null as state, null as organization,\n         snippet(form_letters_fts, 0, '[', ']', ' … ', 40) as excerpt,\n         'https://www.regulations.gov/comment/' || (select min(comment_id) from comments c where c.form_letter_id = f.form_letter_id) as url,\n         0 as grp, f.copies as sort1, '' as sort2\n  from form_letters_fts join form_letters f on f.form_letter_id = form_letters_fts.rowid\n  where form_letters_fts match :q\n  union all\n  select case when c.commenter_type = 'organization' then 'Organization'\n              when c.edited_from_form_letter is not null then 'Edited form letter' else 'Own words' end,\n         1, c.position, c.posted, c.state, c.organization,\n         snippet(comments_fts, 0, '[', ']', ' … ', 40), c.url,\n         case when c.commenter_type = 'organization' then 1 else 2 end, 0, c.posted\n  from comments_fts join comments c on c.rowid = comments_fts.rowid\n  where comments_fts match :q\n) order by grp, sort1 desc, sort2 desc"
+          "sql": "select type, comments, position, posted, state, organization, excerpt, url from (\n  select 'Form letter' as type, f.copies as comments, f.position, f.first_posted || ' to ' || f.last_posted as posted,\n         null as state, null as organization,\n         snippet(form_letters_fts, 0, '[', ']', ' … ', 40) as excerpt,\n         'https://www.regulations.gov/comment/' || (select min(comment_id) from comments c where c.form_letter_id = f.form_letter_id) as url,\n         0 as grp, f.copies as sort1, '' as sort2\n  from form_letters_fts join form_letters f on f.form_letter_id = form_letters_fts.rowid\n  where form_letters_fts match :q\n  union all\n  select case when c.commenter_type = 'organization' then 'Organization'\n              when c.edited_from_form_letter is not null then 'Edited form letter' else 'Own words' end,\n         1, c.position, c.posted, c.state, c.organization,\n         snippet(comments_fts, 0, '[', ']', ' … ', 40), c.url,\n         case when c.commenter_type = 'organization' then 1 else 2 end, 0, c.posted\n  from comments_fts join comments c on c.rowid = comments_fts.rowid\n  where comments_fts match :q\n) order by grp, sort1 desc, sort2 desc",
+          "hide_sql": true
         },
         "search_counts": {
           "title": "How many comments match",
-          "sql": "select\n  (select coalesce(sum(f.copies), 0) from form_letters f where f.form_letter_id in\n     (select rowid from form_letters_fts where form_letters_fts match :q)) as form_letter_copies,\n  (select count(*) from comments_fts where comments_fts match :q) as other_comments"
+          "sql": "select\n  (select coalesce(sum(f.copies), 0) from form_letters f where f.form_letter_id in\n     (select rowid from form_letters_fts where form_letters_fts match :q)) as form_letter_copies,\n  (select count(*) from comments_fts where comments_fts match :q) as other_comments",
+          "hide_sql": true
         },
         "women_and_girls": {
           "title": "Comments that mention women and girls",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_girls = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_girls = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "black_maternal_health": {
           "title": "Comments that mention Black maternal health",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where black_maternal_health = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where black_maternal_health = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "women_of_color": {
           "title": "Comments that mention women and girls of color",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_of_color = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_of_color = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "biological_sex": {
           "title": "Comments that mention \"biological sex\" or sex at birth",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where biological_sex = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where biological_sex = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "trans_nonbinary_intersex": {
           "title": "Comments that mention transgender, nonbinary or intersex people",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where trans_nonbinary_intersex = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where trans_nonbinary_intersex = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "privacy_data_sharing": {
           "title": "Comments about privacy and data sharing with Homeland Security",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where privacy_dhs = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where privacy_dhs = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "funders": {
           "title": "Comments from foundations and funder networks",
-          "sql": "select posted, organization, position, state, region, url from organizations where org_group = 'Foundations & funders' order by posted desc"
+          "sql": "select posted, organization, position, state, region, url from organizations where org_group = 'Foundations & funders' order by posted desc",
+          "hide_sql": true
         },
         "organizations_by_region": {
           "title": "Organizations by region",
-          "sql": "select region, count(*) as organizations, sum(position = 'oppose') as oppose, sum(position = 'support') as support, sum(position like 'extension%') as asked_for_more_time from organizations group by region order by organizations desc"
+          "sql": "select region, count(*) as organizations, sum(position = 'oppose') as oppose, sum(position = 'support') as support, sum(position like 'extension%') as asked_for_more_time from organizations group by region order by organizations desc",
+          "hide_sql": true
         },
         "comments_by_state": {
           "title": "Comments by state (where the state could be identified)",
-          "sql": "select state, region, count(*) as comments, sum(position = 'oppose') as oppose, sum(position = 'support') as support from comments where state is not null group by state order by comments desc"
+          "sql": "select state, region, count(*) as comments, sum(position = 'oppose') as oppose, sum(position = 'support') as support from comments where state is not null group by state order by comments desc",
+          "hide_sql": true
         },
         "comments_per_day": {
           "title": "Comments posted per day",
-          "sql": "select posted, count(*) as comments, sum(form_letter_id is not null) as form_letter_copies, sum(commenter_type = 'organization') as organizations from comments group by posted order by posted"
+          "sql": "select posted, count(*) as comments, sum(form_letter_id is not null) as form_letter_copies, sum(commenter_type = 'organization') as organizations from comments group by posted order by posted",
+          "hide_sql": true
         },
         "individually_written": {
           "title": "Individually written comments (not form letters)",
-          "sql": "select posted, commenter_type, organization, position, state, text, url from comments where form_letter_id is null order by posted desc"
+          "sql": "select posted, commenter_type, organization, position, state, text, url from comments where form_letter_id is null order by posted desc",
+          "hide_sql": true
         },
         "lgbtq_same_sex": {
           "title": "Comments about LGBTQ+ people and same-sex couples",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where lgbtq_same_sex = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where lgbtq_same_sex = 1 order by c.posted desc",
+          "hide_sql": true
         },
         "sex_gender_general": {
           "title": "Comments about sex and gender data (general)",
-          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where sex_gender_general = 1 order by c.posted desc"
+          "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where sex_gender_general = 1 order by c.posted desc",
+          "hide_sql": true
         }
       }
     }
