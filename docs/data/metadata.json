@@ -47,7 +47,7 @@
       },
       "queries": {
         "women_and_girls": {
-          "title": "Comments that mention women or girls",
+          "title": "Comments that mention women and girls",
           "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_girls = 1 order by c.posted desc"
         },
         "black_maternal_health": {
@@ -55,7 +55,7 @@
           "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where black_maternal_health = 1 order by c.posted desc"
         },
         "women_of_color": {
-          "title": "Comments that mention women or girls of color",
+          "title": "Comments that mention women and girls of color",
           "sql": "select c.posted, c.commenter_type, c.organization, c.position, c.state, coalesce(c.text, f.sample_text) as text, c.url from comments c left join form_letters f using (form_letter_id) where women_of_color = 1 order by c.posted desc"
         },
         "biological_sex": {

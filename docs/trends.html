@@ -267,7 +267,8 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     [pct((P.oppose || 0) / all), "oppose the rule"],
     [pct((P.support || 0) / all), "support it"],
     [pct(t.form_letter_share), "are form-letter copies"],
-    [pct(women.share, 1), "mention women, girls or maternal health"],
+    [women ? (women.share * 100).toFixed(1) + "%" : "–", "mention women and girls" + (t.women_outside_top_template
+      ? `; <strong>${(t.women_outside_top_template.share * 100).toFixed(1)}%</strong> outside the largest letter template` : "")],
   ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
 
   const draw = () => {

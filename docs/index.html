@@ -108,6 +108,7 @@ const DESCRIPTIONS = {
   privacy_dhs: "Linking census answers to Homeland Security records",
   algorithms_estimates: "Statistical estimates, algorithms and imputation",
 };
+const SEX_QUESTION = ["sex_gender_general", "biological_sex"];
 const GROUPS = [["policy", "Policy issues"], ["community", "Communities named"]];
 const card = (href, title, desc, n) =>
   `<a class="card" href="${href}">${n != null ? `<span class="n">${n.toLocaleString("en-US")}</span>` : ""}<b>${title}</b><span>${desc}</span></a>`;
@@ -121,10 +122,9 @@ const ORG_CARDS = [
 function renderStartHere(topics) {
   let html = "";
   for (const [g, title] of GROUPS) {
-    // gender-lens topics lead the communities section, in their set order; other communities follow by size
-    const ts = g === "community"
-      ? [...topics.filter(x => x.group === "gender"), ...topics.filter(x => x.group === g).sort((a, b) => b.n - a.n)]
-      : topics.filter(x => x.group === g).sort((a, b) => b.n - a.n);
+    // gender-lens topics lead each section, in their set order: sex-question topics under policy, people under communities
+    const lead = topics.filter(x => x.group === "gender" && (SEX_QUESTION.includes(x.key) ? "policy" : "community") === g);
+    const ts = [...lead, ...topics.filter(x => x.group === g).sort((a, b) => b.n - a.n)];
     if (!ts.length) continue;
     html += `<h3>${title}</h3><div class="grid">` + ts.map(x =>
       card(lite(`/comments?${x.key}=1`), x.label, DESCRIPTIONS[x.key] || `Comments that mention ${x.label.toLowerCase()}`, x.n)).join("") + "</div>";
@@ -159,7 +159,8 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     [fmt(t.comments_on_docket), "comments on the docket"],
     [pct(opp / all), "oppose the rule"],
     [pct(t.form_letter_share), "are form letters"],
-    [women ? (women.share * 100).toFixed(1) + "%" : "–", "mention women, girls or maternal health"],
+    [women ? (women.share * 100).toFixed(1) + "%" : "–", "mention women and girls" + (t.women_outside_top_template
+      ? `; <strong>${(t.women_outside_top_template.share * 100).toFixed(1)}%</strong> outside the largest letter template` : "")],
   ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
   document.getElementById("built").textContent =
     `Women's Funding Network · Data from Regulations.gov · Updated ${t.built} · ${fmt(all)} of ${fmt(t.comments_on_docket)} comments included`;

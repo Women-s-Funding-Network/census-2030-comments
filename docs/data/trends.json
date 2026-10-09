@@ -1,9 +1,9 @@
 {
- "built": "2026-10-08 17:58",
+ "built": "2026-10-09 12:20",
  "docket": "USBC-2026-0628",
  "deadline": "2026-11-02",
- "comments_included": 30904,
- "comments_on_docket": 33296,
+ "comments_included": 34396,
+ "comments_on_docket": 34396,
  "daily": [
   {
    "date": "2026-09-15",
@@ -67,30 +67,30 @@
   },
   {
    "date": "2026-09-21",
-   "form": 970,
-   "edited": 65,
+   "form": 971,
+   "edited": 64,
    "individual": 405,
    "org": 1,
    "oppose": 1114,
    "support": 78,
    "unclear": 249,
-   "g_form": 958,
-   "g_edited": 34,
+   "g_form": 959,
+   "g_edited": 33,
    "g_individual": 50,
    "g_org": 0,
    "wfn": 0
   },
   {
    "date": "2026-09-22",
-   "form": 2352,
-   "edited": 91,
+   "form": 2354,
+   "edited": 89,
    "individual": 150,
    "org": 0,
    "oppose": 2483,
    "support": 9,
    "unclear": 101,
-   "g_form": 2350,
-   "g_edited": 78,
+   "g_form": 2352,
+   "g_edited": 76,
    "g_individual": 23,
    "g_org": 0,
    "wfn": 0
@@ -112,45 +112,45 @@
   },
   {
    "date": "2026-09-24",
-   "form": 631,
-   "edited": 58,
+   "form": 632,
+   "edited": 57,
    "individual": 147,
    "org": 5,
    "oppose": 714,
    "support": 8,
    "unclear": 118,
-   "g_form": 573,
-   "g_edited": 28,
+   "g_form": 574,
+   "g_edited": 27,
    "g_individual": 8,
    "g_org": 0,
    "wfn": 0
   },
   {
    "date": "2026-09-25",
-   "form": 1395,
-   "edited": 64,
+   "form": 1398,
+   "edited": 61,
    "individual": 95,
    "org": 5,
    "oppose": 1489,
    "support": 9,
    "unclear": 57,
-   "g_form": 1344,
-   "g_edited": 29,
+   "g_form": 1347,
+   "g_edited": 26,
    "g_individual": 11,
    "g_org": 1,
    "wfn": 0
   },
   {
    "date": "2026-09-29",
-   "form": 4424,
-   "edited": 671,
+   "form": 4426,
+   "edited": 669,
    "individual": 202,
    "org": 8,
    "oppose": 4340,
    "support": 835,
    "unclear": 126,
-   "g_form": 2936,
-   "g_edited": 106,
+   "g_form": 2938,
+   "g_edited": 104,
    "g_individual": 25,
    "g_org": 2,
    "wfn": 0
@@ -187,9 +187,9 @@
   },
   {
    "date": "2026-10-02",
-   "form": 1352,
-   "edited": 159,
-   "individual": 170,
+   "form": 1354,
+   "edited": 158,
+   "individual": 169,
    "org": 19,
    "oppose": 750,
    "support": 838,
@@ -202,9 +202,9 @@
   },
   {
    "date": "2026-10-05",
-   "form": 1091,
-   "edited": 79,
-   "individual": 125,
+   "form": 1095,
+   "edited": 80,
+   "individual": 120,
    "org": 5,
    "oppose": 798,
    "support": 427,
@@ -217,63 +217,99 @@
   },
   {
    "date": "2026-10-06",
-   "form": 5725,
-   "edited": 173,
+   "form": 5727,
+   "edited": 171,
    "individual": 102,
    "org": 0,
    "oppose": 5838,
    "support": 99,
    "unclear": 63,
-   "g_form": 5065,
-   "g_edited": 126,
+   "g_form": 5067,
+   "g_edited": 124,
    "g_individual": 7,
    "g_org": 0,
    "wfn": 0
   },
   {
    "date": "2026-10-07",
-   "form": 2029,
-   "edited": 54,
-   "individual": 24,
+   "form": 3315,
+   "edited": 255,
+   "individual": 329,
    "org": 0,
-   "oppose": 2058,
-   "support": 33,
-   "unclear": 16,
-   "g_form": 1464,
-   "g_edited": 36,
+   "oppose": 3170,
+   "support": 528,
+   "unclear": 201,
+   "g_form": 2326,
+   "g_edited": 98,
+   "g_individual": 24,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-08",
+   "form": 451,
+   "edited": 61,
+   "individual": 88,
+   "org": 0,
+   "oppose": 385,
+   "support": 163,
+   "unclear": 52,
+   "g_form": 282,
+   "g_edited": 15,
    "g_individual": 2,
+   "g_org": 0,
+   "wfn": 0
+  },
+  {
+   "date": "2026-10-09",
+   "form": 922,
+   "edited": 63,
+   "individual": 115,
+   "org": 0,
+   "oppose": 608,
+   "support": 417,
+   "unclear": 75,
+   "g_form": 215,
+   "g_edited": 12,
+   "g_individual": 8,
    "g_org": 0,
    "wfn": 0
   }
  ],
  "position": {
-  "oppose": 26211,
-  "unclear": 1683,
-  "support": 2981,
+  "oppose": 28316,
+  "unclear": 1995,
+  "support": 4056,
   "extension request": 24,
   "mixed": 3,
   "unknown (text not extractable)": 2
  },
- "form_letter_share": 0.8291483303132281,
+ "form_letter_share": 0.822770089545296,
+ "women_outside_top_template": {
+  "n": 291,
+  "share": 0.008460286079776717,
+  "template_id": 2,
+  "template_copies": 5940
+ },
  "campaign": null,
  "topics": [
   {
    "key": "women_girls",
-   "label": "Women, girls & maternal health",
+   "label": "Women and girls",
    "group": "gender",
-   "n": 5706,
-   "share": 0.18463629303650014,
-   "oppose": 5656,
-   "support": 15,
-   "unclear": 35
+   "n": 6506,
+   "share": 0.18914990115129665,
+   "oppose": 6449,
+   "support": 17,
+   "unclear": 40
   },
   {
    "key": "black_maternal_health",
    "label": "Black maternal health",
    "group": "gender",
-   "n": 5438,
-   "share": 0.17596427646906548,
-   "oppose": 5431,
+   "n": 6217,
+   "share": 0.18074776136760087,
+   "oppose": 6210,
    "support": 0,
    "unclear": 7
   },
@@ -281,9 +317,9 @@
    "key": "women_of_color",
    "label": "Women of color",
    "group": "gender",
-   "n": 5,
-   "share": 0.00016179135387004917,
-   "oppose": 4,
+   "n": 6,
+   "share": 0.00017443888824281894,
+   "oppose": 5,
    "support": 0,
    "unclear": 1
   },
@@ -291,229 +327,229 @@
    "key": "sex_gender_general",
    "label": "Sex & gender (general)",
    "group": "gender",
-   "n": 166,
-   "share": 0.005371472948485633,
-   "oppose": 66,
-   "support": 35,
-   "unclear": 65
+   "n": 178,
+   "share": 0.0051750203512036285,
+   "oppose": 73,
+   "support": 36,
+   "unclear": 69
   },
   {
    "key": "biological_sex",
    "label": "\"Biological sex\"",
    "group": "gender",
-   "n": 42,
-   "share": 0.0013590473725084132,
+   "n": 43,
+   "share": 0.0012501453657402023,
    "oppose": 24,
    "support": 3,
-   "unclear": 15
+   "unclear": 16
   },
   {
    "key": "trans_nonbinary_intersex",
    "label": "Transgender, nonbinary & intersex",
    "group": "gender",
-   "n": 41,
-   "share": 0.0013266891017344033,
-   "oppose": 25,
+   "n": 45,
+   "share": 0.001308291661821142,
+   "oppose": 27,
    "support": 2,
-   "unclear": 14
+   "unclear": 16
   },
   {
    "key": "lgbtq_same_sex",
    "label": "LGBTQ+ & same-sex couples",
    "group": "gender",
-   "n": 21515,
-   "share": 0.6961881957028216,
-   "oppose": 21314,
-   "support": 72,
-   "unclear": 129
+   "n": 22978,
+   "share": 0.6680427956739156,
+   "oppose": 22768,
+   "support": 73,
+   "unclear": 137
   },
   {
    "key": "noncitizens_apportionment",
    "label": "Noncitizens & apportionment",
    "group": "policy",
-   "n": 26063,
-   "share": 0.8433536111830183,
-   "oppose": 23009,
-   "support": 2524,
-   "unclear": 530
+   "n": 28832,
+   "share": 0.8382370043028259,
+   "oppose": 24691,
+   "support": 3514,
+   "unclear": 627
   },
   {
    "key": "constitution",
    "label": "Constitution",
    "group": "policy",
-   "n": 26069,
-   "share": 0.8435477608076625,
-   "oppose": 23456,
-   "support": 2274,
-   "unclear": 339
+   "n": 29015,
+   "share": 0.8435573903942319,
+   "oppose": 25382,
+   "support": 3212,
+   "unclear": 421
   },
   {
    "key": "race_ethnicity",
    "label": "Race & ethnicity",
    "group": "policy",
-   "n": 23774,
-   "share": 0.7692855293813099,
-   "oppose": 23032,
-   "support": 169,
-   "unclear": 573
+   "n": 25737,
+   "share": 0.7482556111175718,
+   "oppose": 24941,
+   "support": 174,
+   "unclear": 622
   },
   {
    "key": "residence_tax",
    "label": "Usual residence & tax status",
    "group": "policy",
-   "n": 20458,
-   "share": 0.6619855034946932,
-   "oppose": 17941,
-   "support": 2258,
-   "unclear": 259
+   "n": 22019,
+   "share": 0.640161646703105,
+   "oppose": 19078,
+   "support": 2661,
+   "unclear": 280
   },
   {
    "key": "funding_programs",
    "label": "Federal funding",
    "group": "policy",
-   "n": 12565,
-   "share": 0.4065816722754336,
-   "oppose": 12277,
-   "support": 34,
-   "unclear": 254
+   "n": 13711,
+   "share": 0.3986219327828817,
+   "oppose": 13362,
+   "support": 62,
+   "unclear": 287
   },
   {
    "key": "citizenship_question",
    "label": "Citizenship question",
    "group": "policy",
-   "n": 8833,
-   "share": 0.2858206057468289,
-   "oppose": 6474,
-   "support": 2232,
-   "unclear": 127
+   "n": 10738,
+   "share": 0.3121874636585649,
+   "oppose": 7412,
+   "support": 3171,
+   "unclear": 155
   },
   {
    "key": "democracy_voting",
    "label": "Democracy & voting",
    "group": "policy",
-   "n": 4745,
-   "share": 0.1535399948226767,
-   "oppose": 2195,
-   "support": 2269,
-   "unclear": 281
+   "n": 5700,
+   "share": 0.16571694383067798,
+   "oppose": 2658,
+   "support": 2701,
+   "unclear": 341
   },
   {
    "key": "privacy_dhs",
    "label": "Privacy & data sharing",
    "group": "policy",
-   "n": 160,
-   "share": 0.0051773233238415735,
-   "oppose": 70,
-   "support": 32,
-   "unclear": 58
+   "n": 177,
+   "share": 0.005145947203163159,
+   "oppose": 78,
+   "support": 38,
+   "unclear": 61
   },
   {
    "key": "algorithms_estimates",
    "label": "Algorithms & estimates",
    "group": "policy",
-   "n": 72,
-   "share": 0.0023297954957287085,
-   "oppose": 21,
-   "support": 22,
-   "unclear": 29
+   "n": 89,
+   "share": 0.0025875101756018142,
+   "oppose": 26,
+   "support": 30,
+   "unclear": 33
   },
   {
    "key": "children_youth",
    "label": "Children & youth",
    "group": "community",
-   "n": 5142,
-   "share": 0.16638622831995858,
-   "oppose": 5072,
-   "support": 15,
-   "unclear": 55
+   "n": 5403,
+   "share": 0.15708221886265844,
+   "oppose": 5317,
+   "support": 20,
+   "unclear": 66
   },
   {
    "key": "students",
    "label": "Students & college",
    "group": "community",
-   "n": 5671,
-   "share": 0.1835037535594098,
-   "oppose": 5555,
-   "support": 38,
-   "unclear": 78
+   "n": 5824,
+   "share": 0.16932201418769624,
+   "oppose": 5690,
+   "support": 40,
+   "unclear": 94
   },
   {
    "key": "schools_education",
    "label": "Schools & education",
    "group": "community",
-   "n": 11344,
-   "share": 0.36707222366036757,
-   "oppose": 11159,
-   "support": 17,
-   "unclear": 168
+   "n": 12402,
+   "share": 0.3605651819979067,
+   "oppose": 12199,
+   "support": 19,
+   "unclear": 184
   },
   {
    "key": "disability",
    "label": "Disability",
    "group": "community",
-   "n": 4803,
-   "share": 0.15541677452756925,
-   "oppose": 4777,
+   "n": 4880,
+   "share": 0.14187696243749273,
+   "oppose": 4852,
    "support": 9,
-   "unclear": 17
+   "unclear": 19
   },
   {
    "key": "seniors",
    "label": "Seniors & older adults",
    "group": "community",
-   "n": 77,
-   "share": 0.0024915868495987573,
-   "oppose": 59,
-   "support": 3,
-   "unclear": 15
+   "n": 85,
+   "share": 0.0024712175834399348,
+   "oppose": 62,
+   "support": 4,
+   "unclear": 19
   },
   {
    "key": "veterans_military",
    "label": "Veterans & military",
    "group": "community",
-   "n": 3672,
-   "share": 0.11881957028216412,
-   "oppose": 3621,
-   "support": 14,
-   "unclear": 37
+   "n": 3801,
+   "share": 0.1105070357018258,
+   "oppose": 3741,
+   "support": 18,
+   "unclear": 42
   },
   {
    "key": "health",
    "label": "Health & public health",
    "group": "community",
-   "n": 969,
-   "share": 0.03135516438001553,
-   "oppose": 837,
-   "support": 6,
-   "unclear": 126
+   "n": 1068,
+   "share": 0.03105012210722177,
+   "oppose": 921,
+   "support": 9,
+   "unclear": 138
   },
   {
    "key": "housing",
    "label": "Housing & homelessness",
    "group": "community",
-   "n": 243,
-   "share": 0.00786305979808439,
-   "oppose": 171,
-   "support": 6,
-   "unclear": 66
+   "n": 382,
+   "share": 0.011105942551459472,
+   "oppose": 302,
+   "support": 8,
+   "unclear": 72
   },
   {
    "key": "black_communities",
    "label": "Black communities",
    "group": "community",
-   "n": 6904,
-   "share": 0.22340150142376392,
-   "oppose": 6835,
+   "n": 8086,
+   "share": 0.23508547505523897,
+   "oppose": 8014,
    "support": 9,
-   "unclear": 60
+   "unclear": 63
   },
   {
    "key": "latino_hispanic",
    "label": "Latino & Hispanic communities",
    "group": "community",
-   "n": 45,
-   "share": 0.0014561221848304426,
-   "oppose": 32,
+   "n": 53,
+   "share": 0.0015408768461449005,
+   "oppose": 40,
    "support": 2,
    "unclear": 11
   },
@@ -521,58 +557,58 @@
    "key": "aapi_nhpi",
    "label": "Asian American & Pacific Islander",
    "group": "community",
-   "n": 161,
-   "share": 0.005209681594615584,
-   "oppose": 153,
+   "n": 174,
+   "share": 0.0050587277590417494,
+   "oppose": 165,
    "support": 1,
-   "unclear": 7
+   "unclear": 8
   },
   {
    "key": "native_tribal",
    "label": "Native & tribal communities",
    "group": "community",
-   "n": 135,
-   "share": 0.004368366554491328,
-   "oppose": 79,
-   "support": 11,
-   "unclear": 45
+   "n": 161,
+   "share": 0.004680776834515642,
+   "oppose": 97,
+   "support": 14,
+   "unclear": 50
   },
   {
    "key": "mena",
    "label": "Middle Eastern & North African",
    "group": "community",
-   "n": 85,
-   "share": 0.002750453015790836,
-   "oppose": 77,
+   "n": 90,
+   "share": 0.002616583323642284,
+   "oppose": 79,
    "support": 2,
-   "unclear": 6
+   "unclear": 9
   },
   {
    "key": "rural",
    "label": "Rural communities",
    "group": "community",
-   "n": 96,
-   "share": 0.003106393994304944,
-   "oppose": 63,
-   "support": 1,
-   "unclear": 32
+   "n": 661,
+   "share": 0.019217350854750553,
+   "oppose": 75,
+   "support": 541,
+   "unclear": 45
   },
   {
    "key": "incarceration",
    "label": "Incarceration",
    "group": "community",
-   "n": 144,
-   "share": 0.004659590991457417,
-   "oppose": 128,
+   "n": 177,
+   "share": 0.005145947203163159,
+   "oppose": 160,
    "support": 4,
-   "unclear": 12
+   "unclear": 13
   },
   {
    "key": "wfn_campaign_language",
    "label": "WFN campaign language",
    "group": "internal",
    "n": 1,
-   "share": 3.235827077400984e-05,
+   "share": 2.907314804046982e-05,
    "oppose": 1,
    "support": 0,
    "unclear": 0
@@ -582,284 +618,284 @@
   {
    "state": "CA",
    "name": "California",
-   "n": 2591,
-   "per100k": 6.6
+   "n": 2700,
+   "per100k": 6.8
   },
   {
    "state": "NY",
    "name": "New York",
-   "n": 1255,
-   "per100k": 6.3
+   "n": 1310,
+   "per100k": 6.6
   },
   {
    "state": "PA",
    "name": "Pennsylvania",
-   "n": 906,
-   "per100k": 6.9
+   "n": 934,
+   "per100k": 7.1
   },
   {
    "state": "FL",
    "name": "Florida",
-   "n": 788,
-   "per100k": 3.4
+   "n": 822,
+   "per100k": 3.5
   },
   {
    "state": "WA",
    "name": "Washington",
-   "n": 736,
-   "per100k": 9.2
+   "n": 767,
+   "per100k": 9.6
   },
   {
    "state": "IL",
    "name": "Illinois",
-   "n": 713,
-   "per100k": 5.6
+   "n": 745,
+   "per100k": 5.9
   },
   {
    "state": "MI",
    "name": "Michigan",
-   "n": 606,
-   "per100k": 6.0
+   "n": 667,
+   "per100k": 6.6
   },
   {
    "state": "OH",
    "name": "Ohio",
-   "n": 569,
-   "per100k": 4.8
+   "n": 598,
+   "per100k": 5.0
   },
   {
    "state": "TX",
    "name": "Texas",
-   "n": 557,
-   "per100k": 1.8
+   "n": 588,
+   "per100k": 1.9
   },
   {
    "state": "OR",
    "name": "Oregon",
-   "n": 543,
-   "per100k": 12.7
+   "n": 569,
+   "per100k": 13.3
   },
   {
    "state": "CO",
    "name": "Colorado",
-   "n": 521,
-   "per100k": 8.7
+   "n": 542,
+   "per100k": 9.1
   },
   {
    "state": "NJ",
    "name": "New Jersey",
-   "n": 507,
-   "per100k": 5.3
+   "n": 522,
+   "per100k": 5.5
   },
   {
    "state": "AZ",
    "name": "Arizona",
-   "n": 480,
-   "per100k": 6.3
+   "n": 502,
+   "per100k": 6.6
   },
   {
    "state": "MA",
    "name": "Massachusetts",
-   "n": 457,
-   "per100k": 6.4
+   "n": 477,
+   "per100k": 6.7
   },
   {
    "state": "MN",
    "name": "Minnesota",
-   "n": 442,
-   "per100k": 7.6
+   "n": 461,
+   "per100k": 8.0
   },
   {
    "state": "NC",
    "name": "North Carolina",
-   "n": 428,
-   "per100k": 3.9
+   "n": 445,
+   "per100k": 4.0
   },
   {
    "state": "WI",
    "name": "Wisconsin",
-   "n": 378,
-   "per100k": 6.3
+   "n": 389,
+   "per100k": 6.5
   },
   {
    "state": "VA",
    "name": "Virginia",
-   "n": 364,
-   "per100k": 4.1
-  },
-  {
-   "state": "MO",
-   "name": "Missouri",
-   "n": 353,
-   "per100k": 5.7
+   "n": 383,
+   "per100k": 4.3
   },
   {
    "state": "MD",
    "name": "Maryland",
-   "n": 348,
-   "per100k": 5.6
+   "n": 365,
+   "per100k": 5.8
   },
   {
-   "state": "IN",
-   "name": "Indiana",
-   "n": 292,
-   "per100k": 4.2
+   "state": "MO",
+   "name": "Missouri",
+   "n": 363,
+   "per100k": 5.8
   },
   {
    "state": "GA",
    "name": "Georgia",
-   "n": 289,
-   "per100k": 2.6
+   "n": 317,
+   "per100k": 2.8
+  },
+  {
+   "state": "IN",
+   "name": "Indiana",
+   "n": 304,
+   "per100k": 4.4
   },
   {
    "state": "TN",
    "name": "Tennessee",
-   "n": 220,
-   "per100k": 3.0
+   "n": 230,
+   "per100k": 3.2
   },
   {
    "state": "CT",
    "name": "Connecticut",
-   "n": 206,
-   "per100k": 5.6
+   "n": 210,
+   "per100k": 5.7
   },
   {
    "state": "NM",
    "name": "New Mexico",
-   "n": 194,
-   "per100k": 9.1
+   "n": 201,
+   "per100k": 9.4
   },
   {
    "state": "IA",
    "name": "Iowa",
-   "n": 179,
-   "per100k": 5.5
+   "n": 184,
+   "per100k": 5.7
   },
   {
    "state": "ME",
    "name": "Maine",
-   "n": 159,
-   "per100k": 11.3
+   "n": 163,
+   "per100k": 11.6
   },
   {
    "state": "NH",
    "name": "New Hampshire",
-   "n": 153,
-   "per100k": 10.9
+   "n": 159,
+   "per100k": 11.3
   },
   {
    "state": "KS",
    "name": "Kansas",
-   "n": 148,
-   "per100k": 5.0
+   "n": 153,
+   "per100k": 5.2
   },
   {
    "state": "SC",
    "name": "South Carolina",
-   "n": 137,
-   "per100k": 2.5
-  },
-  {
-   "state": "KY",
-   "name": "Kentucky",
-   "n": 128,
-   "per100k": 2.8
+   "n": 144,
+   "per100k": 2.6
   },
   {
    "state": "AR",
    "name": "Arkansas",
-   "n": 127,
-   "per100k": 4.1
+   "n": 133,
+   "per100k": 4.3
+  },
+  {
+   "state": "KY",
+   "name": "Kentucky",
+   "n": 130,
+   "per100k": 2.8
   },
   {
    "state": "NV",
    "name": "Nevada",
-   "n": 117,
-   "per100k": 3.6
+   "n": 121,
+   "per100k": 3.7
   },
   {
    "state": "UT",
    "name": "Utah",
-   "n": 95,
-   "per100k": 2.7
-  },
-  {
-   "state": "AL",
-   "name": "Alabama",
-   "n": 83,
-   "per100k": 1.6
-  },
-  {
-   "state": "VT",
-   "name": "Vermont",
-   "n": 78,
-   "per100k": 12.0
+   "n": 101,
+   "per100k": 2.9
   },
   {
    "state": "LA",
    "name": "Louisiana",
-   "n": 78,
+   "n": 89,
+   "per100k": 1.9
+  },
+  {
+   "state": "AL",
+   "name": "Alabama",
+   "n": 86,
    "per100k": 1.7
   },
   {
-   "state": "WV",
-   "name": "West Virginia",
-   "n": 73,
-   "per100k": 4.1
-  },
-  {
-   "state": "OK",
-   "name": "Oklahoma",
-   "n": 69,
-   "per100k": 1.7
-  },
-  {
-   "state": "NE",
-   "name": "Nebraska",
-   "n": 69,
-   "per100k": 3.4
-  },
-  {
-   "state": "HI",
-   "name": "Hawaii",
-   "n": 69,
-   "per100k": 4.8
+   "state": "VT",
+   "name": "Vermont",
+   "n": 80,
+   "per100k": 12.3
   },
   {
    "state": "ID",
    "name": "Idaho",
-   "n": 69,
-   "per100k": 3.4
+   "n": 75,
+   "per100k": 3.7
   },
   {
-   "state": "MT",
-   "name": "Montana",
-   "n": 68,
-   "per100k": 6.0
+   "state": "NE",
+   "name": "Nebraska",
+   "n": 74,
+   "per100k": 3.7
   },
   {
-   "state": "DE",
-   "name": "Delaware",
-   "n": 67,
-   "per100k": 6.4
+   "state": "WV",
+   "name": "West Virginia",
+   "n": 74,
+   "per100k": 4.2
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "n": 73,
+   "per100k": 1.8
   },
   {
    "state": "AK",
    "name": "Alaska",
-   "n": 62,
-   "per100k": 8.4
+   "n": 71,
+   "per100k": 9.6
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "n": 70,
+   "per100k": 6.2
+  },
+  {
+   "state": "HI",
+   "name": "Hawaii",
+   "n": 70,
+   "per100k": 4.8
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "n": 69,
+   "per100k": 6.6
   },
   {
    "state": "RI",
    "name": "Rhode Island",
-   "n": 57,
-   "per100k": 5.1
+   "n": 58,
+   "per100k": 5.2
   },
   {
    "state": "WY",
    "name": "Wyoming",
-   "n": 34,
-   "per100k": 5.8
+   "n": 37,
+   "per100k": 6.3
   },
   {
    "state": "SD",
@@ -1597,11 +1633,11 @@
  "templates": [
   {
    "id": 1,
-   "copies": 10167
+   "copies": 10670
   },
   {
    "id": 2,
-   "copies": 5199
+   "copies": 5941
   },
   {
    "id": 3,
@@ -1609,31 +1645,31 @@
   },
   {
    "id": 4,
-   "copies": 2126
+   "copies": 2509
   },
   {
    "id": 5,
-   "copies": 1274
+   "copies": 1555
   },
   {
    "id": 6,
-   "copies": 1175
+   "copies": 1176
   },
   {
    "id": 7,
-   "copies": 406
+   "copies": 425
   },
   {
    "id": 8,
-   "copies": 387
+   "copies": 417
   },
   {
    "id": 9,
-   "copies": 379
+   "copies": 406
   },
   {
    "id": 10,
-   "copies": 163
+   "copies": 393
   }
  ]
 }
