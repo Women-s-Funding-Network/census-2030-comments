@@ -61,6 +61,7 @@ button{color:var(--on-accent)}
 .badge{display:inline-block;font-size:11px;font-weight:700;border-radius:999px;padding:1px 7px;margin-left:6px;background:var(--chip);color:var(--accent-ink);vertical-align:1px}
 #campTable{width:100%}#campTable td{vertical-align:top}#campTable td.op{max-width:420px;white-space:normal}#campTable .src{color:var(--ink-2);font-size:12px;display:block;margin-top:2px}
 #campTable td.num{text-align:right;white-space:nowrap}#campTable th.num{text-align:right}.spark{display:block}
+.hint-click{color:var(--ink-2);font-size:14px;margin:10px 0 0}
 </style>
 </head>
 <body>
@@ -78,6 +79,7 @@ button{color:var(--on-accent)}
 <p class="lede" id="lede">Trends in public comments on the proposed 2030 Census rule (docket USBC-2026-0628). Comments are due November 2, 2026.</p>
 <p class="lag" id="lag"><strong>About timing.</strong> Comments appear on Regulations.gov after Census Bureau review, usually 1 to 5 days after they are submitted, and comments with offensive or threatening language are not posted. This site is updated periodically, so the most recent days are incomplete and totals here will run below the number of comments actually submitted.</p>
 <div class="stats" id="stats"></div>
+<p class="hint-click">Click any bar, segment or line to open those comments in the searchable database.</p>
 
 <section>
   <h2>Comments posted per day</h2>
@@ -174,6 +176,22 @@ function showTip(evt, html, host) {
   tip.style.top = Math.min(y, innerHeight - r.height - 8) + scrollY + "px";
 }
 const hideTip = () => tip.style.opacity = 0;
+
+// Clicking a chart opens the matching comments in the searchable database (Datasette Lite)
+const DB_FILE = new URL("data/census_comments.db", location.href).href, META_FILE = new URL("data/metadata.json", location.href).href;
+const dbLink = params => {
+  const q = params.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`).join("&");
+  return `https://lite.datasette.io/?url=${encodeURIComponent(DB_FILE)}&metadata=${encodeURIComponent(META_FILE)}#/census_comments/comments?${q}`;
+};
+const LOCAL = ["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol === "file:";
+const openDb = params => LOCAL ? alert("Preview mode: chart links open the database once this site is published on GitHub Pages.\n\n" + decodeURIComponent(dbLink(params).split("#")[1]))
+                               : window.open(dbLink(params), "_blank", "noopener");
+const POS_FILTER = {oppose: [["position", "oppose"]], support: [["position", "support"]],
+                    unclear: [["_where", "position not in ('oppose', 'support')"]]};
+const KIND_FILTER = {form: [["form_letter_id__notblank", "1"]], edited: [["edited_from_form_letter__notblank", "1"]],
+                     individual: [["commenter_type", "individual"], ["form_letter_id__isblank", "1"], ["edited_from_form_letter__isblank", "1"]],
+                     org: [["commenter_type", "organization"]]};
+const CLICK_HINT = `<div class="row" style="margin-top:4px;color:var(--accent-ink)">Click to open these comments</div>`;
 const legend = (id, items) => document.getElementById(id).innerHTML =
   items.map(([c, l]) => `<span><i style="background:${c}"></i>${l}</span>`).join("");
 const table = (id, head, rows) => document.getElementById(id).innerHTML =
@@ -182,7 +200,7 @@ const table = (id, head, rows) => document.getElementById(id).innerHTML =
 function niceMax(v) { const p = Math.pow(10, Math.floor(Math.log10(v || 1))); return Math.ceil(v / p) * p; }
 
 // Stacked columns, one per day. series: [{key, label, color}]; share=true stacks to 100%.
-function columns(host, rows, series, {share = false, height = 260, yFmt = null, marker = null} = {}) {
+function columns(host, rows, series, {share = false, height = 260, yFmt = null, marker = null, link = null} = {}) {
   const W = Math.max(320, host.clientWidth), H = height, m = {t: 10, r: 8, b: 26, l: share ? 40 : 52};
   const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img"}); host.innerHTML = ""; host.appendChild(svg);
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -200,10 +218,12 @@ function columns(host, rows, series, {share = false, height = 260, yFmt = null, 
   rows.forEach((r, i) => {
     const cx = m.l + step * i + step / 2, tot = totals[i] || 1;
     let acc = 0;
+    const segs = [];
     series.forEach((s, j) => {
       const v = share ? r[s.key] / tot : r[s.key];
       if (!v) return;
       const y0 = y(acc), y1 = y(acc + v); acc += v;
+      segs.push({key: s.key, top: y1, bottom: y0});
       const top = series.slice(j + 1).every(x => !r[x.key]);
       const h = Math.max(0, y0 - y1 - (top ? 0 : 2));
       el("rect", {x: cx - bw / 2, y: y1 + (top ? 0 : 0), width: bw, height: h, rx: top ? 4 : 0, fill: s.color}, svg);
@@ -213,8 +233,17 @@ function columns(host, rows, series, {share = false, height = 260, yFmt = null, 
     const hit = el("rect", {x: cx - step / 2, y: m.t, width: step, height: ih, fill: "transparent"}, svg);
     hit.addEventListener("mousemove", e => showTip(e, `<b>${shortDate(r.date)}</b>` + series.map(s =>
       `<div class="row"><i style="background:${s.color}"></i>${s.label}: ${share ? pct(r[s.key] / tot) : axisFmt(r[s.key])}</div>`).join("") +
-      (r.note ? `<div class="row">${r.note}</div>` : share ? `<div class="row">${fmt(tot)} comments</div>` : series.length > 1 ? `<div class="row">Total: ${fmt(tot)}</div>` : "")));
+      (r.note ? `<div class="row">${r.note}</div>` : share ? `<div class="row">${fmt(tot)} comments</div>` : series.length > 1 ? `<div class="row">Total: ${fmt(tot)}</div>` : "") +
+      (link ? CLICK_HINT : "")));
     hit.addEventListener("mouseleave", hideTip);
+    if (link) {
+      hit.style.cursor = "pointer";
+      hit.addEventListener("click", e => {  // the segment under the pointer, or the whole day
+        const b = svg.getBoundingClientRect(), my = (e.clientY - b.top) * H / b.height;
+        const seg = segs.find(s => my >= s.top && my <= s.bottom);
+        openDb(link(r, seg ? seg.key : null));
+      });
+    }
   });
   if (marker && marker.launch) {  // dashed line at the campaign launch
     let i = rows.findIndex(r => r.date >= marker.launch);
@@ -227,7 +256,7 @@ function columns(host, rows, series, {share = false, height = 260, yFmt = null, 
 }
 
 // Cumulative lines on a date axis, direct-labeled at the right end. series: [{key, label, color}]
-function cumLines(host, rows, series, {height = 260} = {}) {
+function cumLines(host, rows, series, {height = 260, link = null} = {}) {
   const W = Math.max(320, host.clientWidth), H = height, m = {t: 12, r: 120, b: 26, l: 56};
   const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img"}); host.innerHTML = ""; host.appendChild(svg);
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -267,8 +296,17 @@ function cumLines(host, rows, series, {height = 260} = {}) {
     dots.forEach((d, i) => { d.setAttribute("cx", x(p.date)); d.setAttribute("cy", y(p[series[i].key])); d.setAttribute("visibility", "visible"); });
     showTip(e, `<b>Through ${shortDate(p.date)}</b>` + series.map(s =>
       `<div class="row"><i style="background:${s.color}"></i>${s.label}: ${fmt(p[s.key])} (${pct(p[s.key] / tot)})</div>`).join("") +
-      `<div class="row">Total: ${fmt(tot)}</div>`);
+      `<div class="row">Total: ${fmt(tot)}</div>` + (link ? CLICK_HINT.replace("these comments", "comments through this date for the nearest line") : ""));
   });
+  if (link) {
+    hit.style.cursor = "pointer";
+    hit.addEventListener("click", e => {  // nearest date, nearest line
+      const b = svg.getBoundingClientRect(), mx = (e.clientX - b.left) * W / b.width, my = (e.clientY - b.top) * H / b.height;
+      const p = pts.reduce((a, c) => Math.abs(x(c.date) - mx) < Math.abs(x(a.date) - mx) ? c : a);
+      const s = series.reduce((a, c) => Math.abs(y(p[c.key]) - my) < Math.abs(y(p[a.key]) - my) ? c : a);
+      openDb(link(s.key, p.date));
+    });
+  }
   hit.addEventListener("mouseleave", () => { hideTip(); cross.setAttribute("visibility", "hidden"); dots.forEach(d => d.setAttribute("visibility", "hidden")); });
 }
 
@@ -293,8 +331,17 @@ function hstack(host, rows, {format = fmt, labelW = 230} = {}) {
     el("text", {x: m.l + Math.max(2, r.total / max * iw) + 8, y: yy + rowH / 2 + 4, class: "val"}, svg).textContent = format(r.total);
     const hit = el("rect", {x: 0, y: yy, width: W, height: rowH, fill: "transparent"}, svg);
     if (r.group !== undefined) { hit.dataset.group = r.group; hit.style.cursor = "pointer"; }
-    hit.addEventListener("mousemove", e => showTip(e, r.tipHtml));
+    hit.addEventListener("mousemove", e => showTip(e, r.tipHtml + (r.link ? CLICK_HINT : "")));
     hit.addEventListener("mouseleave", hideTip);
+    if (r.link) {
+      hit.style.cursor = "pointer";
+      hit.addEventListener("click", e => {  // the segment under the pointer, or the whole row
+        const b = svg.getBoundingClientRect(), mx = (e.clientX - b.left) * W / b.width;
+        let x0 = m.l, part = null;
+        for (const p of parts) { const w = p.value / max * iw; if (mx >= x0 && mx <= x0 + w) part = p; x0 += w; }
+        openDb(part && part.link ? part.link : r.link);
+      });
+    }
   });
 }
 
@@ -324,6 +371,7 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     `after they are submitted, and comments with offensive or threatening language are not posted. The most recent days are incomplete, and totals here ` +
     `will run below the number of comments actually submitted.`;
   const all = t.comments_included, P = t.position;
+  window.GENDER_WHERE = "(" + t.topics.filter(x => x.group === "gender").map(x => `${x.key} = 1`).join(" or ") + ")";
   const women = t.topics.find(x => x.key === "women_girls");
   document.getElementById("stats").innerHTML = [
     [fmt(t.comments_on_docket), "comments on the docket"],
@@ -340,20 +388,21 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
                {key: "individual", label: "Written in their own words", color: css("--s2")},
                {key: "org", label: "Organizations", color: css("--s3")}];
     legend("dailyLegend", S.map(s => [s.color, s.label]));
-    columns(document.getElementById("daily"), t.daily, S);
+    columns(document.getElementById("daily"), t.daily, S, {link: (r, k) => [["posted", r.date], ...(k ? KIND_FILTER[k] : [])]});
     const G = [{key: "g_individual", label: "Written in their own words", color: css("--s2")},
                {key: "g_edited", label: "Edited form letters", color: css("--s1")},
                {key: "g_org", label: "Organizations", color: css("--s3")}];
     legend("genderLegend", G.map(s => [s.color, s.label]));
     columns(document.getElementById("gender"), t.daily.map(d => ({...d,
-      note: d.g_form ? `Plus ${fmt(d.g_form)} form-letter copies` : ""})), G, {marker: t.campaign});
+      note: d.g_form ? `Plus ${fmt(d.g_form)} form-letter copies` : ""})), G, {marker: t.campaign,
+      link: (r, k) => [["posted", r.date], ["_where", GENDER_WHERE], ...(k ? KIND_FILTER[k.slice(2)] : [])]});
     if (!document.getElementById("wfnBlock").hidden) columns(document.getElementById("wfn"), t.daily, [{key: "wfn", label: "Use WFN campaign language", color: css("--s3")}],
             {height: 180, marker: t.campaign});
     const Pos = [{key: "oppose", label: "Oppose", color: css("--s1")},
                  {key: "support", label: "Support", color: css("--s2")},
                  {key: "unclear", label: "Unclear", color: css("--neutral")}];
     legend("posLegend", Pos.map(s => [s.color, s.label]));
-    cumLines(document.getElementById("pos"), t.daily, Pos, {height: 260});
+    cumLines(document.getElementById("pos"), t.daily, Pos, {height: 260, link: (k, d) => [...POS_FILTER[k], ["posted__lte", d]]});
 
     const gender = new Set(t.topics.filter(x => x.group === "gender").map(x => x.key));
     const PS = [["oppose", "Oppose", css("--s1")], ["support", "Support", css("--s2")], ["unclear", "Unclear", css("--neutral")]];
@@ -362,8 +411,8 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     const others = t.topics.filter(x => x.group !== "gender" && x.group !== "internal").sort((a, b) => b.share - a.share).slice(0, 8);
     const topics = [...t.topics.filter(x => x.group === "gender"), ...others].sort((a, b) => b.share - a.share);
     hstack(document.getElementById("topics"), topics.map(x => ({
-      label: x.label, bold: gender.has(x.key), total: x.share,
-      parts: PS.map(([k, , c]) => ({value: x[k] / all, color: c})),
+      label: x.label, bold: gender.has(x.key), total: x.share, link: [[x.key, "1"]],
+      parts: PS.map(([k, , c]) => ({value: x[k] / all, color: c, link: [[x.key, "1"], ...POS_FILTER[k]]})),
       tipHtml: `<b>${x.label}</b>${pct(x.share, 1)} of comments (${fmt(x.n)})` + PS.map(([k, l, c]) =>
         `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(x[k])} (${x.n ? pct(x[k] / x.n) : "0%"} of these)</div>`).join("")})),
       {format: v => pct(v, 1)});
@@ -371,7 +420,8 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     const st = t.states.filter(s => s.per100k != null).sort((a, b) => b.per100k - a.per100k);
     legend("stateLegend", PS.map(([, l, c]) => [c, l]));
     hstack(document.getElementById("states"), st.slice(0, 15).map(s => ({
-      label: s.name, total: s.per100k, parts: PS.map(([k, , c]) => ({value: s.per100k * (s[k] || 0) / s.n, color: c})),
+      label: s.name, total: s.per100k, link: [["state", s.state]],
+      parts: PS.map(([k, , c]) => ({value: s.per100k * (s[k] || 0) / s.n, color: c, link: [["state", s.state], ...POS_FILTER[k]]})),
       tipHtml: `<b>${s.name}</b>${s.per100k} per 100,000 residents (${fmt(s.n)} comments)` + PS.map(([k, l, c]) =>
         `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(s[k] || 0)} (${pct((s[k] || 0) / s.n)})</div>`).join("")})),
       {format: v => v.toFixed(1), labelW: 150});
