@@ -8,11 +8,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
-:root{--on-accent:#ffffff;color-scheme:light;--page:#ffffff;--surface:#f6f7f6;--ink:#2d3047;--ink-2:#3f3f3f;--muted:#77798a;--grid:#e3e6e4;--axis:#c5c8cf;--line:#e3e6e4;
+:root{--k-form:#d08cbf;--k-edited:#a24f8f;--k-own:#5f2453;--k-org:#b8860b;--on-accent:#ffffff;color-scheme:light;--page:#ffffff;--surface:#f6f7f6;--ink:#2d3047;--ink-2:#3f3f3f;--muted:#77798a;--grid:#e3e6e4;--axis:#c5c8cf;--line:#e3e6e4;
   --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#86b6ef;--neutral:#c3c2b7;--accent:#5c2f52;--accent-ink:#5c2f52;--chip:#fff5dc;--brand-ink:#2d3047}
-@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme="light"])){--k-form:#8f4c83;--k-edited:#c87cba;--k-own:#f0c4e4;--k-org:#e0ca3d;--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
   --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#1c5cab;--neutral:#52514e;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}}
-:root[data-theme="dark"]{--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
+:root[data-theme="dark"]{--k-form:#8f4c83;--k-edited:#c87cba;--k-own:#f0c4e4;--k-org:#e0ca3d;--on-accent:#2d3047;color-scheme:dark;--page:#1f2133;--surface:#2d3047;--ink:#ffffff;--ink-2:#d4d5de;--muted:#9a9cb0;--grid:#3d4060;--axis:#4a4d6b;--line:#3d4060;
   --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#1c5cab;--neutral:#52514e;--accent:#ffaf87;--accent-ink:#ffaf87;--chip:#3b2c45;--brand-ink:#fff5dc}
 *{box-sizing:border-box}
 body{margin:0;background:var(--page);color:var(--ink);font:16px/1.55 Catamaran,"Helvetica Neue",Helvetica,Arial,sans-serif}
@@ -401,15 +401,15 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
   ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join("");
 
   const draw = () => {
-    const S = [{key: "form", label: "Form-letter copies", color: css("--s1")},
-               {key: "edited", label: "Edited form letters", color: css("--s4")},
-               {key: "individual", label: "Written in their own words", color: css("--s2")},
-               {key: "org", label: "Organizations", color: css("--s3")}];
+    const S = [{key: "form", label: "Form-letter copies", color: css("--k-form")},
+               {key: "edited", label: "Edited form letters", color: css("--k-edited")},
+               {key: "individual", label: "Written in their own words", color: css("--k-own")},
+               {key: "org", label: "Organizations", color: css("--k-org")}];
     legend("dailyLegend", S.map(s => [s.color, s.label]));
     columns(document.getElementById("daily"), t.daily, S, {link: (r, k) => [["posted", r.date], ...(k ? KIND_FILTER[k] : [])]});
-    const G = [{key: "g_individual", label: "Written in their own words", color: css("--s2")},
-               {key: "g_edited", label: "Edited form letters", color: css("--s1")},
-               {key: "g_org", label: "Organizations", color: css("--s3")}];
+    const G = [{key: "g_edited", label: "Edited form letters", color: css("--k-edited")},
+               {key: "g_individual", label: "Written in their own words", color: css("--k-own")},
+               {key: "g_org", label: "Organizations", color: css("--k-org")}];
     legend("genderLegend", G.map(s => [s.color, s.label]));
     columns(document.getElementById("gender"), t.daily.map(d => ({...d,
       note: d.g_form ? `Plus ${fmt(d.g_form)} form-letter copies` : ""})), G, {marker: t.campaign,
@@ -417,9 +417,9 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
     if (!document.getElementById("wfnBlock").hidden) columns(document.getElementById("wfn"), t.daily, [{key: "wfn", label: "Use WFN campaign language", color: css("--s3")}],
             {height: 180, marker: t.campaign});
     (t.trackers || []).forEach(k => {
-      const TS = [{key: `${k.key}_individual`, label: "Written in their own words", color: css("--s2")},
-                  {key: `${k.key}_edited`, label: "Edited form letters", color: css("--s1")},
-                  {key: `${k.key}_org`, label: "Organizations", color: css("--s3")}];
+      const TS = [{key: `${k.key}_edited`, label: "Edited form letters", color: css("--k-edited")},
+                  {key: `${k.key}_individual`, label: "Written in their own words", color: css("--k-own")},
+                  {key: `${k.key}_org`, label: "Organizations", color: css("--k-org")}];
       const where = "(" + k.topics.map(x => `${x} = 1`).join(" or ") + ")";
       legend(`${k.key}Legend`, TS.map(s => [s.color, s.label]));
       columns(document.getElementById(`${k.key}Chart`), t.daily.map(d => ({...d,
