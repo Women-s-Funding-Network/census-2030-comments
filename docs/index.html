@@ -94,8 +94,8 @@ Results open in Datasette, a free data explorer; the first search takes about 30
 </main>
 <script>
 const here = new URL(".", location.href);
-const DB = new URL("data/census_comments.db", here).href;
-const META = new URL("data/metadata.json", here).href;
+let DB = new URL("data/census_comments.db", here).href;
+let META = new URL("data/metadata.json", here).href;
 const lite = (hash) => `https://lite.datasette.io/?url=${encodeURIComponent(DB)}&metadata=${encodeURIComponent(META)}#/census_comments${hash}`;
 // Full-text search syntax treats ' - . as operators; quote each word (keeping the user's own "phrases") so any text works
 const ftsQuery = q => {
@@ -162,7 +162,8 @@ if (["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol 
   window.__previewGuard = () => document.querySelectorAll("#startHere a.card, #examples a").forEach(a => a.addEventListener("click", e => { e.preventDefault(); alert(msg); }));
   document.getElementById("search").addEventListener("submit", e => { e.stopImmediatePropagation(); e.preventDefault(); alert(msg); }, true);
 }
-fetch("data/trends.json").then(r => r.json()).then(t => {
+fetch("data/trends.json", {cache: "no-cache"}).then(r => r.json()).then(t => {
+  DB += "?v=" + encodeURIComponent(t.data_version || t.built); META += "?v=" + encodeURIComponent(t.data_version || t.built);
   const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"});
   const lastPosted = t.daily.length ? t.daily[t.daily.length - 1].date : null;
   document.getElementById("lag").innerHTML = `<strong>About timing.</strong> This site was last updated ${fmtDate(t.built.slice(0, 10))}, when it included ` +

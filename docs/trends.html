@@ -189,7 +189,8 @@ function showTip(evt, html, host) {
 const hideTip = () => tip.style.opacity = 0;
 
 // Clicking a chart opens the matching comments in the searchable database (Datasette Lite)
-const DB_FILE = new URL("data/census_comments.db", location.href).href, META_FILE = new URL("data/metadata.json", location.href).href;
+let DB_FILE = new URL("data/census_comments.db", location.href).href;
+let META_FILE = new URL("data/metadata.json", location.href).href;
 const dbLink = params => {
   const q = params.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`).join("&");
   return `https://lite.datasette.io/?url=${encodeURIComponent(DB_FILE)}&metadata=${encodeURIComponent(META_FILE)}#/census_comments/all_comments?${q}`;
@@ -372,7 +373,8 @@ function hbars(host, rows, {format = fmt, labelW = 230} = {}) {
   });
 }
 
-fetch("data/trends.json").then(r => r.json()).then(t => {
+fetch("data/trends.json", {cache: "no-cache"}).then(r => r.json()).then(t => {
+  DB_FILE += "?v=" + encodeURIComponent(t.data_version || t.built); META_FILE += "?v=" + encodeURIComponent(t.data_version || t.built);
   const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"});
   const lastPosted = t.daily.length ? t.daily[t.daily.length - 1].date : null;
   document.getElementById("lag").innerHTML = `<strong>About timing.</strong> This site was last updated ${fmtDate(t.built.slice(0, 10))}, when it included ` +
@@ -527,7 +529,7 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
   const posColor = p => p === "oppose" ? css("--s1") : p === "support" ? css("--s2") : css("--neutral");
   const posLabel = p => ({oppose: "Oppose", support: "Support", "extension request": "More time"}[p] || "Unclear");
   C.forEach(c => { c.total = c.copies + c.edited; c.recent = Object.entries(c.daily).filter(([d]) => d >= weekAgo).reduce((a, [, n]) => a + n, 0); });
-  const DB_URL = new URL("data/census_comments.db", location.href).href, META_URL = new URL("data/metadata.json", location.href).href;
+  const DB_URL = DB_FILE, META_URL = META_FILE;
   const letterUrl = id => `https://lite.datasette.io/?url=${encodeURIComponent(DB_URL)}&metadata=${encodeURIComponent(META_URL)}#/census_comments/form_letters/${id}`;
   const spark = c => {
     const w = 140, h = 28, bw = w / days.length, max = Math.max(...C.map(x => Math.max(...Object.values(x.daily))));
