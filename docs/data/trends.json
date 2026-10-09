@@ -1295,307 +1295,460 @@
    "state": "CA",
    "name": "California",
    "n": 2706,
-   "per100k": 6.9
+   "per100k": 6.9,
+   "oppose": 2685,
+   "support": 5,
+   "unclear": 16
   },
   {
    "state": "NY",
    "name": "New York",
    "n": 1314,
-   "per100k": 6.6
+   "per100k": 6.6,
+   "oppose": 1306,
+   "support": 1,
+   "unclear": 7
   },
   {
    "state": "PA",
    "name": "Pennsylvania",
    "n": 934,
-   "per100k": 7.1
+   "per100k": 7.1,
+   "oppose": 931,
+   "support": 1,
+   "unclear": 2
   },
   {
    "state": "FL",
    "name": "Florida",
    "n": 822,
-   "per100k": 3.5
+   "per100k": 3.5,
+   "oppose": 816,
+   "support": 4,
+   "unclear": 2
   },
   {
    "state": "WA",
    "name": "Washington",
    "n": 767,
-   "per100k": 9.6
+   "per100k": 9.6,
+   "oppose": 762,
+   "support": 2,
+   "unclear": 3
   },
   {
    "state": "IL",
    "name": "Illinois",
    "n": 746,
-   "per100k": 5.9
+   "per100k": 5.9,
+   "oppose": 676,
+   "support": 4,
+   "unclear": 66
   },
   {
    "state": "MI",
    "name": "Michigan",
    "n": 668,
-   "per100k": 6.6
+   "per100k": 6.6,
+   "oppose": 665,
+   "support": 1,
+   "unclear": 2
   },
   {
    "state": "OH",
    "name": "Ohio",
    "n": 598,
-   "per100k": 5.0
+   "per100k": 5.0,
+   "oppose": 593,
+   "support": 2,
+   "unclear": 3
   },
   {
    "state": "TX",
    "name": "Texas",
    "n": 591,
-   "per100k": 1.9
+   "per100k": 1.9,
+   "oppose": 588,
+   "support": 2,
+   "unclear": 1
   },
   {
    "state": "OR",
    "name": "Oregon",
    "n": 569,
-   "per100k": 13.3
+   "per100k": 13.3,
+   "oppose": 566,
+   "support": 0,
+   "unclear": 3
   },
   {
    "state": "CO",
    "name": "Colorado",
    "n": 544,
-   "per100k": 9.1
+   "per100k": 9.1,
+   "oppose": 541,
+   "support": 2,
+   "unclear": 1
   },
   {
    "state": "NJ",
    "name": "New Jersey",
    "n": 522,
-   "per100k": 5.5
+   "per100k": 5.5,
+   "oppose": 521,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "AZ",
    "name": "Arizona",
    "n": 502,
-   "per100k": 6.6
+   "per100k": 6.6,
+   "oppose": 497,
+   "support": 4,
+   "unclear": 1
   },
   {
    "state": "MA",
    "name": "Massachusetts",
    "n": 477,
-   "per100k": 6.7
+   "per100k": 6.7,
+   "oppose": 471,
+   "support": 1,
+   "unclear": 5
   },
   {
    "state": "MN",
    "name": "Minnesota",
    "n": 461,
-   "per100k": 8.0
+   "per100k": 8.0,
+   "oppose": 459,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "NC",
    "name": "North Carolina",
    "n": 445,
-   "per100k": 4.0
+   "per100k": 4.0,
+   "oppose": 443,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "WI",
    "name": "Wisconsin",
    "n": 390,
-   "per100k": 6.5
+   "per100k": 6.5,
+   "oppose": 388,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "VA",
    "name": "Virginia",
    "n": 384,
-   "per100k": 4.4
+   "per100k": 4.4,
+   "oppose": 380,
+   "support": 1,
+   "unclear": 3
   },
   {
    "state": "MD",
    "name": "Maryland",
    "n": 365,
-   "per100k": 5.8
+   "per100k": 5.8,
+   "oppose": 363,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "MO",
    "name": "Missouri",
    "n": 363,
-   "per100k": 5.8
+   "per100k": 5.8,
+   "oppose": 362,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "GA",
    "name": "Georgia",
    "n": 318,
-   "per100k": 2.8
+   "per100k": 2.8,
+   "oppose": 314,
+   "support": 1,
+   "unclear": 3
   },
   {
    "state": "IN",
    "name": "Indiana",
    "n": 304,
-   "per100k": 4.4
+   "per100k": 4.4,
+   "oppose": 304,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "TN",
    "name": "Tennessee",
    "n": 230,
-   "per100k": 3.2
+   "per100k": 3.2,
+   "oppose": 229,
+   "support": 1,
+   "unclear": 0
   },
   {
    "state": "CT",
    "name": "Connecticut",
    "n": 210,
-   "per100k": 5.7
+   "per100k": 5.7,
+   "oppose": 210,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "NM",
    "name": "New Mexico",
    "n": 201,
-   "per100k": 9.4
+   "per100k": 9.4,
+   "oppose": 200,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "IA",
    "name": "Iowa",
    "n": 188,
-   "per100k": 5.8
+   "per100k": 5.8,
+   "oppose": 188,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "ME",
    "name": "Maine",
    "n": 163,
-   "per100k": 11.6
+   "per100k": 11.6,
+   "oppose": 160,
+   "support": 0,
+   "unclear": 3
   },
   {
    "state": "NH",
    "name": "New Hampshire",
    "n": 159,
-   "per100k": 11.3
+   "per100k": 11.3,
+   "oppose": 159,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "KS",
    "name": "Kansas",
    "n": 153,
-   "per100k": 5.2
+   "per100k": 5.2,
+   "oppose": 151,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "SC",
    "name": "South Carolina",
    "n": 144,
-   "per100k": 2.6
+   "per100k": 2.6,
+   "oppose": 143,
+   "support": 1,
+   "unclear": 0
   },
   {
    "state": "AR",
    "name": "Arkansas",
    "n": 133,
-   "per100k": 4.3
+   "per100k": 4.3,
+   "oppose": 132,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "KY",
    "name": "Kentucky",
    "n": 130,
-   "per100k": 2.8
+   "per100k": 2.8,
+   "oppose": 129,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "NV",
    "name": "Nevada",
    "n": 121,
-   "per100k": 3.7
+   "per100k": 3.7,
+   "oppose": 121,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "UT",
    "name": "Utah",
    "n": 101,
-   "per100k": 2.9
+   "per100k": 2.9,
+   "oppose": 99,
+   "support": 0,
+   "unclear": 2
   },
   {
    "state": "LA",
    "name": "Louisiana",
    "n": 89,
-   "per100k": 1.9
+   "per100k": 1.9,
+   "oppose": 88,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "AL",
    "name": "Alabama",
    "n": 86,
-   "per100k": 1.7
+   "per100k": 1.7,
+   "oppose": 84,
+   "support": 2,
+   "unclear": 0
   },
   {
    "state": "VT",
    "name": "Vermont",
    "n": 80,
-   "per100k": 12.3
+   "per100k": 12.3,
+   "oppose": 80,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "WV",
    "name": "West Virginia",
    "n": 76,
-   "per100k": 4.3
+   "per100k": 4.3,
+   "oppose": 74,
+   "support": 1,
+   "unclear": 1
   },
   {
    "state": "ID",
    "name": "Idaho",
    "n": 76,
-   "per100k": 3.8
+   "per100k": 3.8,
+   "oppose": 75,
+   "support": 1,
+   "unclear": 0
   },
   {
    "state": "NE",
    "name": "Nebraska",
    "n": 74,
-   "per100k": 3.7
+   "per100k": 3.7,
+   "oppose": 74,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "OK",
    "name": "Oklahoma",
    "n": 73,
-   "per100k": 1.8
+   "per100k": 1.8,
+   "oppose": 73,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "AK",
    "name": "Alaska",
    "n": 71,
-   "per100k": 9.6
+   "per100k": 9.6,
+   "oppose": 65,
+   "support": 1,
+   "unclear": 5
   },
   {
    "state": "MT",
    "name": "Montana",
    "n": 70,
-   "per100k": 6.2
+   "per100k": 6.2,
+   "oppose": 70,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "HI",
    "name": "Hawaii",
    "n": 70,
-   "per100k": 4.8
+   "per100k": 4.8,
+   "oppose": 70,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "DE",
    "name": "Delaware",
    "n": 69,
-   "per100k": 6.6
+   "per100k": 6.6,
+   "oppose": 69,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "RI",
    "name": "Rhode Island",
    "n": 58,
-   "per100k": 5.2
+   "per100k": 5.2,
+   "oppose": 58,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "WY",
    "name": "Wyoming",
    "n": 37,
-   "per100k": 6.3
+   "per100k": 6.3,
+   "oppose": 36,
+   "support": 0,
+   "unclear": 1
   },
   {
    "state": "SD",
    "name": "South Dakota",
    "n": 23,
-   "per100k": 2.5
+   "per100k": 2.5,
+   "oppose": 23,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "MS",
    "name": "Mississippi",
    "n": 20,
-   "per100k": 0.7
+   "per100k": 0.7,
+   "oppose": 20,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "ND",
    "name": "North Dakota",
    "n": 18,
-   "per100k": 2.3
+   "per100k": 2.3,
+   "oppose": 18,
+   "support": 0,
+   "unclear": 0
   },
   {
    "state": "PR",
    "name": "Puerto Rico",
    "n": 1,
-   "per100k": 0.0
+   "per100k": 0.0,
+   "oppose": 1,
+   "support": 0,
+   "unclear": 0
   }
  ],
  "org_types": [

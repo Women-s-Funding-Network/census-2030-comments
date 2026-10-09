@@ -130,7 +130,8 @@ button{color:var(--on-accent)}
 <div class="two">
 <section>
   <h2>Comments per 100,000 residents</h2>
-  <p class="sub">Top 15 states, where a commenter's state could be identified.</p>
+  <p class="sub">Top 15 states, where a commenter's state could be identified, split by the commenter's position.</p>
+  <div class="legend" id="stateLegend"></div>
   <div class="chart" id="states"></div>
   <details><summary>All states</summary><div id="stateTable"></div></details>
 </section>
@@ -322,8 +323,12 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
       {format: v => pct(v, 1)});
 
     const st = t.states.filter(s => s.per100k != null).sort((a, b) => b.per100k - a.per100k);
-    hbars(document.getElementById("states"), st.slice(0, 15).map(s => ({label: s.name, value: s.per100k,
-      tipHtml: `<b>${s.name}</b>${s.per100k} per 100,000 residents<br>${fmt(s.n)} comments`})), {format: v => v.toFixed(1), labelW: 150});
+    legend("stateLegend", PS.map(([, l, c]) => [c, l]));
+    hstack(document.getElementById("states"), st.slice(0, 15).map(s => ({
+      label: s.name, total: s.per100k, parts: PS.map(([k, , c]) => ({value: s.per100k * (s[k] || 0) / s.n, color: c})),
+      tipHtml: `<b>${s.name}</b>${s.per100k} per 100,000 residents (${fmt(s.n)} comments)` + PS.map(([k, l, c]) =>
+        `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(s[k] || 0)} (${pct((s[k] || 0) / s.n)})</div>`).join("")})),
+      {format: v => v.toFixed(1), labelW: 150});
     const OP = [["oppose", "Oppose", css("--s1")], ["support", "Support", css("--s2")],
                 ["extension", "Asked for more time", css("--s3")], ["other", "Mixed or unknown", css("--neutral")]];
     legend("orgLegend", OP.map(([, l, c]) => [c, l]));
@@ -346,7 +351,8 @@ fetch("data/trends.json").then(r => r.json()).then(t => {
   table("topicTable", ["Topic", "Comments", "Share of all comments", "Oppose", "Support", "Unclear"],
         t.topics.filter(x => x.group !== "internal").sort((a, b) => b.n - a.n)
           .map(x => [x.label, fmt(x.n), pct(x.share, 1), fmt(x.oppose), fmt(x.support), fmt(x.unclear)]));
-  table("stateTable", ["State", "Comments", "Per 100,000 residents"], t.states.map(s => [s.name, fmt(s.n), s.per100k ?? "–"]));
+  table("stateTable", ["State", "Comments", "Per 100,000 residents", "Oppose", "Support", "Unclear"],
+        t.states.map(s => [s.name, fmt(s.n), s.per100k ?? "–", fmt(s.oppose || 0), fmt(s.support || 0), fmt(s.unclear || 0)]));
   // full organization list with filters
   const O = t.organizations || [], og = document.getElementById("orgGroup"), opos = document.getElementById("orgPos"), oq = document.getElementById("orgQ");
   [...new Set(O.map(o => o.group))].sort().forEach(g => og.add(new Option(g, g)));
