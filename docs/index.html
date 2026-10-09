@@ -62,7 +62,7 @@ button{color:var(--on-accent)}
 <span class="deadline">Comments due November 2, 2026</span>
 <h1>2030 Census Rule: Public Comment Explorer</h1>
 <p class="lede">Search every public comment on the Census Bureau's proposed rule on who is counted in 2030 and what the census asks. Compiled by Women's Funding Network for member funds and partners.</p>
-<p class="lag" id="lag"><strong>About timing.</strong> The Census Bureau reviews comments before posting them on Regulations.gov, so comments can take days or weeks to appear, and some may not be posted at all. This site is updated periodically, so recent days are incomplete and totals here are lower than the number of comments actually submitted.</p>
+<p class="lag" id="lag"><strong>About timing.</strong> Comments appear on Regulations.gov after Census Bureau review, usually 1 to 5 days after they are submitted, and comments with offensive or threatening language are not posted. This site is updated periodically, so the most recent days are incomplete and totals here will run below the number of comments actually submitted.</p>
 
 <form id="search">
   <input type="search" id="q" placeholder='Search comments, e.g. women, "biological sex", tax records' aria-label="Search comments">
@@ -144,10 +144,11 @@ if (["localhost", "127.0.0.1"].includes(location.hostname) || location.protocol 
 fetch("data/trends.json").then(r => r.json()).then(t => {
   const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"});
   const lastPosted = t.daily.length ? t.daily[t.daily.length - 1].date : null;
-  document.getElementById("lag").innerHTML = `<strong>About timing.</strong> This site was last updated ${fmtDate(t.built.slice(0, 10))} and includes ` +
-    `${t.comments_included.toLocaleString("en-US")} of the ${t.comments_on_docket.toLocaleString("en-US")} comments posted on Regulations.gov so far` +
-    (lastPosted ? ` (posted through ${fmtDate(lastPosted)})` : "") + `. The Census Bureau reviews comments before posting them, so comments can take ` +
-    `days or weeks to appear, and some may not be posted at all. Counts for recent days are incomplete, and all totals here are lower than the number of comments actually submitted.`;
+  document.getElementById("lag").innerHTML = `<strong>About timing.</strong> This site was last updated ${fmtDate(t.built.slice(0, 10))}, when it included ` +
+    `${t.comments_included.toLocaleString("en-US")} of the ${t.comments_on_docket.toLocaleString("en-US")} comments then posted on Regulations.gov` +
+    (lastPosted ? ` (posted through ${fmtDate(lastPosted)})` : "") + `. Comments appear on Regulations.gov after Census Bureau review, usually 1 to 5 days ` +
+    `after they are submitted, and comments with offensive or threatening language are not posted. The most recent days are incomplete, and totals here ` +
+    `will run below the number of comments actually submitted.`;
   renderStartHere(t.topics);
   if (window.__previewGuard) window.__previewGuard();
   const fmt = n => n.toLocaleString("en-US");
