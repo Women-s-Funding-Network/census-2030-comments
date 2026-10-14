@@ -455,7 +455,7 @@ fetch("data/trends.json", {cache: "no-cache"}).then(r => r.json()).then(t => {
         `<div class="row"><i style="background:${c}"></i>${l}: ${fmt(s[k] || 0)} (${pct((s[k] || 0) / s.n)})</div>`).join("")})),
       {format: v => v.toFixed(1), labelW: 150});
     const OP = [["oppose", "Oppose", css("--s1")], ["support", "Support", css("--s2")],
-                ["extension", "Asked for more time", css("--s3")], ["other", "Mixed or unknown", css("--neutral")]];
+                ["extension", "Asked for more time or consultation", css("--s3")], ["other", "Mixed or unknown", css("--neutral")]];
     legend("orgLegend", OP.map(([, l, c]) => [c, l]));
     hstack(document.getElementById("orgs"), t.org_types.map(r => ({
       label: r.group, group: r.group, total: r.total, parts: OP.map(([k, , c]) => ({value: r[k], color: c})),
