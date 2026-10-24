@@ -1,10 +1,10 @@
 {
- "built": "2026-10-23 14:00",
- "data_version": "20261023140030",
+ "built": "2026-10-24 15:44",
+ "data_version": "20261024154444",
  "docket": "USBC-2026-0628",
  "deadline": "2026-11-02",
- "comments_included": 74493,
- "comments_on_docket": 77332,
+ "comments_included": 78432,
+ "comments_on_docket": 78432,
  "daily": [
   {
    "date": "2026-09-15",
@@ -414,8 +414,8 @@
   {
    "date": "2026-10-07",
    "form": 3336,
-   "edited": 238,
-   "individual": 319,
+   "edited": 239,
+   "individual": 318,
    "org": 6,
    "oppose": 3170,
    "support": 527,
@@ -426,8 +426,8 @@
    "g_org": 3,
    "wfn": 0,
    "race_form": 2910,
-   "race_edited": 98,
-   "race_individual": 49,
+   "race_edited": 99,
+   "race_individual": 48,
    "race_org": 4,
    "lgbtq_form": 2339,
    "lgbtq_edited": 84,
@@ -602,55 +602,55 @@
   },
   {
    "date": "2026-10-16",
-   "form": 4961,
-   "edited": 258,
+   "form": 4962,
+   "edited": 257,
    "individual": 384,
    "org": 14,
    "oppose": 3533,
    "support": 1848,
    "unclear": 236,
-   "g_form": 3006,
-   "g_edited": 155,
+   "g_form": 3007,
+   "g_edited": 154,
    "g_individual": 37,
    "g_org": 5,
    "wfn": 0,
-   "race_form": 3209,
-   "race_edited": 181,
+   "race_form": 3210,
+   "race_edited": 180,
    "race_individual": 112,
    "race_org": 13,
-   "lgbtq_form": 3000,
-   "lgbtq_edited": 147,
+   "lgbtq_form": 3001,
+   "lgbtq_edited": 146,
    "lgbtq_individual": 21,
    "lgbtq_org": 4,
-   "imm_form": 4789,
-   "imm_edited": 218,
+   "imm_form": 4790,
+   "imm_edited": 217,
    "imm_individual": 162,
    "imm_org": 12
   },
   {
    "date": "2026-10-19",
-   "form": 3507,
-   "edited": 271,
+   "form": 3508,
+   "edited": 270,
    "individual": 412,
    "org": 9,
    "oppose": 2671,
    "support": 1304,
    "unclear": 223,
-   "g_form": 1049,
-   "g_edited": 112,
+   "g_form": 1050,
+   "g_edited": 111,
    "g_individual": 49,
    "g_org": 6,
    "wfn": 0,
-   "race_form": 1586,
-   "race_edited": 148,
+   "race_form": 1587,
+   "race_edited": 147,
    "race_individual": 111,
    "race_org": 8,
-   "lgbtq_form": 1043,
-   "lgbtq_edited": 108,
+   "lgbtq_form": 1044,
+   "lgbtq_edited": 107,
    "lgbtq_individual": 39,
    "lgbtq_org": 4,
-   "imm_form": 3011,
-   "imm_edited": 242,
+   "imm_form": 3012,
+   "imm_edited": 241,
    "imm_individual": 171,
    "imm_org": 6
   },
@@ -737,55 +737,55 @@
   },
   {
    "date": "2026-10-23",
-   "form": 1590,
-   "edited": 189,
-   "individual": 583,
-   "org": 1,
-   "oppose": 1690,
-   "support": 249,
-   "unclear": 424,
-   "g_form": 1009,
-   "g_edited": 74,
-   "g_individual": 40,
-   "g_org": 1,
+   "form": 4640,
+   "edited": 551,
+   "individual": 1109,
+   "org": 2,
+   "oppose": 4006,
+   "support": 1503,
+   "unclear": 792,
+   "g_form": 1389,
+   "g_edited": 103,
+   "g_individual": 63,
+   "g_org": 2,
    "wfn": 1,
-   "race_form": 1288,
-   "race_edited": 104,
-   "race_individual": 225,
-   "race_org": 1,
-   "lgbtq_form": 1005,
-   "lgbtq_edited": 68,
-   "lgbtq_individual": 25,
-   "lgbtq_org": 0,
-   "imm_form": 1084,
-   "imm_edited": 153,
-   "imm_individual": 152,
-   "imm_org": 1
+   "race_form": 2370,
+   "race_edited": 167,
+   "race_individual": 297,
+   "race_org": 2,
+   "lgbtq_form": 1382,
+   "lgbtq_edited": 95,
+   "lgbtq_individual": 39,
+   "lgbtq_org": 1,
+   "imm_form": 3261,
+   "imm_edited": 422,
+   "imm_individual": 333,
+   "imm_org": 2
   }
  ],
  "position": {
-  "oppose": 60784,
-  "unclear": 4702,
-  "support": 8963,
+  "oppose": 63100,
+  "unclear": 5070,
+  "support": 10217,
   "extension request": 29,
-  "mixed": 4,
+  "mixed": 5,
   "unknown (text not extractable)": 2,
   "consultation request": 2,
   "no explicit position": 1,
   "concerns": 6
  },
- "form_letter_share": 0.8432604405783094,
+ "form_letter_share": 0.8398230314157487,
  "women_outside_top_template": {
-  "n": 3978,
-  "share": 0.05340099069711248,
+  "n": 4004,
+  "share": 0.05105059159526724,
   "template_id": 2,
-  "template_copies": 12583
+  "template_copies": 12681
  },
  "campaigns": [
   {
    "id": 1,
    "position": "oppose",
-   "copies": 16351,
+   "copies": 16370,
    "edited": 359,
    "first": "2026-09-21",
    "last": "2026-10-23",
@@ -795,35 +795,35 @@
    "sponsor_url": null,
    "daily": {
     "2026-09-29": 1595,
-    "2026-09-25": 1310,
-    "2026-09-22": 2350,
-    "2026-09-21": 948,
+    "2026-09-25": 1311,
+    "2026-09-22": 2346,
+    "2026-09-21": 949,
     "2026-09-23": 1215,
-    "2026-10-01": 299,
+    "2026-10-01": 298,
     "2026-10-05": 445,
     "2026-09-24": 558,
-    "2026-09-30": 315,
-    "2026-10-02": 202,
-    "2026-10-06": 806,
+    "2026-09-30": 316,
+    "2026-10-02": 204,
+    "2026-10-06": 807,
     "2026-10-07": 661,
     "2026-10-08": 109,
-    "2026-10-09": 105,
-    "2026-10-11": 1313,
-    "2026-10-13": 1214,
+    "2026-10-09": 104,
+    "2026-10-11": 1314,
+    "2026-10-13": 1213,
     "2026-10-14": 1166,
     "2026-10-15": 309,
-    "2026-10-16": 613,
-    "2026-10-19": 199,
+    "2026-10-16": 612,
+    "2026-10-19": 197,
     "2026-10-20": 292,
     "2026-10-21": 546,
-    "2026-10-22": 60,
-    "2026-10-23": 80
+    "2026-10-22": 61,
+    "2026-10-23": 101
    }
   },
   {
    "id": 2,
    "position": "oppose",
-   "copies": 12584,
+   "copies": 12682,
    "edited": 235,
    "first": "2026-10-05",
    "last": "2026-10-23",
@@ -842,18 +842,18 @@
     "2026-10-14": 57,
     "2026-10-15": 17,
     "2026-10-16": 35,
-    "2026-10-19": 38,
+    "2026-10-19": 36,
     "2026-10-20": 9,
     "2026-10-21": 4689,
     "2026-10-22": 1238,
-    "2026-10-23": 422
+    "2026-10-23": 522
    }
   },
   {
    "id": 3,
    "position": "oppose",
-   "copies": 8034,
-   "edited": 18,
+   "copies": 8163,
+   "edited": 15,
    "first": "2026-10-02",
    "last": "2026-10-23",
    "opening": "All persons in the United States have a right to be counted, as the 14th Amendment of the Constitution plainly establishes.",
@@ -863,27 +863,27 @@
    "daily": {
     "2026-10-05": 164,
     "2026-10-02": 63,
-    "2026-10-06": 531,
+    "2026-10-06": 532,
     "2026-10-07": 517,
     "2026-10-08": 2,
     "2026-10-09": 736,
     "2026-10-11": 891,
-    "2026-10-13": 671,
-    "2026-10-14": 450,
+    "2026-10-13": 670,
+    "2026-10-14": 449,
     "2026-10-15": 315,
     "2026-10-16": 132,
     "2026-10-19": 497,
     "2026-10-20": 1752,
     "2026-10-21": 1131,
     "2026-10-22": 81,
-    "2026-10-23": 119
+    "2026-10-23": 246
    }
   },
   {
    "id": 4,
    "position": "support",
-   "copies": 4312,
-   "edited": 126,
+   "copies": 4641,
+   "edited": 131,
    "first": "2026-09-29",
    "last": "2026-10-23",
    "opening": "The U.S. Census Bureau's proposed rule to strengthen the US Census is critical to fair representation and the future of America.",
@@ -909,14 +909,33 @@
     "2026-10-20": 54,
     "2026-10-21": 26,
     "2026-10-22": 51,
-    "2026-10-23": 32
+    "2026-10-23": 366
+   }
+  },
+  {
+   "id": 5,
+   "position": "oppose",
+   "copies": 3210,
+   "edited": 83,
+   "first": "2026-09-29",
+   "last": "2026-10-23",
+   "opening": "As a person who cares about people and our planet, I know how important this data is, and as such, we need a fair and accurate Census.",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-21": 1456,
+    "2026-10-22": 1494,
+    "2026-10-23": 341,
+    "2026-09-29": 1,
+    "2026-10-07": 1
    }
   },
   {
    "id": 7,
    "position": "oppose",
    "copies": 2754,
-   "edited": 1114,
+   "edited": 496,
    "first": "2026-09-15",
    "last": "2026-10-23",
    "opening": "I am [add a description of who you are and/or state where you live], and I care about a fair and accurate census because census data and other federal datasets based on the census are used to make\u2026",
@@ -924,57 +943,39 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-01": 890,
-    "2026-09-30": 1887,
-    "2026-10-02": 136,
-    "2026-09-29": 94,
-    "2026-10-07": 46,
-    "2026-10-13": 42,
-    "2026-10-19": 81,
-    "2026-09-23": 146,
-    "2026-09-24": 25,
-    "2026-09-21": 16,
-    "2026-10-05": 14,
-    "2026-09-16": 3,
-    "2026-09-25": 14,
-    "2026-09-22": 9,
+    "2026-10-01": 872,
+    "2026-09-30": 1880,
+    "2026-10-02": 110,
+    "2026-09-29": 41,
+    "2026-10-07": 26,
+    "2026-10-13": 19,
+    "2026-10-19": 27,
+    "2026-09-23": 54,
+    "2026-09-24": 11,
+    "2026-09-21": 11,
+    "2026-09-16": 1,
+    "2026-09-25": 7,
+    "2026-09-22": 5,
+    "2026-10-05": 8,
     "2026-09-15": 3,
-    "2026-10-06": 11,
-    "2026-10-08": 14,
-    "2026-10-09": 12,
-    "2026-10-11": 59,
-    "2026-10-14": 21,
-    "2026-10-15": 21,
-    "2026-10-16": 74,
-    "2026-10-20": 50,
-    "2026-10-21": 88,
-    "2026-10-22": 47,
-    "2026-10-23": 65
-   }
-  },
-  {
-   "id": 5,
-   "position": "oppose",
-   "copies": 3154,
-   "edited": 45,
-   "first": "2026-10-07",
-   "last": "2026-10-23",
-   "opening": "As a person who cares about people and our planet, I know how important this data is, and as such, we need a fair and accurate Census.",
-   "gender": true,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-21": 1437,
-    "2026-10-22": 1478,
-    "2026-10-23": 283,
-    "2026-10-07": 1
+    "2026-10-06": 4,
+    "2026-10-08": 10,
+    "2026-10-09": 7,
+    "2026-10-11": 33,
+    "2026-10-14": 10,
+    "2026-10-15": 3,
+    "2026-10-16": 22,
+    "2026-10-20": 18,
+    "2026-10-21": 25,
+    "2026-10-22": 14,
+    "2026-10-23": 29
    }
   },
   {
    "id": 6,
    "position": "oppose",
    "copies": 2775,
-   "edited": 143,
+   "edited": 145,
    "first": "2026-10-11",
    "last": "2026-10-23",
    "opening": "I oppose the proposed changes to the 2030 Census because a fair and accurate census is critical to ensuring every community is counted, fairly represented, and able to get the resources people need\u2026",
@@ -983,21 +984,22 @@
    "sponsor_url": null,
    "daily": {
     "2026-10-14": 2,
-    "2026-10-15": 4,
+    "2026-10-15": 3,
     "2026-10-16": 2080,
     "2026-10-19": 713,
     "2026-10-20": 51,
     "2026-10-21": 34,
     "2026-10-22": 8,
-    "2026-10-23": 24,
-    "2026-10-11": 2
+    "2026-10-23": 25,
+    "2026-10-11": 3,
+    "2026-10-13": 1
    }
   },
   {
    "id": 8,
    "position": "support",
-   "copies": 1896,
-   "edited": 27,
+   "copies": 1902,
+   "edited": 34,
    "first": "2026-10-16",
    "last": "2026-10-23",
    "opening": "The Constitution calls for an \"actual Enumeration\" every ten years so that representation can be fairly apportioned among the states.",
@@ -1005,21 +1007,21 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-16": 1381,
-    "2026-10-19": 452,
+    "2026-10-16": 1386,
+    "2026-10-19": 454,
     "2026-10-20": 41,
     "2026-10-21": 26,
     "2026-10-22": 6,
-    "2026-10-23": 17
+    "2026-10-23": 23
    }
   },
   {
    "id": 9,
    "position": "oppose",
    "copies": 1346,
-   "edited": 0,
+   "edited": 1,
    "first": "2026-10-01",
-   "last": "2026-10-13",
+   "last": "2026-10-21",
    "opening": "As and educator, and I care about a fair and accurate census because census data and other federal datasets based on the census are used to make key decisions that affect our nation\u2019s students,\u2026",
    "gender": true,
    "sponsor": null,
@@ -1033,60 +1035,68 @@
     "2026-10-08": 9,
     "2026-10-09": 24,
     "2026-10-11": 1121,
-    "2026-10-13": 104
+    "2026-10-13": 104,
+    "2026-10-21": 1
    }
   },
   {
    "id": 10,
    "position": "oppose",
    "copies": 1179,
-   "edited": 9,
-   "first": "2026-09-29",
+   "edited": 154,
+   "first": "2026-09-24",
    "last": "2026-10-23",
    "opening": "I am [add a description of who you are, such as your profession and/or state where you live], and I care about a fair and accurate census because census data and other federal datasets based on the\u2026",
    "gender": true,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-29": 1174,
-    "2026-09-30": 3,
-    "2026-10-01": 1,
-    "2026-10-07": 1,
-    "2026-10-13": 2,
-    "2026-10-16": 2,
-    "2026-10-21": 2,
+    "2026-09-29": 1208,
+    "2026-09-30": 6,
+    "2026-10-01": 7,
+    "2026-10-07": 6,
+    "2026-10-13": 9,
+    "2026-10-16": 15,
+    "2026-10-02": 12,
+    "2026-09-24": 2,
+    "2026-10-05": 1,
+    "2026-10-08": 1,
+    "2026-10-09": 3,
+    "2026-10-11": 10,
+    "2026-10-14": 4,
+    "2026-10-15": 6,
+    "2026-10-19": 12,
+    "2026-10-20": 6,
+    "2026-10-21": 10,
     "2026-10-22": 2,
-    "2026-10-23": 1
+    "2026-10-23": 13
    }
   },
   {
    "id": 11,
    "position": "oppose",
-   "copies": 1074,
-   "edited": 32,
-   "first": "2026-10-07",
+   "copies": 1080,
+   "edited": 46,
+   "first": "2026-10-16",
    "last": "2026-10-23",
    "opening": "Excluding noncitizens without lawful permanent residence from census apportionment data is unconstitutional and would deprive our communities of their fair share of resources and representation.",
    "gender": false,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-19": 700,
+    "2026-10-19": 711,
     "2026-10-20": 20,
-    "2026-10-21": 249,
-    "2026-10-22": 100,
-    "2026-10-23": 30,
-    "2026-10-07": 1,
-    "2026-10-11": 2,
-    "2026-10-13": 2,
-    "2026-10-16": 2
+    "2026-10-21": 252,
+    "2026-10-22": 101,
+    "2026-10-23": 41,
+    "2026-10-16": 1
    }
   },
   {
-   "id": 13,
+   "id": 14,
    "position": "support",
    "copies": 541,
-   "edited": 182,
+   "edited": 286,
    "first": "2026-10-07",
    "last": "2026-10-23",
    "opening": "The 14th Amendment is clearly about defining U.S. citizenship, and this amendment governs how the Census Bureau should count persons in the United States.",
@@ -1095,25 +1105,41 @@
    "sponsor_url": null,
    "daily": {
     "2026-10-07": 347,
-    "2026-10-08": 120,
-    "2026-10-09": 94,
+    "2026-10-08": 121,
+    "2026-10-09": 95,
     "2026-10-11": 43,
     "2026-10-13": 38,
     "2026-10-14": 18,
     "2026-10-15": 7,
     "2026-10-16": 10,
-    "2026-10-19": 5,
+    "2026-10-19": 6,
     "2026-10-20": 5,
     "2026-10-21": 4,
     "2026-10-22": 3,
-    "2026-10-23": 29
+    "2026-10-23": 130
+   }
+  },
+  {
+   "id": 13,
+   "position": "support",
+   "copies": 622,
+   "edited": 132,
+   "first": "2026-10-07",
+   "last": "2026-10-23",
+   "opening": "The 14th Amendment is clearly about defining U.S. citizenship and this amendment governs how the Census Bureau should count persons in the United States.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 752,
+    "2026-10-07": 2
    }
   },
   {
    "id": 12,
    "position": "oppose",
-   "copies": 687,
-   "edited": 34,
+   "copies": 694,
+   "edited": 47,
    "first": "2026-10-14",
    "last": "2026-10-23",
    "opening": "I strongly oppose the proposed changes to the 2030 Census.",
@@ -1121,21 +1147,21 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-14": 247,
-    "2026-10-15": 320,
-    "2026-10-16": 62,
-    "2026-10-19": 31,
+    "2026-10-14": 252,
+    "2026-10-15": 322,
+    "2026-10-16": 64,
+    "2026-10-19": 32,
     "2026-10-20": 9,
     "2026-10-21": 15,
-    "2026-10-22": 19,
-    "2026-10-23": 18
+    "2026-10-22": 21,
+    "2026-10-23": 26
    }
   },
   {
-   "id": 30,
+   "id": 40,
    "position": "oppose",
    "copies": 44,
-   "edited": 451,
+   "edited": 452,
    "first": "2026-09-29",
    "last": "2026-10-23",
    "opening": "I urge the Census Bureau and Department of Commerce to withdraw the proposed rule that would add a citizenship question and restrict demographic questions.",
@@ -1144,12 +1170,12 @@
    "sponsor_url": null,
    "daily": {
     "2026-09-29": 254,
-    "2026-09-30": 82,
-    "2026-10-01": 58,
-    "2026-10-02": 32,
+    "2026-09-30": 81,
+    "2026-10-01": 59,
+    "2026-10-02": 31,
     "2026-10-05": 7,
     "2026-10-07": 21,
-    "2026-10-09": 5,
+    "2026-10-09": 7,
     "2026-10-11": 3,
     "2026-10-13": 2,
     "2026-10-15": 1,
@@ -1196,7 +1222,7 @@
    }
   },
   {
-   "id": 14,
+   "id": 15,
    "position": "oppose",
    "copies": 443,
    "edited": 20,
@@ -1229,10 +1255,10 @@
    }
   },
   {
-   "id": 15,
+   "id": 16,
    "position": "oppose",
    "copies": 434,
-   "edited": 26,
+   "edited": 29,
    "first": "2026-09-29",
    "last": "2026-10-23",
    "opening": "Our local public services depend on accurate population counts to secure their fair share of federal support.",
@@ -1256,15 +1282,15 @@
     "2026-10-16": 7,
     "2026-10-19": 5,
     "2026-10-21": 2,
-    "2026-10-23": 2,
+    "2026-10-23": 5,
     "2026-10-20": 2,
     "2026-10-22": 1
    }
   },
   {
-   "id": 16,
+   "id": 17,
    "position": "oppose",
-   "copies": 422,
+   "copies": 423,
    "edited": 27,
    "first": "2026-09-29",
    "last": "2026-10-23",
@@ -1291,13 +1317,13 @@
     "2026-10-20": 4,
     "2026-10-21": 3,
     "2026-10-22": 1,
-    "2026-10-23": 1
+    "2026-10-23": 2
    }
   },
   {
-   "id": 19,
+   "id": 20,
    "position": "unclear",
-   "copies": 362,
+   "copies": 364,
    "edited": 14,
    "first": "2026-10-06",
    "last": "2026-10-23",
@@ -1315,15 +1341,15 @@
     "2026-10-20": 2,
     "2026-10-21": 4,
     "2026-10-22": 2,
-    "2026-10-23": 4,
+    "2026-10-23": 6,
     "2026-10-08": 1
    }
   },
   {
-   "id": 17,
+   "id": 19,
    "position": "oppose",
    "copies": 367,
-   "edited": 6,
+   "edited": 9,
    "first": "2026-09-24",
    "last": "2026-10-23",
    "opening": "As Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month comes to a close, I write to urge you to support AANHPI students by cosponsoring the All Students Count Act.",
@@ -1343,13 +1369,13 @@
     "2026-10-08": 3,
     "2026-10-09": 3,
     "2026-10-11": 3,
-    "2026-10-13": 56,
-    "2026-10-14": 32,
+    "2026-10-13": 57,
+    "2026-10-14": 33,
     "2026-10-15": 31,
     "2026-10-16": 15,
     "2026-10-19": 15,
     "2026-10-20": 9,
-    "2026-10-21": 12,
+    "2026-10-21": 13,
     "2026-10-22": 40,
     "2026-10-23": 11
    }
@@ -1357,7 +1383,7 @@
   {
    "id": 18,
    "position": "oppose",
-   "copies": 367,
+   "copies": 372,
    "edited": 0,
    "first": "2026-10-13",
    "last": "2026-10-23",
@@ -1373,48 +1399,47 @@
     "2026-10-19": 25,
     "2026-10-20": 1,
     "2026-10-22": 68,
-    "2026-10-23": 133
+    "2026-10-23": 138
    }
   },
   {
-   "id": 170,
-   "position": "support",
-   "copies": 5,
-   "edited": 331,
-   "first": "2026-09-16",
-   "last": "2026-10-21",
-   "opening": "I am commenting as an individual and I am addressing sections 60.4 and 70.2 of the NPRM.",
-   "gender": true,
-   "sponsor": "RedState article by Dennis Santiago",
+   "id": 34,
+   "position": "oppose",
+   "copies": 168,
+   "edited": 189,
+   "first": "2026-09-21",
+   "last": "2026-10-23",
+   "opening": "The census has counted all residents for apportionment regardless of legal status for 230 years.",
+   "gender": false,
+   "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-16": 266,
-    "2026-09-17": 10,
-    "2026-09-18": 7,
-    "2026-09-23": 4,
-    "2026-09-30": 2,
-    "2026-09-29": 4,
-    "2026-10-05": 3,
-    "2026-09-21": 9,
-    "2026-09-22": 2,
-    "2026-09-25": 2,
-    "2026-10-01": 1,
-    "2026-10-02": 3,
-    "2026-10-06": 1,
-    "2026-10-08": 1,
-    "2026-10-09": 2,
-    "2026-10-13": 2,
-    "2026-10-15": 1,
+    "2026-09-29": 24,
+    "2026-09-24": 11,
+    "2026-09-23": 286,
+    "2026-09-25": 10,
+    "2026-10-07": 2,
+    "2026-10-09": 1,
+    "2026-10-13": 1,
+    "2026-10-14": 1,
     "2026-10-16": 3,
-    "2026-10-19": 8,
-    "2026-10-20": 1,
-    "2026-10-21": 4
+    "2026-10-02": 1,
+    "2026-10-01": 1,
+    "2026-09-21": 1,
+    "2026-09-30": 2,
+    "2026-10-05": 1,
+    "2026-10-06": 3,
+    "2026-10-08": 1,
+    "2026-10-11": 2,
+    "2026-10-15": 2,
+    "2026-10-22": 1,
+    "2026-10-23": 3
    }
   },
   {
-   "id": 20,
+   "id": 21,
    "position": "oppose",
-   "copies": 276,
+   "copies": 285,
    "edited": 0,
    "first": "2026-09-30",
    "last": "2026-10-23",
@@ -1435,42 +1460,112 @@
     "2026-10-20": 9,
     "2026-10-21": 10,
     "2026-10-22": 2,
-    "2026-10-23": 4
+    "2026-10-23": 13
+   }
+  },
+  {
+   "id": 22,
+   "position": "oppose",
+   "copies": 230,
+   "edited": 3,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "The constitution mandates that the census count all people residing in the United States, as it has done every 10 years since 1790.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 233
+   }
+  },
+  {
+   "id": 44,
+   "position": "support",
+   "copies": 30,
+   "edited": 200,
+   "first": "2026-09-16",
+   "last": "2026-10-23",
+   "opening": "I am addressing sections 60.4 and 70.2 of the NPRM.",
+   "gender": false,
+   "sponsor": "RedState article by Dennis Santiago",
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-24": 2,
+    "2026-09-16": 159,
+    "2026-09-17": 5,
+    "2026-09-18": 5,
+    "2026-09-21": 7,
+    "2026-09-22": 3,
+    "2026-09-23": 2,
+    "2026-09-25": 2,
+    "2026-09-29": 5,
+    "2026-10-01": 2,
+    "2026-10-02": 6,
+    "2026-10-05": 3,
+    "2026-10-07": 2,
+    "2026-10-13": 1,
+    "2026-10-14": 2,
+    "2026-10-15": 2,
+    "2026-10-19": 6,
+    "2026-10-20": 2,
+    "2026-10-21": 5,
+    "2026-10-22": 2,
+    "2026-10-23": 2,
+    "2026-09-30": 1,
+    "2026-10-06": 1,
+    "2026-10-09": 2,
+    "2026-10-16": 1
+   }
+  },
+  {
+   "id": 25,
+   "position": "oppose",
+   "copies": 205,
+   "edited": 15,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "I\u2019m strongly against the proposed census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 220
+   }
+  },
+  {
+   "id": 26,
+   "position": "oppose",
+   "copies": 200,
+   "edited": 19,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "I\u2019m strongly against the newly proposed census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 219
    }
   },
   {
    "id": 23,
    "position": "oppose",
-   "copies": 168,
-   "edited": 92,
-   "first": "2026-09-21",
-   "last": "2026-10-16",
-   "opening": "The census has counted all residents for apportionment regardless of legal status for 230 years.",
+   "copies": 213,
+   "edited": 4,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "The constitution mandates that the census count all people residing in the United States, as it has done every 10 years since 1790.",
    "gender": false,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-29": 16,
-    "2026-09-24": 9,
-    "2026-09-23": 213,
-    "2026-09-25": 9,
-    "2026-10-07": 2,
-    "2026-10-09": 1,
-    "2026-10-13": 1,
-    "2026-10-14": 1,
-    "2026-10-16": 2,
-    "2026-09-21": 1,
-    "2026-09-30": 1,
-    "2026-10-01": 1,
-    "2026-10-05": 1,
-    "2026-10-06": 1,
-    "2026-10-11": 1
+    "2026-10-23": 217
    }
   },
   {
-   "id": 21,
+   "id": 24,
    "position": "oppose",
-   "copies": 207,
+   "copies": 208,
    "edited": 7,
    "first": "2026-09-21",
    "last": "2026-10-23",
@@ -1496,16 +1591,139 @@
     "2026-10-16": 6,
     "2026-10-19": 5,
     "2026-10-21": 1,
-    "2026-10-23": 4,
+    "2026-10-23": 5,
     "2026-09-21": 2,
     "2026-10-20": 1
    }
   },
   {
-   "id": 22,
+   "id": 27,
    "position": "oppose",
-   "copies": 170,
-   "edited": 14,
+   "copies": 199,
+   "edited": 12,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "I am urging the Census Bureau to reject the newly proposed census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 211
+   }
+  },
+  {
+   "id": 30,
+   "position": "oppose",
+   "copies": 191,
+   "edited": 19,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "I strongly oppose the newly proposed census rule.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 210
+   }
+  },
+  {
+   "id": 29,
+   "position": "oppose",
+   "copies": 192,
+   "edited": 10,
+   "first": "2026-10-21",
+   "last": "2026-10-23",
+   "opening": "The proposed census rule would change who is included in the overall count and where people are counted.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 201,
+    "2026-10-21": 1
+   }
+  },
+  {
+   "id": 171,
+   "position": "support",
+   "copies": 5,
+   "edited": 197,
+   "first": "2026-09-16",
+   "last": "2026-10-21",
+   "opening": "I am commenting as an individual and I am addressing sections 60.4 and 70.2 of the NPRM.",
+   "gender": true,
+   "sponsor": "RedState article by Dennis Santiago",
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-16": 160,
+    "2026-09-17": 6,
+    "2026-09-18": 5,
+    "2026-09-23": 4,
+    "2026-09-30": 1,
+    "2026-09-29": 3,
+    "2026-09-21": 6,
+    "2026-09-22": 2,
+    "2026-09-25": 1,
+    "2026-10-01": 1,
+    "2026-10-02": 1,
+    "2026-10-05": 1,
+    "2026-10-08": 1,
+    "2026-10-09": 1,
+    "2026-10-13": 2,
+    "2026-10-16": 2,
+    "2026-10-19": 4,
+    "2026-10-21": 1
+   }
+  },
+  {
+   "id": 28,
+   "position": "oppose",
+   "copies": 193,
+   "edited": 6,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "Since the first census was taken in 1790, every person residing in the United States was counted in the state they reside in most of the year.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 199
+   }
+  },
+  {
+   "id": 31,
+   "position": "oppose",
+   "copies": 188,
+   "edited": 9,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "An accurate census count is key to determining each state\u2019s political representation and how billions of federal dollars are spent.",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 197
+   }
+  },
+  {
+   "id": 32,
+   "position": "oppose",
+   "copies": 185,
+   "edited": 9,
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "opening": "Since the first census was taken in 1790, every person residing in the United States was counted, regardless of their immigration status.",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-10-23": 194
+   }
+  },
+  {
+   "id": 33,
+   "position": "oppose",
+   "copies": 175,
+   "edited": 18,
    "first": "2026-10-11",
    "last": "2026-10-23",
    "opening": "I urge the Census Bureau to further extend the comment period until December 10, 2026 and to withdraw and revise the proposed rule.",
@@ -1514,80 +1732,90 @@
    "sponsor_url": null,
    "daily": {
     "2026-10-21": 3,
-    "2026-10-22": 108,
-    "2026-10-23": 71,
+    "2026-10-22": 109,
+    "2026-10-23": 79,
     "2026-10-11": 1,
     "2026-10-14": 1
    }
   },
   {
-   "id": 35,
-   "position": "support",
-   "copies": 29,
-   "edited": 67,
-   "first": "2026-09-16",
-   "last": "2026-10-23",
-   "opening": "I am addressing sections 60.4 and 70.2 of the NPRM.",
-   "gender": false,
-   "sponsor": "RedState article by Dennis Santiago",
-   "sponsor_url": null,
-   "daily": {
-    "2026-09-24": 2,
-    "2026-09-16": 53,
-    "2026-09-17": 1,
-    "2026-09-18": 3,
-    "2026-09-21": 4,
-    "2026-09-22": 3,
-    "2026-09-23": 2,
-    "2026-09-25": 1,
-    "2026-09-29": 4,
-    "2026-10-01": 2,
-    "2026-10-02": 4,
-    "2026-10-05": 1,
-    "2026-10-07": 2,
-    "2026-10-13": 1,
-    "2026-10-14": 2,
-    "2026-10-15": 1,
-    "2026-10-19": 2,
-    "2026-10-20": 1,
-    "2026-10-21": 3,
-    "2026-10-22": 2,
-    "2026-10-23": 1,
-    "2026-10-09": 1
-   }
-  },
-  {
-   "id": 36,
+   "id": 46,
    "position": "oppose",
    "copies": 27,
-   "edited": 68,
-   "first": "2026-09-30",
-   "last": "2026-10-22",
-   "opening": "I urge the Census Bureau to withdraw the proposed rule that changes residence criteria and restricts demographic questions for the decennial Census.",
-   "gender": false,
+   "edited": 160,
+   "first": "2026-09-15",
+   "last": "2026-10-23",
+   "opening": "I am [add a description of who you are, such as your profession and/or state where you live], and I care about a fair and accurate census because [add a brief description of why you care].",
+   "gender": true,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-01": 22,
-    "2026-09-30": 18,
-    "2026-10-09": 2,
-    "2026-10-13": 1,
-    "2026-10-16": 18,
-    "2026-10-19": 21,
-    "2026-10-22": 1,
-    "2026-10-02": 4,
-    "2026-10-06": 1,
-    "2026-10-08": 1,
-    "2026-10-14": 1,
-    "2026-10-15": 1,
-    "2026-10-21": 4
+    "2026-09-29": 9,
+    "2026-10-01": 11,
+    "2026-10-02": 9,
+    "2026-10-05": 3,
+    "2026-10-07": 13,
+    "2026-10-09": 4,
+    "2026-10-11": 12,
+    "2026-10-13": 15,
+    "2026-10-14": 5,
+    "2026-10-16": 10,
+    "2026-10-19": 8,
+    "2026-10-20": 14,
+    "2026-10-22": 9,
+    "2026-10-23": 30,
+    "2026-09-24": 6,
+    "2026-09-30": 2,
+    "2026-09-15": 1,
+    "2026-09-17": 1,
+    "2026-09-25": 2,
+    "2026-10-06": 3,
+    "2026-10-08": 3,
+    "2026-10-15": 5,
+    "2026-10-21": 12
    }
   },
   {
-   "id": 24,
+   "id": 54,
    "position": "oppose",
-   "copies": 86,
-   "edited": 5,
+   "copies": 18,
+   "edited": 158,
+   "first": "2026-09-21",
+   "last": "2026-10-23",
+   "opening": "As Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month comes to a close, I write to urge you to support AANHPI students by cosponsoring the All Students Count Act.",
+   "gender": true,
+   "sponsor": "Southeast Asia Resource Action Center (SEARAC)",
+   "sponsor_url": "https://searac.org",
+   "daily": {
+    "2026-09-25": 2,
+    "2026-09-29": 4,
+    "2026-10-02": 9,
+    "2026-10-06": 3,
+    "2026-10-13": 6,
+    "2026-10-15": 9,
+    "2026-10-16": 27,
+    "2026-10-20": 17,
+    "2026-10-23": 19,
+    "2026-09-21": 7,
+    "2026-09-23": 13,
+    "2026-10-05": 3,
+    "2026-09-24": 3,
+    "2026-09-22": 4,
+    "2026-10-01": 4,
+    "2026-10-07": 3,
+    "2026-10-09": 1,
+    "2026-10-11": 4,
+    "2026-10-14": 3,
+    "2026-10-19": 17,
+    "2026-10-21": 13,
+    "2026-10-22": 5
+   }
+  },
+  {
+   "id": 35,
+   "position": "oppose",
+   "copies": 93,
+   "edited": 6,
    "first": "2026-10-07",
    "last": "2026-10-23",
    "opening": "Congress, states, cities, and businesses use it to divide representation, distribute federal funds, and plan for the next decade.",
@@ -1605,31 +1833,66 @@
     "2026-10-20": 3,
     "2026-10-21": 1,
     "2026-10-22": 2,
-    "2026-10-23": 1
+    "2026-10-23": 9
    }
   },
   {
-   "id": 28,
-   "position": "support",
-   "copies": 56,
-   "edited": 27,
-   "first": "2026-10-07",
-   "last": "2026-10-23",
-   "opening": "The 14th Amendment is clearly about defining U.S. citizenship and this amendment governs how the Census Bureau should count persons in the United States.",
+   "id": 45,
+   "position": "oppose",
+   "copies": 27,
+   "edited": 70,
+   "first": "2026-09-30",
+   "last": "2026-10-22",
+   "opening": "I urge the Census Bureau to withdraw the proposed rule that changes residence criteria and restricts demographic questions for the decennial Census.",
    "gender": false,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-23": 81,
-    "2026-10-07": 1,
-    "2026-10-09": 1
+    "2026-10-01": 22,
+    "2026-09-30": 18,
+    "2026-10-09": 2,
+    "2026-10-13": 1,
+    "2026-10-16": 19,
+    "2026-10-19": 23,
+    "2026-10-22": 1,
+    "2026-10-02": 3,
+    "2026-10-06": 1,
+    "2026-10-08": 1,
+    "2026-10-14": 1,
+    "2026-10-15": 1,
+    "2026-10-21": 4
    }
   },
   {
-   "id": 131,
+   "id": 37,
+   "position": "oppose",
+   "copies": 66,
+   "edited": 20,
+   "first": "2026-09-21",
+   "last": "2026-10-20",
+   "opening": "I strongly object to a change that would radically alter who is counted for congressional apportionment, which local communities are resourced, and whether we can track progress on civil rights\u2026",
+   "gender": true,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-23": 67,
+    "2026-09-24": 4,
+    "2026-09-29": 3,
+    "2026-09-30": 1,
+    "2026-10-01": 3,
+    "2026-10-11": 1,
+    "2026-10-13": 3,
+    "2026-10-14": 1,
+    "2026-09-21": 1,
+    "2026-10-19": 1,
+    "2026-10-20": 1
+   }
+  },
+  {
+   "id": 134,
    "position": "oppose",
    "copies": 7,
-   "edited": 73,
+   "edited": 72,
    "first": "2026-09-23",
    "last": "2026-10-23",
    "opening": "My community depends on census data for [name one: our school district\u2019s Title I funding / our hospital\u2019s Medicaid reimbursement / our county\u2019s road and transit funding / public health tracking in\u2026",
@@ -1653,13 +1916,13 @@
     "2026-10-09": 7,
     "2026-10-11": 9,
     "2026-10-13": 8,
-    "2026-10-14": 4,
+    "2026-10-14": 3,
     "2026-10-15": 2,
     "2026-10-21": 6
    }
   },
   {
-   "id": 25,
+   "id": 36,
    "position": "oppose",
    "copies": 77,
    "edited": 0,
@@ -1687,34 +1950,10 @@
    }
   },
   {
-   "id": 26,
+   "id": 82,
    "position": "oppose",
-   "copies": 66,
-   "edited": 11,
-   "first": "2026-09-21",
-   "last": "2026-10-20",
-   "opening": "I strongly object to a change that would radically alter who is counted for congressional apportionment, which local communities are resourced, and whether we can track progress on civil rights\u2026",
-   "gender": true,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-09-23": 61,
-    "2026-09-24": 3,
-    "2026-09-29": 3,
-    "2026-09-30": 1,
-    "2026-10-01": 3,
-    "2026-10-11": 1,
-    "2026-10-13": 2,
-    "2026-10-14": 1,
-    "2026-09-21": 1,
-    "2026-10-20": 1
-   }
-  },
-  {
-   "id": 87,
-   "position": "oppose",
-   "copies": 11,
-   "edited": 56,
+   "copies": 12,
+   "edited": 57,
    "first": "2026-10-02",
    "last": "2026-10-23",
    "opening": "I live in New York City and I think everyone should be counted in the census.",
@@ -1729,52 +1968,71 @@
     "2026-10-09": 4,
     "2026-10-13": 4,
     "2026-10-16": 6,
+    "2026-10-23": 3,
     "2026-10-07": 7,
     "2026-10-11": 1,
     "2026-10-14": 6,
     "2026-10-15": 6,
     "2026-10-19": 6,
     "2026-10-21": 3,
-    "2026-10-22": 1,
-    "2026-10-23": 1
+    "2026-10-22": 1
    }
   },
   {
-   "id": 40,
-   "position": "oppose",
-   "copies": 25,
-   "edited": 32,
-   "first": "2026-09-15",
+   "id": 148,
+   "position": "unclear",
+   "copies": 6,
+   "edited": 59,
+   "first": "2026-09-16",
    "last": "2026-10-23",
-   "opening": "I am [add a description of who you are, such as your profession and/or state where you live], and I care about a fair and accurate census because [add a brief description of why you care].",
-   "gender": true,
+   "opening": "First, keep race and ethnicity questions on the 2030 Census.",
+   "gender": false,
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-29": 2,
-    "2026-10-01": 3,
-    "2026-10-02": 5,
-    "2026-10-05": 2,
-    "2026-10-07": 4,
-    "2026-10-09": 3,
-    "2026-10-11": 4,
-    "2026-10-13": 6,
-    "2026-10-14": 2,
-    "2026-10-16": 4,
-    "2026-10-19": 4,
-    "2026-10-20": 4,
-    "2026-10-22": 2,
-    "2026-10-23": 9,
-    "2026-09-15": 1,
-    "2026-09-17": 1,
-    "2026-10-08": 1
+    "2026-09-24": 23,
+    "2026-09-25": 7,
+    "2026-10-05": 1,
+    "2026-09-22": 1,
+    "2026-09-29": 10,
+    "2026-09-16": 2,
+    "2026-09-21": 1,
+    "2026-09-23": 2,
+    "2026-09-30": 1,
+    "2026-10-01": 1,
+    "2026-10-02": 2,
+    "2026-10-07": 1,
+    "2026-10-09": 1,
+    "2026-10-13": 2,
+    "2026-10-19": 5,
+    "2026-10-20": 2,
+    "2026-10-23": 3
    }
   },
   {
-   "id": 27,
+   "id": 39,
+   "position": "oppose",
+   "copies": 44,
+   "edited": 15,
+   "first": "2026-09-25",
+   "last": "2026-10-11",
+   "opening": "The new proposed provisions would severely compromise the integrity of the 2030 Census, leading to far less accurate population counts and the under-counting, under-representation, and under-funding\u2026",
+   "gender": false,
+   "sponsor": null,
+   "sponsor_url": null,
+   "daily": {
+    "2026-09-25": 52,
+    "2026-09-29": 4,
+    "2026-10-05": 1,
+    "2026-10-06": 1,
+    "2026-10-11": 1
+   }
+  },
+  {
+   "id": 38,
    "position": "oppose",
    "copies": 56,
-   "edited": 0,
+   "edited": 1,
    "first": "2026-09-29",
    "last": "2026-10-21",
    "opening": "I care about a fair and accurate census because census data and other federal datasets based on the census are used to make key decisions that affect our nation\u2019s students, educators, and schools.",
@@ -1782,7 +2040,7 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-30": 22,
+    "2026-09-30": 23,
     "2026-09-29": 11,
     "2026-10-01": 8,
     "2026-10-02": 1,
@@ -1797,58 +2055,10 @@
    }
   },
   {
-   "id": 29,
-   "position": "oppose",
-   "copies": 44,
-   "edited": 12,
-   "first": "2026-09-25",
-   "last": "2026-10-11",
-   "opening": "The new proposed provisions would severely compromise the integrity of the 2030 Census, leading to far less accurate population counts and the under-counting, under-representation, and under-funding\u2026",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-09-25": 49,
-    "2026-09-29": 4,
-    "2026-10-05": 1,
-    "2026-10-06": 1,
-    "2026-10-11": 1
-   }
-  },
-  {
-   "id": 145,
-   "position": "unclear",
-   "copies": 6,
-   "edited": 48,
-   "first": "2026-09-16",
-   "last": "2026-10-20",
-   "opening": "First, keep race and ethnicity questions on the 2030 Census.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-09-24": 22,
-    "2026-09-25": 6,
-    "2026-10-05": 1,
-    "2026-09-22": 1,
-    "2026-09-29": 10,
-    "2026-09-16": 2,
-    "2026-09-21": 1,
-    "2026-09-23": 2,
-    "2026-09-30": 1,
-    "2026-10-01": 1,
-    "2026-10-02": 1,
-    "2026-10-07": 1,
-    "2026-10-09": 1,
-    "2026-10-13": 2,
-    "2026-10-20": 2
-   }
-  },
-  {
-   "id": 265,
+   "id": 268,
    "position": "oppose",
    "copies": 4,
-   "edited": 49,
+   "edited": 48,
    "first": "2026-10-19",
    "last": "2026-10-23",
    "opening": "The census is supposed to accurately count the number of residents, not citizens or eligible voters.",
@@ -1856,14 +2066,14 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-10-19": 36,
+    "2026-10-19": 35,
     "2026-10-20": 9,
     "2026-10-21": 5,
     "2026-10-23": 3
    }
   },
   {
-   "id": 205,
+   "id": 206,
    "position": "unclear",
    "copies": 5,
    "edited": 44,
@@ -1884,7 +2094,7 @@
    }
   },
   {
-   "id": 33,
+   "id": 43,
    "position": "oppose",
    "copies": 35,
    "edited": 8,
@@ -1914,12 +2124,12 @@
    }
   },
   {
-   "id": 31,
+   "id": 41,
    "position": "oppose",
    "copies": 39,
-   "edited": 1,
+   "edited": 0,
    "first": "2026-09-21",
-   "last": "2026-10-22",
+   "last": "2026-10-21",
    "opening": "I strongly urge the Census Bureau and Department of Commerce to withdraw the proposed rule changing residence criteria for the decennial Census and restricting demographic questions.The proposal\u2026",
    "gender": true,
    "sponsor": null,
@@ -1940,12 +2150,11 @@
     "2026-10-14": 2,
     "2026-10-15": 2,
     "2026-10-16": 1,
-    "2026-10-21": 4,
-    "2026-10-22": 1
+    "2026-10-21": 4
    }
   },
   {
-   "id": 32,
+   "id": 42,
    "position": "oppose",
    "copies": 38,
    "edited": 0,
@@ -1971,10 +2180,10 @@
    }
   },
   {
-   "id": 272,
+   "id": 277,
    "position": "unclear",
    "copies": 3,
-   "edited": 32,
+   "edited": 34,
    "first": "2026-09-15",
    "last": "2026-10-23",
    "opening": "I am addressing section 60.4 of the NPRM regarding the proposed changes to the 2030 Census, specifically the exclusion of immigrants in the U.S. illegally from being counted for apportionment\u2026",
@@ -1982,14 +2191,14 @@
    "sponsor": null,
    "sponsor_url": null,
    "daily": {
-    "2026-09-16": 4,
+    "2026-09-16": 5,
     "2026-10-05": 3,
     "2026-09-15": 4,
     "2026-09-17": 1,
     "2026-09-21": 3,
     "2026-09-22": 1,
     "2026-09-23": 4,
-    "2026-10-06": 3,
+    "2026-10-06": 2,
     "2026-10-08": 1,
     "2026-10-11": 1,
     "2026-10-14": 2,
@@ -1997,43 +2206,13 @@
     "2026-10-16": 1,
     "2026-10-19": 2,
     "2026-10-20": 1,
-    "2026-10-21": 1,
+    "2026-10-21": 2,
     "2026-10-22": 1,
-    "2026-10-23": 1
+    "2026-10-23": 2
    }
   },
   {
-   "id": 34,
-   "position": "oppose",
-   "copies": 32,
-   "edited": 0,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "The constitution mandates that the census count all people residing in the United States, as it has done every 10 years since 1790.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 32
-   }
-  },
-  {
-   "id": 37,
-   "position": "oppose",
-   "copies": 27,
-   "edited": 1,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "I\u2019m strongly against the proposed census rule.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 28
-   }
-  },
-  {
-   "id": 38,
+   "id": 47,
    "position": "oppose",
    "copies": 26,
    "edited": 2,
@@ -2059,65 +2238,7 @@
    }
   },
   {
-   "id": 39,
-   "position": "oppose",
-   "copies": 26,
-   "edited": 2,
-   "first": "2026-10-21",
-   "last": "2026-10-23",
-   "opening": "I strongly oppose the newly proposed census rule.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 27,
-    "2026-10-21": 1
-   }
-  },
-  {
-   "id": 59,
-   "position": "oppose",
-   "copies": 17,
-   "edited": 11,
-   "first": "2026-09-21",
-   "last": "2026-10-23",
-   "opening": "As Asian American, Native Hawaiian, and Pacific Islander (AANHPI) Heritage Month comes to a close, I write to urge you to support AANHPI students by cosponsoring the All Students Count Act.",
-   "gender": true,
-   "sponsor": "Southeast Asia Resource Action Center (SEARAC)",
-   "sponsor_url": "https://searac.org",
-   "daily": {
-    "2026-09-25": 2,
-    "2026-09-29": 1,
-    "2026-10-02": 1,
-    "2026-10-06": 2,
-    "2026-10-13": 1,
-    "2026-10-15": 4,
-    "2026-10-16": 6,
-    "2026-10-20": 5,
-    "2026-09-21": 2,
-    "2026-09-23": 1,
-    "2026-10-05": 1,
-    "2026-10-22": 1,
-    "2026-10-23": 1
-   }
-  },
-  {
-   "id": 42,
-   "position": "oppose",
-   "copies": 25,
-   "edited": 2,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "I am urging the Census Bureau to reject the newly proposed census rule.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 27
-   }
-  },
-  {
-   "id": 313,
+   "id": 318,
    "position": "oppose",
    "copies": 3,
    "edited": 24,
@@ -2140,66 +2261,6 @@
     "2026-10-16": 4,
     "2026-10-19": 1,
     "2026-10-23": 5
-   }
-  },
-  {
-   "id": 41,
-   "position": "oppose",
-   "copies": 25,
-   "edited": 1,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "An accurate census count is key to determining each state\u2019s political representation and how billions of federal dollars are spent.",
-   "gender": true,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 26
-   }
-  },
-  {
-   "id": 47,
-   "position": "oppose",
-   "copies": 24,
-   "edited": 2,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "I\u2019m strongly against the newly proposed census rule.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 26
-   }
-  },
-  {
-   "id": 43,
-   "position": "oppose",
-   "copies": 25,
-   "edited": 0,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "Since the first census was taken in 1790, every person residing in the United States was counted, regardless of their immigration status.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 25
-   }
-  },
-  {
-   "id": 44,
-   "position": "oppose",
-   "copies": 25,
-   "edited": 0,
-   "first": "2026-10-23",
-   "last": "2026-10-23",
-   "opening": "Since the first census was taken in 1790, every person residing in the United States was counted in the state they reside in most of the year.",
-   "gender": false,
-   "sponsor": null,
-   "sponsor_url": null,
-   "daily": {
-    "2026-10-23": 25
    }
   }
  ],
@@ -2240,19 +2301,19 @@
    "key": "women_girls",
    "label": "Women and girls",
    "group": "gender",
-   "n": 17134,
-   "share": 0.2300081886888701,
-   "oppose": 17029,
-   "support": 23,
-   "unclear": 82
+   "n": 17261,
+   "share": 0.22007598939208486,
+   "oppose": 17149,
+   "support": 24,
+   "unclear": 88
   },
   {
    "key": "black_maternal_health",
    "label": "Black maternal health",
    "group": "gender",
-   "n": 13150,
-   "share": 0.17652665351106817,
-   "oppose": 13139,
+   "n": 13250,
+   "share": 0.1689361485108119,
+   "oppose": 13239,
    "support": 0,
    "unclear": 11
   },
@@ -2261,7 +2322,7 @@
    "label": "Women of color",
    "group": "gender",
    "n": 18,
-   "share": 0.00024163344206838228,
+   "share": 0.0002294981640146879,
    "oppose": 15,
    "support": 0,
    "unclear": 3
@@ -2270,288 +2331,288 @@
    "key": "sex_gender_general",
    "label": "Sex & gender (general)",
    "group": "gender",
-   "n": 337,
-   "share": 0.004523914998724713,
-   "oppose": 166,
+   "n": 343,
+   "share": 0.004373215014279886,
+   "oppose": 167,
    "support": 45,
-   "unclear": 126
+   "unclear": 131
   },
   {
    "key": "biological_sex",
    "label": "\"Biological sex\"",
    "group": "gender",
-   "n": 69,
-   "share": 0.0009262615279287987,
+   "n": 70,
+   "share": 0.0008924928600571195,
    "oppose": 35,
    "support": 7,
-   "unclear": 27
+   "unclear": 28
   },
   {
    "key": "trans_nonbinary_intersex",
    "label": "Transgender, nonbinary & intersex",
    "group": "gender",
-   "n": 129,
-   "share": 0.0017317063348234062,
-   "oppose": 96,
+   "n": 134,
+   "share": 0.0017084863321093432,
+   "oppose": 99,
    "support": 2,
-   "unclear": 31
+   "unclear": 33
   },
   {
    "key": "lgbtq_same_sex",
    "label": "LGBTQ+ & same-sex couples",
    "group": "gender",
-   "n": 45778,
-   "share": 0.6145275395003558,
-   "oppose": 45417,
-   "support": 101,
-   "unclear": 260
+   "n": 46195,
+   "share": 0.5889815381476948,
+   "oppose": 45824,
+   "support": 103,
+   "unclear": 268
   },
   {
    "key": "noncitizens_apportionment",
    "label": "Noncitizens & apportionment",
    "group": "policy",
-   "n": 55847,
-   "share": 0.7496946021773858,
-   "oppose": 46592,
-   "support": 8084,
-   "unclear": 1171
+   "n": 58466,
+   "share": 0.7454355365157078,
+   "oppose": 47952,
+   "support": 9229,
+   "unclear": 1285
   },
   {
    "key": "constitution",
    "label": "Constitution",
    "group": "policy",
-   "n": 60659,
-   "share": 0.8142912756903333,
-   "oppose": 52613,
-   "support": 7334,
-   "unclear": 712
+   "n": 63091,
+   "share": 0.8044038147694819,
+   "oppose": 53893,
+   "support": 8405,
+   "unclear": 793
   },
   {
    "key": "race_ethnicity",
    "label": "Race & ethnicity",
    "group": "policy",
-   "n": 57271,
-   "share": 0.7688104922610178,
-   "oppose": 55117,
-   "support": 257,
-   "unclear": 1897
+   "n": 58489,
+   "share": 0.7457287841697267,
+   "oppose": 56275,
+   "support": 260,
+   "unclear": 1954
   },
   {
    "key": "residence_tax",
    "label": "Usual residence & tax status",
    "group": "policy",
-   "n": 49654,
-   "share": 0.6665592740257474,
-   "oppose": 42610,
-   "support": 6505,
-   "unclear": 539
+   "n": 50677,
+   "share": 0.6461265809873521,
+   "oppose": 43282,
+   "support": 6848,
+   "unclear": 547
   },
   {
    "key": "funding_programs",
    "label": "Federal funding",
    "group": "policy",
-   "n": 31569,
-   "share": 0.42378478514759776,
-   "oppose": 30530,
-   "support": 112,
-   "unclear": 927
+   "n": 33112,
+   "share": 0.4221746226030192,
+   "oppose": 32014,
+   "support": 145,
+   "unclear": 953
   },
   {
    "key": "citizenship_question",
    "label": "Citizenship question",
    "group": "policy",
-   "n": 20439,
-   "share": 0.2743747734686481,
-   "oppose": 14753,
-   "support": 5420,
-   "unclear": 266
+   "n": 21656,
+   "share": 0.27611179110567113,
+   "oppose": 14869,
+   "support": 6496,
+   "unclear": 291
   },
   {
    "key": "democracy_voting",
    "label": "Democracy & voting",
    "group": "policy",
-   "n": 19077,
-   "share": 0.25609117635214046,
-   "oppose": 13846,
-   "support": 4657,
-   "unclear": 574
+   "n": 20325,
+   "share": 0.25914167686658507,
+   "oppose": 14665,
+   "support": 5033,
+   "unclear": 627
   },
   {
    "key": "privacy_dhs",
    "label": "Privacy & data sharing",
    "group": "policy",
-   "n": 387,
-   "share": 0.005195119004470218,
-   "oppose": 176,
-   "support": 77,
-   "unclear": 134
+   "n": 410,
+   "share": 0.005227458180334557,
+   "oppose": 183,
+   "support": 84,
+   "unclear": 143
   },
   {
    "key": "algorithms_estimates",
    "label": "Algorithms & estimates",
    "group": "policy",
-   "n": 2225,
-   "share": 0.02986857825567503,
-   "oppose": 52,
-   "support": 2078,
-   "unclear": 95
+   "n": 2240,
+   "share": 0.028559771521827825,
+   "oppose": 53,
+   "support": 2086,
+   "unclear": 101
   },
   {
    "key": "children_youth",
    "label": "Children & youth",
    "group": "community",
-   "n": 11146,
-   "share": 0.14962479696078826,
-   "oppose": 10959,
-   "support": 33,
-   "unclear": 154
+   "n": 11448,
+   "share": 0.1459608323133415,
+   "oppose": 11248,
+   "support": 35,
+   "unclear": 165
   },
   {
    "key": "students",
    "label": "Students & college",
    "group": "community",
-   "n": 8686,
-   "share": 0.11660155987810936,
-   "oppose": 8360,
-   "support": 73,
-   "unclear": 253
+   "n": 8731,
+   "share": 0.11131935944512444,
+   "oppose": 8397,
+   "support": 75,
+   "unclear": 259
   },
   {
    "key": "schools_education",
    "label": "Schools & education",
    "group": "community",
-   "n": 24907,
-   "share": 0.3343535634220665,
-   "oppose": 24007,
-   "support": 36,
-   "unclear": 864
+   "n": 26413,
+   "share": 0.33676305589555283,
+   "oppose": 25486,
+   "support": 38,
+   "unclear": 889
   },
   {
    "key": "disability",
    "label": "Disability",
    "group": "community",
-   "n": 6624,
-   "share": 0.08892110668116468,
-   "oppose": 6555,
+   "n": 6638,
+   "share": 0.08463382292941657,
+   "oppose": 6567,
    "support": 14,
-   "unclear": 55
+   "unclear": 57
   },
   {
    "key": "seniors",
    "label": "Seniors & older adults",
    "group": "community",
-   "n": 172,
-   "share": 0.0023089417797645417,
-   "oppose": 131,
-   "support": 7,
+   "n": 177,
+   "share": 0.0022567319461444307,
+   "oppose": 135,
+   "support": 8,
    "unclear": 34
   },
   {
    "key": "veterans_military",
    "label": "Veterans & military",
    "group": "community",
-   "n": 7772,
-   "share": 0.1043319506530815,
-   "oppose": 5707,
-   "support": 1961,
-   "unclear": 104
+   "n": 7811,
+   "share": 0.09958945328437373,
+   "oppose": 5736,
+   "support": 1969,
+   "unclear": 106
   },
   {
    "key": "health",
    "label": "Health & public health",
    "group": "community",
-   "n": 7717,
-   "share": 0.10359362624676144,
-   "oppose": 7262,
-   "support": 19,
-   "unclear": 436
+   "n": 8938,
+   "share": 0.11395858833129335,
+   "oppose": 8465,
+   "support": 21,
+   "unclear": 452
   },
   {
    "key": "housing",
    "label": "Housing & homelessness",
    "group": "community",
-   "n": 1181,
-   "share": 0.015853838615708857,
-   "oppose": 942,
-   "support": 18,
-   "unclear": 221
+   "n": 1224,
+   "share": 0.015605875152998777,
+   "oppose": 973,
+   "support": 19,
+   "unclear": 232
   },
   {
    "key": "black_communities",
    "label": "Black communities",
    "group": "community",
-   "n": 21851,
-   "share": 0.29332957459090114,
-   "oppose": 21668,
-   "support": 20,
-   "unclear": 163
+   "n": 22092,
+   "share": 0.2816707466340269,
+   "oppose": 21902,
+   "support": 22,
+   "unclear": 168
   },
   {
    "key": "latino_hispanic",
    "label": "Latino & Hispanic communities",
    "group": "community",
-   "n": 138,
-   "share": 0.0018525230558575974,
-   "oppose": 92,
+   "n": 146,
+   "share": 0.0018614851081191351,
+   "oppose": 96,
    "support": 12,
-   "unclear": 34
+   "unclear": 38
   },
   {
    "key": "aapi_nhpi",
    "label": "Asian American & Pacific Islander",
    "group": "community",
-   "n": 449,
-   "share": 0.006027411971594647,
-   "oppose": 427,
+   "n": 455,
+   "share": 0.005801203590371277,
+   "oppose": 431,
    "support": 5,
-   "unclear": 17
+   "unclear": 19
   },
   {
    "key": "native_tribal",
    "label": "Native & tribal communities",
    "group": "community",
-   "n": 458,
-   "share": 0.0061482286926288375,
-   "oppose": 317,
+   "n": 468,
+   "share": 0.005966952264381885,
+   "oppose": 323,
    "support": 23,
-   "unclear": 118
+   "unclear": 122
   },
   {
    "key": "mena",
    "label": "Middle Eastern & North African",
    "group": "community",
-   "n": 482,
-   "share": 0.006470406615386681,
-   "oppose": 90,
+   "n": 487,
+   "share": 0.006209200326397389,
+   "oppose": 91,
    "support": 2,
-   "unclear": 390
+   "unclear": 394
   },
   {
    "key": "rural",
    "label": "Rural communities",
    "group": "community",
-   "n": 1064,
-   "share": 0.014283221242264374,
-   "oppose": 179,
-   "support": 790,
-   "unclear": 95
+   "n": 1833,
+   "share": 0.023370563035495714,
+   "oppose": 186,
+   "support": 1529,
+   "unclear": 118
   },
   {
    "key": "incarceration",
    "label": "Incarceration",
    "group": "community",
-   "n": 6720,
-   "share": 0.09020981837219605,
-   "oppose": 6675,
+   "n": 6801,
+   "share": 0.08671205630354957,
+   "oppose": 6755,
    "support": 5,
-   "unclear": 40
+   "unclear": 41
   },
   {
    "key": "wfn_campaign_language",
    "label": "WFN campaign language",
    "group": "internal",
    "n": 2,
-   "share": 2.684816022982025e-05,
+   "share": 2.5499796001631987e-05,
    "oppose": 2,
    "support": 0,
    "unclear": 0
@@ -2561,459 +2622,459 @@
   {
    "state": "CA",
    "name": "California",
-   "n": 3710,
-   "per100k": 9.4,
-   "oppose": 3596,
-   "support": 15,
-   "unclear": 99
+   "n": 3840,
+   "per100k": 9.7,
+   "oppose": 3722,
+   "support": 17,
+   "unclear": 101
   },
   {
    "state": "NY",
    "name": "New York",
-   "n": 1710,
-   "per100k": 8.6,
-   "oppose": 1654,
+   "n": 1765,
+   "per100k": 8.9,
+   "oppose": 1708,
    "support": 9,
-   "unclear": 47
+   "unclear": 48
   },
   {
    "state": "PA",
    "name": "Pennsylvania",
-   "n": 1155,
-   "per100k": 8.8,
-   "oppose": 1134,
+   "n": 1222,
+   "per100k": 9.3,
+   "oppose": 1201,
    "support": 8,
    "unclear": 13
   },
   {
    "state": "FL",
    "name": "Florida",
-   "n": 1040,
-   "per100k": 4.4,
-   "oppose": 1004,
-   "support": 18,
-   "unclear": 18
+   "n": 1112,
+   "per100k": 4.8,
+   "oppose": 1071,
+   "support": 21,
+   "unclear": 20
   },
   {
    "state": "WA",
    "name": "Washington",
-   "n": 1004,
-   "per100k": 12.6,
-   "oppose": 984,
-   "support": 4,
+   "n": 1060,
+   "per100k": 13.3,
+   "oppose": 1039,
+   "support": 5,
    "unclear": 16
   },
   {
    "state": "IL",
    "name": "Illinois",
-   "n": 921,
-   "per100k": 7.2,
-   "oppose": 822,
-   "support": 13,
+   "n": 969,
+   "per100k": 7.6,
+   "oppose": 869,
+   "support": 14,
    "unclear": 86
   },
   {
    "state": "MI",
    "name": "Michigan",
-   "n": 851,
-   "per100k": 8.4,
-   "oppose": 820,
-   "support": 18,
+   "n": 898,
+   "per100k": 8.9,
+   "oppose": 866,
+   "support": 19,
    "unclear": 13
   },
   {
    "state": "OH",
    "name": "Ohio",
-   "n": 771,
-   "per100k": 6.5,
-   "oppose": 726,
+   "n": 829,
+   "per100k": 7.0,
+   "oppose": 784,
    "support": 29,
    "unclear": 16
   },
   {
-   "state": "NC",
-   "name": "North Carolina",
-   "n": 770,
-   "per100k": 7.0,
-   "oppose": 748,
-   "support": 4,
-   "unclear": 18
-  },
-  {
    "state": "TX",
    "name": "Texas",
-   "n": 763,
-   "per100k": 2.4,
-   "oppose": 717,
+   "n": 829,
+   "per100k": 2.6,
+   "oppose": 783,
    "support": 29,
    "unclear": 17
   },
   {
+   "state": "NC",
+   "name": "North Carolina",
+   "n": 814,
+   "per100k": 7.4,
+   "oppose": 790,
+   "support": 5,
+   "unclear": 19
+  },
+  {
    "state": "OR",
    "name": "Oregon",
-   "n": 712,
-   "per100k": 16.7,
-   "oppose": 695,
+   "n": 745,
+   "per100k": 17.4,
+   "oppose": 727,
    "support": 2,
-   "unclear": 15
+   "unclear": 16
   },
   {
    "state": "CO",
    "name": "Colorado",
-   "n": 685,
-   "per100k": 11.5,
-   "oppose": 667,
+   "n": 715,
+   "per100k": 12.0,
+   "oppose": 697,
    "support": 6,
    "unclear": 12
   },
   {
    "state": "NJ",
    "name": "New Jersey",
-   "n": 657,
-   "per100k": 6.9,
-   "oppose": 639,
+   "n": 684,
+   "per100k": 7.2,
+   "oppose": 666,
    "support": 5,
    "unclear": 13
   },
   {
    "state": "AZ",
    "name": "Arizona",
-   "n": 632,
-   "per100k": 8.3,
-   "oppose": 609,
-   "support": 8,
+   "n": 665,
+   "per100k": 8.8,
+   "oppose": 641,
+   "support": 9,
    "unclear": 15
   },
   {
    "state": "MA",
    "name": "Massachusetts",
-   "n": 619,
-   "per100k": 8.7,
-   "oppose": 599,
+   "n": 642,
+   "per100k": 9.0,
+   "oppose": 622,
    "support": 1,
    "unclear": 19
   },
   {
    "state": "MN",
    "name": "Minnesota",
-   "n": 606,
-   "per100k": 10.5,
-   "oppose": 587,
+   "n": 632,
+   "per100k": 10.9,
+   "oppose": 612,
    "support": 7,
-   "unclear": 12
+   "unclear": 13
   },
   {
    "state": "WI",
    "name": "Wisconsin",
-   "n": 530,
-   "per100k": 8.9,
-   "oppose": 505,
+   "n": 557,
+   "per100k": 9.3,
+   "oppose": 531,
    "support": 9,
-   "unclear": 16
+   "unclear": 17
   },
   {
    "state": "VA",
    "name": "Virginia",
-   "n": 506,
-   "per100k": 5.7,
-   "oppose": 487,
+   "n": 522,
+   "per100k": 5.9,
+   "oppose": 503,
    "support": 6,
    "unclear": 13
   },
   {
    "state": "MD",
    "name": "Maryland",
-   "n": 450,
-   "per100k": 7.2,
-   "oppose": 431,
+   "n": 456,
+   "per100k": 7.3,
+   "oppose": 437,
    "support": 6,
    "unclear": 13
   },
   {
    "state": "MO",
    "name": "Missouri",
-   "n": 432,
-   "per100k": 6.9,
-   "oppose": 422,
+   "n": 454,
+   "per100k": 7.3,
+   "oppose": 444,
    "support": 5,
    "unclear": 5
   },
   {
    "state": "GA",
    "name": "Georgia",
-   "n": 420,
-   "per100k": 3.8,
-   "oppose": 405,
+   "n": 454,
+   "per100k": 4.1,
+   "oppose": 439,
    "support": 6,
    "unclear": 9
   },
   {
    "state": "IN",
    "name": "Indiana",
-   "n": 369,
-   "per100k": 5.3,
-   "oppose": 359,
+   "n": 395,
+   "per100k": 5.7,
+   "oppose": 384,
    "support": 4,
-   "unclear": 6
+   "unclear": 7
   },
   {
    "state": "TN",
    "name": "Tennessee",
-   "n": 286,
-   "per100k": 4.0,
-   "oppose": 282,
+   "n": 302,
+   "per100k": 4.2,
+   "oppose": 298,
    "support": 3,
    "unclear": 1
   },
   {
    "state": "NM",
    "name": "New Mexico",
-   "n": 259,
-   "per100k": 12.2,
-   "oppose": 254,
+   "n": 276,
+   "per100k": 13.0,
+   "oppose": 271,
    "support": 1,
    "unclear": 4
   },
   {
    "state": "CT",
    "name": "Connecticut",
-   "n": 256,
-   "per100k": 7.0,
-   "oppose": 250,
+   "n": 263,
+   "per100k": 7.2,
+   "oppose": 257,
    "support": 2,
    "unclear": 4
   },
   {
    "state": "IA",
    "name": "Iowa",
-   "n": 234,
-   "per100k": 7.2,
-   "oppose": 231,
+   "n": 248,
+   "per100k": 7.7,
+   "oppose": 245,
    "support": 2,
    "unclear": 1
   },
   {
    "state": "ME",
    "name": "Maine",
-   "n": 200,
-   "per100k": 14.2,
-   "oppose": 195,
+   "n": 214,
+   "per100k": 15.2,
+   "oppose": 209,
    "support": 1,
    "unclear": 4
   },
   {
    "state": "NH",
    "name": "New Hampshire",
-   "n": 199,
-   "per100k": 14.1,
-   "oppose": 195,
+   "n": 206,
+   "per100k": 14.6,
+   "oppose": 202,
    "support": 1,
    "unclear": 3
   },
   {
    "state": "KS",
    "name": "Kansas",
-   "n": 190,
-   "per100k": 6.4,
-   "oppose": 183,
+   "n": 200,
+   "per100k": 6.7,
+   "oppose": 192,
    "support": 2,
-   "unclear": 5
+   "unclear": 6
   },
   {
    "state": "SC",
    "name": "South Carolina",
-   "n": 182,
-   "per100k": 3.3,
-   "oppose": 176,
+   "n": 193,
+   "per100k": 3.5,
+   "oppose": 187,
    "support": 4,
    "unclear": 2
   },
   {
    "state": "KY",
    "name": "Kentucky",
-   "n": 164,
-   "per100k": 3.6,
-   "oppose": 158,
+   "n": 175,
+   "per100k": 3.8,
+   "oppose": 168,
    "support": 1,
-   "unclear": 5
-  },
-  {
-   "state": "AR",
-   "name": "Arkansas",
-   "n": 156,
-   "per100k": 5.1,
-   "oppose": 153,
-   "support": 2,
-   "unclear": 1
+   "unclear": 6
   },
   {
    "state": "NV",
    "name": "Nevada",
-   "n": 151,
-   "per100k": 4.6,
-   "oppose": 145,
+   "n": 167,
+   "per100k": 5.1,
+   "oppose": 161,
    "support": 2,
    "unclear": 4
   },
   {
+   "state": "AR",
+   "name": "Arkansas",
+   "n": 165,
+   "per100k": 5.3,
+   "oppose": 162,
+   "support": 2,
+   "unclear": 1
+  },
+  {
    "state": "UT",
    "name": "Utah",
-   "n": 125,
-   "per100k": 3.6,
-   "oppose": 120,
+   "n": 135,
+   "per100k": 3.9,
+   "oppose": 130,
    "support": 1,
    "unclear": 4
   },
   {
    "state": "AL",
    "name": "Alabama",
-   "n": 115,
-   "per100k": 2.2,
-   "oppose": 108,
-   "support": 4,
+   "n": 125,
+   "per100k": 2.4,
+   "oppose": 117,
+   "support": 5,
+   "unclear": 3
+  },
+  {
+   "state": "OK",
+   "name": "Oklahoma",
+   "n": 121,
+   "per100k": 3.0,
+   "oppose": 112,
+   "support": 6,
    "unclear": 3
   },
   {
    "state": "LA",
    "name": "Louisiana",
-   "n": 111,
-   "per100k": 2.4,
-   "oppose": 100,
+   "n": 117,
+   "per100k": 2.5,
+   "oppose": 106,
    "support": 7,
    "unclear": 4
   },
   {
-   "state": "OK",
-   "name": "Oklahoma",
-   "n": 109,
-   "per100k": 2.7,
-   "oppose": 100,
+   "state": "NE",
+   "name": "Nebraska",
+   "n": 112,
+   "per100k": 5.6,
+   "oppose": 103,
    "support": 6,
    "unclear": 3
   },
   {
    "state": "VT",
    "name": "Vermont",
-   "n": 107,
-   "per100k": 16.5,
-   "oppose": 103,
+   "n": 111,
+   "per100k": 17.1,
+   "oppose": 107,
    "support": 0,
    "unclear": 4
-  },
-  {
-   "state": "NE",
-   "name": "Nebraska",
-   "n": 103,
-   "per100k": 5.1,
-   "oppose": 95,
-   "support": 5,
-   "unclear": 3
   },
   {
    "state": "AK",
    "name": "Alaska",
-   "n": 102,
-   "per100k": 13.8,
-   "oppose": 95,
+   "n": 104,
+   "per100k": 14.1,
+   "oppose": 96,
    "support": 2,
-   "unclear": 5
+   "unclear": 6
   },
   {
    "state": "WV",
    "name": "West Virginia",
-   "n": 94,
-   "per100k": 5.3,
-   "oppose": 90,
+   "n": 99,
+   "per100k": 5.6,
+   "oppose": 95,
    "support": 1,
    "unclear": 3
   },
   {
-   "state": "DE",
-   "name": "Delaware",
-   "n": 90,
-   "per100k": 8.6,
-   "oppose": 86,
-   "support": 0,
-   "unclear": 4
-  },
-  {
    "state": "HI",
    "name": "Hawaii",
-   "n": 89,
-   "per100k": 6.2,
-   "oppose": 87,
+   "n": 95,
+   "per100k": 6.6,
+   "oppose": 93,
    "support": 1,
-   "unclear": 1
-  },
-  {
-   "state": "MT",
-   "name": "Montana",
-   "n": 88,
-   "per100k": 7.7,
-   "oppose": 87,
-   "support": 0,
    "unclear": 1
   },
   {
    "state": "ID",
    "name": "Idaho",
-   "n": 88,
-   "per100k": 4.4,
-   "oppose": 85,
+   "n": 95,
+   "per100k": 4.7,
+   "oppose": 92,
    "support": 2,
+   "unclear": 1
+  },
+  {
+   "state": "DE",
+   "name": "Delaware",
+   "n": 93,
+   "per100k": 8.8,
+   "oppose": 89,
+   "support": 0,
+   "unclear": 4
+  },
+  {
+   "state": "MT",
+   "name": "Montana",
+   "n": 92,
+   "per100k": 8.1,
+   "oppose": 91,
+   "support": 0,
    "unclear": 1
   },
   {
    "state": "RI",
    "name": "Rhode Island",
-   "n": 78,
-   "per100k": 7.0,
-   "oppose": 75,
+   "n": 85,
+   "per100k": 7.6,
+   "oppose": 82,
    "support": 1,
    "unclear": 2
   },
   {
    "state": "WY",
    "name": "Wyoming",
-   "n": 53,
-   "per100k": 9.0,
-   "oppose": 49,
+   "n": 56,
+   "per100k": 9.5,
+   "oppose": 52,
    "support": 1,
    "unclear": 3
   },
   {
    "state": "SD",
    "name": "South Dakota",
-   "n": 34,
-   "per100k": 3.7,
-   "oppose": 31,
+   "n": 39,
+   "per100k": 4.2,
+   "oppose": 36,
    "support": 1,
    "unclear": 2
   },
   {
    "state": "MS",
    "name": "Mississippi",
-   "n": 24,
-   "per100k": 0.8,
+   "n": 26,
+   "per100k": 0.9,
    "oppose": 24,
-   "support": 0,
+   "support": 2,
    "unclear": 0
   },
   {
    "state": "ND",
    "name": "North Dakota",
-   "n": 24,
-   "per100k": 3.0,
-   "oppose": 22,
+   "n": 26,
+   "per100k": 3.3,
+   "oppose": 24,
    "support": 1,
    "unclear": 1
   },
   {
    "state": "PR",
    "name": "Puerto Rico",
-   "n": 6,
+   "n": 7,
    "per100k": 0.2,
-   "oppose": 6,
+   "oppose": 7,
    "support": 0,
    "unclear": 0
   },
@@ -3038,11 +3099,11 @@
   },
   {
    "group": "Foundations & funders",
-   "total": 49,
+   "total": 50,
    "oppose": 36,
    "support": 0,
    "extension": 12,
-   "other": 1
+   "other": 2
   },
   {
    "group": "Civil rights & immigrant rights",
@@ -3108,8 +3169,17 @@
    "position": "Oppose",
    "state": "FL",
    "posted": "2026-10-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-73810",
-   "wfn_member": true
+   "wfn_member": true,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-73810"
+  },
+  {
+   "name": "Robert Wood Johnson Foundation",
+   "group": "Foundations & funders",
+   "position": "Mixed",
+   "state": "",
+   "posted": "2026-10-23",
+   "wfn_member": true,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-74838"
   },
   {
    "name": "Rio Hondo College (CA)",
@@ -3117,8 +3187,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-68457",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-68457"
   },
   {
    "name": "Los Angeles County Office of Education",
@@ -3126,8 +3196,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-68816",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-68816"
   },
   {
    "name": "Elmahaba Center (Nashville, TN)",
@@ -3135,8 +3205,8 @@
    "position": "Oppose",
    "state": "TN",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69146",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69146"
   },
   {
    "name": "Hoh Indian Tribe (WA)",
@@ -3144,8 +3214,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69180",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69180"
   },
   {
    "name": "City of Springfield, Oregon",
@@ -3153,8 +3223,8 @@
    "position": "Oppose",
    "state": "OR",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69257",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69257"
   },
   {
    "name": "City of Everett, Washington",
@@ -3162,8 +3232,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69359",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69359"
   },
   {
    "name": "SV@Home",
@@ -3171,8 +3241,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69420",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69420"
   },
   {
    "name": "Fuerte Arts Movement",
@@ -3180,8 +3250,8 @@
    "position": "Oppose",
    "state": "",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69663",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-69663"
   },
   {
    "name": "City of Ionia, Michigan",
@@ -3189,8 +3259,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71383",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71383"
   },
   {
    "name": "City of Des Moines, Washington",
@@ -3198,8 +3268,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71644",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71644"
   },
   {
    "name": "East-West Gateway Council of Governments",
@@ -3207,8 +3277,8 @@
    "position": "Raised concerns",
    "state": "MO",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71671",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71671"
   },
   {
    "name": "Organized Village of Kasaan (AK)",
@@ -3216,8 +3286,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71840",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71840"
   },
   {
    "name": "City of Box Elder, South Dakota",
@@ -3225,8 +3295,8 @@
    "position": "Oppose",
    "state": "SD",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71938",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-71938"
   },
   {
    "name": "Maryland Philanthropy Network",
@@ -3234,8 +3304,8 @@
    "position": "Oppose",
    "state": "MD",
    "posted": "2026-10-22",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-72055",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-72055"
   },
   {
    "name": "Grassroots America \u2013 We the People",
@@ -3243,8 +3313,8 @@
    "position": "Support",
    "state": "TX",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59240",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59240"
   },
   {
    "name": "Samuel S. Fels Fund",
@@ -3252,8 +3322,8 @@
    "position": "Oppose",
    "state": "PA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59399",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59399"
   },
   {
    "name": "National Wildlife Federation",
@@ -3261,8 +3331,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59779",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59779"
   },
   {
    "name": "City of Rochester, New York",
@@ -3270,8 +3340,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61027",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61027"
   },
   {
    "name": "Delaware Alliance for Nonprofit Advancement",
@@ -3279,8 +3349,8 @@
    "position": "Oppose",
    "state": "DE",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61139",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61139"
   },
   {
    "name": "City of Sunnyvale, California",
@@ -3288,8 +3358,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61143",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-61143"
   },
   {
    "name": "Sublette County Board of County Commissioners (WY)",
@@ -3297,8 +3367,8 @@
    "position": "Raised concerns",
    "state": "WY",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-63138",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-63138"
   },
   {
    "name": "Fairfield County\u2019s Community Foundation",
@@ -3306,8 +3376,8 @@
    "position": "Asked for more time",
    "state": "CT",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-63458",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-63458"
   },
   {
    "name": "Visual Capitalist",
@@ -3315,8 +3385,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64156",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64156"
   },
   {
    "name": "Woodstock Institute (IL)",
@@ -3324,8 +3394,8 @@
    "position": "Oppose",
    "state": "IL",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64507",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64507"
   },
   {
    "name": "Sault Ste. Marie Tribe of Chippewa Indians (MI)",
@@ -3333,8 +3403,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64722",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64722"
   },
   {
    "name": "Trinity Missionary Baptist Church (Tchula, MS)",
@@ -3342,8 +3412,8 @@
    "position": "Oppose",
    "state": "MS",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64752",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64752"
   },
   {
    "name": "American Cancer Society and ACS Cancer Action Network",
@@ -3351,8 +3421,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64765",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-64765"
   },
   {
    "name": "Yukon-Kuskokwim Regional Tribal Government (AK)",
@@ -3360,8 +3430,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65005",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65005"
   },
   {
    "name": "Veris Wealth Partners",
@@ -3369,8 +3439,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65154",
-   "wfn_member": true
+   "wfn_member": true,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65154"
   },
   {
    "name": "City of Fremont, California",
@@ -3378,8 +3448,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65337",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65337"
   },
   {
    "name": "Holmes County Board of Supervisors (MS)",
@@ -3387,8 +3457,8 @@
    "position": "Oppose",
    "state": "MS",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65376",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65376"
   },
   {
    "name": "National Association of Regional Councils",
@@ -3396,8 +3466,8 @@
    "position": "Raised concerns",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65446",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65446"
   },
   {
    "name": "American Civil Rights Project",
@@ -3405,8 +3475,8 @@
    "position": "Support",
    "state": "TX",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65520",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-65520"
   },
   {
    "name": "Jefferson County Public Health (WA)",
@@ -3414,8 +3484,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66253",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66253"
   },
   {
    "name": "Equitas Health (OH)",
@@ -3423,8 +3493,8 @@
    "position": "Oppose",
    "state": "OH",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66274",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66274"
   },
   {
    "name": "Methodist Healthcare Ministries of South Texas",
@@ -3432,8 +3502,8 @@
    "position": "Oppose",
    "state": "TX",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66543",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-66543"
   },
   {
    "name": "National Asian Pacific American Women\u2019s Forum",
@@ -3441,8 +3511,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67325",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67325"
   },
   {
    "name": "Philanthropy New York",
@@ -3450,8 +3520,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67341",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67341"
   },
   {
    "name": "Thurston Regional Planning Council (WA)",
@@ -3459,8 +3529,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67401",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67401"
   },
   {
    "name": "City of Bellingham, Washington",
@@ -3468,8 +3538,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67608",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67608"
   },
   {
    "name": "City of Pullman and Washington State University",
@@ -3477,8 +3547,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67694",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67694"
   },
   {
    "name": "Durham County Government (NC)",
@@ -3486,8 +3556,8 @@
    "position": "Oppose",
    "state": "NC",
    "posted": "2026-10-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67860",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-67860"
   },
   {
    "name": "City of Falls Church, Virginia",
@@ -3495,8 +3565,8 @@
    "position": "Asked for more time",
    "state": "VA",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-56626",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-56626"
   },
   {
    "name": "Black American Cultural Council",
@@ -3504,8 +3574,8 @@
    "position": "Raised concerns",
    "state": "",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58014",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58014"
   },
   {
    "name": "Community Foundation of Western Massachusetts",
@@ -3513,8 +3583,8 @@
    "position": "Oppose",
    "state": "MA",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58015",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58015"
   },
   {
    "name": "North Carolina Black Alliance",
@@ -3522,8 +3592,8 @@
    "position": "Oppose",
    "state": "NC",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58058",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58058"
   },
   {
    "name": "Grant Professionals Association",
@@ -3531,8 +3601,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58088",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58088"
   },
   {
    "name": "Council of the Great City Schools",
@@ -3540,8 +3610,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58101",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58101"
   },
   {
    "name": "Glick Family Foundation",
@@ -3549,8 +3619,8 @@
    "position": "Oppose",
    "state": "IN",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58153",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58153"
   },
   {
    "name": "Community Action Marin (CA)",
@@ -3558,8 +3628,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58170",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58170"
   },
   {
    "name": "Gray Panthers of Metro Detroit",
@@ -3567,8 +3637,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58185",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58185"
   },
   {
    "name": "Charter Township of Ypsilanti (MI)",
@@ -3576,8 +3646,8 @@
    "position": "Raised concerns",
    "state": "MI",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58494",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58494"
   },
   {
    "name": "Miami Valley Child Development Centers (Head Start, OH)",
@@ -3585,8 +3655,8 @@
    "position": "Oppose",
    "state": "OH",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58547",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58547"
   },
   {
    "name": "Woodhull Freedom Foundation",
@@ -3594,8 +3664,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58890",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-58890"
   },
   {
    "name": "Arcora Foundation",
@@ -3603,8 +3673,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-20",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59022",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-59022"
   },
   {
    "name": "University Christian Church Legacy Foundation",
@@ -3612,8 +3682,8 @@
    "position": "Oppose",
    "state": "",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-52661",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-52661"
   },
   {
    "name": "City of Fort Wayne, Indiana",
@@ -3621,8 +3691,8 @@
    "position": "Oppose",
    "state": "IN",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-52840",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-52840"
   },
   {
    "name": "Asian Americans for Community Involvement",
@@ -3630,8 +3700,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53038",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53038"
   },
   {
    "name": "Juanita Neighborhood Association (Kirkland, WA)",
@@ -3639,8 +3709,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53049",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53049"
   },
   {
    "name": "Santa Barbara Foundation",
@@ -3648,8 +3718,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53106",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53106"
   },
   {
    "name": "City of Havelock, North Carolina",
@@ -3657,8 +3727,8 @@
    "position": "Raised concerns",
    "state": "NC",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53765",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53765"
   },
   {
    "name": "American Medical Association",
@@ -3666,8 +3736,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53811",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-53811"
   },
   {
    "name": "Rescue Mission of Cape Fear (Wilmington, NC)",
@@ -3675,8 +3745,8 @@
    "position": "Oppose",
    "state": "NC",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-55010",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-55010"
   },
   {
    "name": "Wisconsin Education Association Council",
@@ -3684,8 +3754,8 @@
    "position": "Oppose",
    "state": "WI",
    "posted": "2026-10-19",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-55682",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-55682"
   },
   {
    "name": "City of Flagstaff, Arizona",
@@ -3693,8 +3763,8 @@
    "position": "Oppose",
    "state": "AZ",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46429",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46429"
   },
   {
    "name": "Kenaitze Indian Tribe (AK)",
@@ -3702,8 +3772,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46663",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46663"
   },
   {
    "name": "Delta Sigma Theta Sorority, Pittsburgh Alumnae Chapter",
@@ -3711,8 +3781,8 @@
    "position": "Oppose",
    "state": "PA",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46968",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-46968"
   },
   {
    "name": "Dearborn City Council (MI)",
@@ -3720,8 +3790,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47172",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47172"
   },
   {
    "name": "Campaign for Tobacco-Free Kids",
@@ -3729,8 +3799,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47181",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47181"
   },
   {
    "name": "Illinois Municipal League",
@@ -3738,8 +3808,8 @@
    "position": "Oppose",
    "state": "IL",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47317",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47317"
   },
   {
    "name": "Health Foundation for Western & Central New York",
@@ -3747,8 +3817,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47367",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47367"
   },
   {
    "name": "Southeast Michigan Council of Governments",
@@ -3756,8 +3826,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47611",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-47611"
   },
   {
    "name": "Village of Schaumburg, Illinois",
@@ -3765,8 +3835,8 @@
    "position": "Oppose",
    "state": "IL",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48476",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48476"
   },
   {
    "name": "Meyer Foundation",
@@ -3774,8 +3844,8 @@
    "position": "Oppose",
    "state": "DC",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48477",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48477"
   },
   {
    "name": "The Fund for Women and Girls (Chester County, PA)",
@@ -3783,8 +3853,8 @@
    "position": "Oppose",
    "state": "PA",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48479",
-   "wfn_member": true
+   "wfn_member": true,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-48479"
   },
   {
    "name": "Benefits in Action (Lakewood, CO)",
@@ -3792,8 +3862,8 @@
    "position": "Oppose",
    "state": "CO",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-49554",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-49554"
   },
   {
    "name": "City of Paramount, California",
@@ -3801,8 +3871,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-49722",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-49722"
   },
   {
    "name": "Westside Family Preservation Services Network (Fresno County, CA)",
@@ -3810,8 +3880,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-50278",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-50278"
   },
   {
    "name": "Northern Virginia Regional Commission",
@@ -3819,8 +3889,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-10-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45465",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45465"
   },
   {
    "name": "Chittenden County Regional Planning Commission (VT)",
@@ -3828,8 +3898,8 @@
    "position": "Oppose",
    "state": "VT",
    "posted": "2026-10-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45512",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45512"
   },
   {
    "name": "Mormon Women for Ethical Government",
@@ -3837,8 +3907,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45783",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45783"
   },
   {
    "name": "Southeast Alaska Food Bank",
@@ -3846,8 +3916,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45854",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45854"
   },
   {
    "name": "Central Florida Foundation",
@@ -3855,8 +3925,8 @@
    "position": "Oppose",
    "state": "FL",
    "posted": "2026-10-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45888",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-45888"
   },
   {
    "name": "ICARE Coalition (NY)",
@@ -3864,8 +3934,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-42518",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-42518"
   },
   {
    "name": "Washington State Office of the Insurance Commissioner",
@@ -3873,8 +3943,8 @@
    "position": "No stated position",
    "state": "WA",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-42885",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-42885"
   },
   {
    "name": "Boston Indicators",
@@ -3882,8 +3952,8 @@
    "position": "Oppose",
    "state": "MA",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43004",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43004"
   },
   {
    "name": "City of Redmond, Washington",
@@ -3891,8 +3961,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43026",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43026"
   },
   {
    "name": "The J.M. Kaplan Fund",
@@ -3900,8 +3970,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43065",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43065"
   },
   {
    "name": "City of Salem, Massachusetts",
@@ -3909,8 +3979,8 @@
    "position": "Oppose",
    "state": "MA",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43129",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43129"
   },
   {
    "name": "National Action Network",
@@ -3918,8 +3988,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43384",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43384"
   },
   {
    "name": "North American Association of Central Cancer Registries",
@@ -3927,8 +3997,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43397",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43397"
   },
   {
    "name": "Cambodian Mutual Assistance Association (Lowell, MA)",
@@ -3936,8 +4006,8 @@
    "position": "Oppose",
    "state": "MA",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43429",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43429"
   },
   {
    "name": "Kansas Action for Children",
@@ -3945,8 +4015,8 @@
    "position": "Oppose",
    "state": "KS",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43499",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43499"
   },
   {
    "name": "Community Foundation of Greater Birmingham",
@@ -3954,8 +4024,8 @@
    "position": "Asked for more time",
    "state": "AL",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43680",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43680"
   },
   {
    "name": "Washington County Board of Commissioners (OR)",
@@ -3963,8 +4033,8 @@
    "position": "Oppose",
    "state": "OR",
    "posted": "2026-10-14",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43718",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-43718"
   },
   {
    "name": "United Way for Southeastern Michigan",
@@ -3972,8 +4042,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39346",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39346"
   },
   {
    "name": "Headwaters Foundation (Missoula, MT)",
@@ -3981,8 +4051,8 @@
    "position": "Oppose",
    "state": "MT",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39382",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39382"
   },
   {
    "name": "League of Women Voters of Virginia",
@@ -3990,8 +4060,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39812",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39812"
   },
   {
    "name": "City of Seat Pleasant, Maryland",
@@ -3999,8 +4069,8 @@
    "position": "Oppose",
    "state": "MD",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39881",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39881"
   },
   {
    "name": "Alaska Center Education Fund",
@@ -4008,8 +4078,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39902",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39902"
   },
   {
    "name": "The Denver Foundation",
@@ -4017,8 +4087,8 @@
    "position": "Oppose",
    "state": "CO",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39936",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-39936"
   },
   {
    "name": "Pueblo de Cochiti (NM)",
@@ -4026,8 +4096,8 @@
    "position": "Requested consultation",
    "state": "NM",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40123",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40123"
   },
   {
    "name": "City of Kirkland, Washington",
@@ -4035,8 +4105,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40171",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40171"
   },
   {
    "name": "IPUMS / Institute for Social Research and Data Innovation, University of Minnesota",
@@ -4044,8 +4114,8 @@
    "position": "Oppose",
    "state": "MN",
    "posted": "2026-10-13",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40622",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-40622"
   },
   {
    "name": "Town of Wheatland",
@@ -4053,8 +4123,8 @@
    "position": "Oppose",
    "state": "",
    "posted": "2026-10-11",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37030",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37030"
   },
   {
    "name": "Town of Wheatland Senior Center",
@@ -4062,8 +4132,8 @@
    "position": "Oppose",
    "state": "",
    "posted": "2026-10-11",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37041",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37041"
   },
   {
    "name": "Sisters of Charity Foundation of South Carolina",
@@ -4071,8 +4141,8 @@
    "position": "Oppose",
    "state": "SC",
    "posted": "2026-10-11",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37144",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-37144"
   },
   {
    "name": "Native Village of Dot Lake (AK)",
@@ -4080,8 +4150,8 @@
    "position": "Oppose",
    "state": "AK",
    "posted": "2026-10-09",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33655",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33655"
   },
   {
    "name": "Rural Sociological Society",
@@ -4089,8 +4159,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-09",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33806",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33806"
   },
   {
    "name": "Prevention Institute",
@@ -4098,8 +4168,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-08",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32819",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32819"
   },
   {
    "name": "Alianza Coachella Valley (CA)",
@@ -4107,8 +4177,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-08",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32833",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32833"
   },
   {
    "name": "American Indian Association of Illinois",
@@ -4116,8 +4186,8 @@
    "position": "Oppose",
    "state": "IL",
    "posted": "2026-10-08",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33304",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-33304"
   },
   {
    "name": "Merck Family Fund",
@@ -4125,8 +4195,8 @@
    "position": "Oppose",
    "state": "MA",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-31380",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-31380"
   },
   {
    "name": "REACH Healthcare Foundation",
@@ -4134,8 +4204,8 @@
    "position": "Oppose",
    "state": "KS",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-31671",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-31671"
   },
   {
    "name": "ACLAMO (Norristown, PA)",
@@ -4143,8 +4213,8 @@
    "position": "Oppose",
    "state": "PA",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32309",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32309"
   },
   {
    "name": "Sikh American Legal Defense and Education Fund",
@@ -4152,8 +4222,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32567",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32567"
   },
   {
    "name": "MetroPlan",
@@ -4161,8 +4231,8 @@
    "position": "Mixed",
    "state": "AZ",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32686",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32686"
   },
   {
    "name": "Cultural Society / AAPI History Museum (Providence, RI)",
@@ -4170,8 +4240,8 @@
    "position": "Oppose",
    "state": "RI",
    "posted": "2026-10-07",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32785",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-32785"
   },
   {
    "name": "New York State Association of County Health Officials",
@@ -4179,8 +4249,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-06",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-24413",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-24413"
   },
   {
    "name": "Chickaloon Native Village (Chickaloon Village Traditional Council, AK)",
@@ -4188,8 +4258,8 @@
    "position": "Requested consultation",
    "state": "AK",
    "posted": "2026-10-06",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-25568",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-25568"
   },
   {
    "name": "United Native Americans",
@@ -4197,8 +4267,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-06",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-28213",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-28213"
   },
   {
    "name": "Virginia Municipal League",
@@ -4206,8 +4276,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-10-05",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22619",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22619"
   },
   {
    "name": "Farmington Metropolitan Planning Organization (NM)",
@@ -4215,8 +4285,8 @@
    "position": "Unknown",
    "state": "NM",
    "posted": "2026-10-05",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22483",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22483"
   },
   {
    "name": "Horizon Foundation",
@@ -4224,8 +4294,8 @@
    "position": "Oppose",
    "state": "MD",
    "posted": "2026-10-05",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22846",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22846"
   },
   {
    "name": "Foundation for Appalachian Kentucky",
@@ -4233,8 +4303,8 @@
    "position": "Oppose",
    "state": "KY",
    "posted": "2026-10-05",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22042",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22042"
   },
   {
    "name": "City of Fitchburg, Massachusetts",
@@ -4242,8 +4312,8 @@
    "position": "Mixed",
    "state": "MA",
    "posted": "2026-10-05",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22880",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-22880"
   },
   {
    "name": "Santo Domingo Pueblo",
@@ -4251,8 +4321,8 @@
    "position": "Oppose",
    "state": "NM",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20442",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20442"
   },
   {
    "name": "Arlington County, Virginia",
@@ -4260,8 +4330,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20294",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20294"
   },
   {
    "name": "Prince William County (VA) Demographer",
@@ -4269,8 +4339,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20434",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20434"
   },
   {
    "name": "Dignity in Schools Campaign-NY",
@@ -4278,8 +4348,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20381",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20381"
   },
   {
    "name": "Public Health Alliance of Southern California",
@@ -4287,8 +4357,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20528",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20528"
   },
   {
    "name": "Skillman Foundation (Detroit)",
@@ -4296,8 +4366,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21042",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21042"
   },
   {
    "name": "Moapa Band of Paiutes",
@@ -4305,8 +4375,8 @@
    "position": "Oppose",
    "state": "NV",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20773",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20773"
   },
   {
    "name": "Homecrest Community Services",
@@ -4314,8 +4384,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19971",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19971"
   },
   {
    "name": "Arkansas Community Foundation",
@@ -4323,8 +4393,8 @@
    "position": "Oppose",
    "state": "AR",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20303",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20303"
   },
   {
    "name": "Washington State Association of Local Public Health Officials",
@@ -4332,8 +4402,8 @@
    "position": "Oppose",
    "state": "WA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20347",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20347"
   },
   {
    "name": "Alliance for Boys and Men of Color",
@@ -4341,8 +4411,8 @@
    "position": "Asked for more time",
    "state": "CA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21058",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21058"
   },
   {
    "name": "League of Women Voters of the United States",
@@ -4350,8 +4420,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20416",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20416"
   },
   {
    "name": "Association of Metropolitan Planning Organizations (AMPO)",
@@ -4359,8 +4429,8 @@
    "position": "Mixed",
    "state": "National",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21155",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21155"
   },
   {
    "name": "Connecticut State Representative, 128th District",
@@ -4368,8 +4438,8 @@
    "position": "Oppose",
    "state": "CT",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20833",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20833"
   },
   {
    "name": "Minnesotans for the ACS and 2030 Census (MACS)",
@@ -4377,8 +4447,8 @@
    "position": "Asked for more time",
    "state": "MN",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20233",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20233"
   },
   {
    "name": "Collective for Racial & Disability Justice, UCLA School of Law (CRDJ)",
@@ -4386,8 +4456,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20840",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20840"
   },
   {
    "name": "Neutral Zone",
@@ -4395,8 +4465,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20192",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-20192"
   },
   {
    "name": "Hill-Snowdon Foundation",
@@ -4404,8 +4474,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21055",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-21055"
   },
   {
    "name": "City of Athens, Ohio",
@@ -4413,8 +4483,8 @@
    "position": "Oppose",
    "state": "OH",
    "posted": "2026-10-02",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19951",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19951"
   },
   {
    "name": "Population Association of America & Association of Population Centers",
@@ -4422,8 +4492,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18516",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18516"
   },
   {
    "name": "California Association of Nonprofits (CalNonprofits)",
@@ -4431,8 +4501,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19548",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19548"
   },
   {
    "name": "National League of Cities, U.S. Conference of Mayors & International City/County Management Association",
@@ -4440,8 +4510,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19123",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19123"
   },
   {
    "name": "Kate B. Reynolds Charitable Trust (NC)",
@@ -4449,8 +4519,8 @@
    "position": "Oppose",
    "state": "NC",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19265",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19265"
   },
   {
    "name": "The Ford Family Foundation (OR)",
@@ -4458,8 +4528,8 @@
    "position": "Oppose",
    "state": "OR",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19767",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19767"
   },
   {
    "name": "Keystone Federated Republican Women (Jefferson County, FL)",
@@ -4467,8 +4537,8 @@
    "position": "Support",
    "state": "FL",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19122",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19122"
   },
   {
    "name": "State demographers in the Federal-State Cooperative for Population Estimates",
@@ -4476,8 +4546,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19446",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19446"
   },
   {
    "name": "Data Foundation & Data Coalition",
@@ -4485,8 +4555,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18580",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18580"
   },
   {
    "name": "California Budget & Policy Center",
@@ -4494,8 +4564,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19554",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19554"
   },
   {
    "name": "Minnesota Council on Latino Affairs",
@@ -4503,8 +4573,8 @@
    "position": "Oppose",
    "state": "MN",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18951",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-18951"
   },
   {
    "name": "Tooele City, Utah",
@@ -4512,8 +4582,8 @@
    "position": "Oppose",
    "state": "UT",
    "posted": "2026-10-01",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19228",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-19228"
   },
   {
    "name": "Colorado Health Foundation",
@@ -4521,8 +4591,8 @@
    "position": "Oppose",
    "state": "CO",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15367",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15367"
   },
   {
    "name": "City of Santa Clara, Utah",
@@ -4530,8 +4600,8 @@
    "position": "Mixed",
    "state": "UT",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15360",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15360"
   },
   {
    "name": "Massachusetts Census Equity Fund",
@@ -4539,8 +4609,8 @@
    "position": "Asked for more time",
    "state": "MA",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15021",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15021"
   },
   {
    "name": "Agua Fund, Inc.",
@@ -4548,8 +4618,8 @@
    "position": "Unknown",
    "state": "",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15370",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15370"
   },
   {
    "name": "Muslim Community Network",
@@ -4557,8 +4627,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15271",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15271"
   },
   {
    "name": "Metropolitan Asian Deaf Association",
@@ -4566,8 +4636,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15198",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15198"
   },
   {
    "name": "Nonprofit Association of Oregon",
@@ -4575,8 +4645,8 @@
    "position": "Oppose",
    "state": "OR",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15321",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15321"
   },
   {
    "name": "American Association of University Women (AAUW), New Mexico chapter",
@@ -4584,8 +4654,8 @@
    "position": "Oppose",
    "state": "NM",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15152",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15152"
   },
   {
    "name": "Grossmont Education Association (CA)",
@@ -4593,8 +4663,8 @@
    "position": "Oppose",
    "state": "CA",
    "posted": "2026-09-30",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15377",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-15377"
   },
   {
    "name": "Association of Metropolitan Planning Organizations, National Association of Development Organizations & National Association of Regional Councils",
@@ -4602,8 +4672,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9724",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9724"
   },
   {
    "name": "National Association of Counties (NACo)",
@@ -4611,8 +4681,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9884",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9884"
   },
   {
    "name": "SaySomething / One Human Race",
@@ -4620,8 +4690,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10076",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10076"
   },
   {
    "name": "Prince William County (VA) Board of County Supervisors member, Occoquan District",
@@ -4629,8 +4699,8 @@
    "position": "Oppose",
    "state": "VA",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14850",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14850"
   },
   {
    "name": "Community Foundation of the Eastern Shore (MD)",
@@ -4638,8 +4708,8 @@
    "position": "Asked for more time",
    "state": "MD",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9711",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9711"
   },
   {
    "name": "The Fund for New Jersey",
@@ -4647,8 +4717,8 @@
    "position": "Oppose",
    "state": "NJ",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14873",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-14873"
   },
   {
    "name": "National Black Deaf Advocates (NBDA)",
@@ -4656,8 +4726,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10306",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10306"
   },
   {
    "name": "Mekong NYC (Bronx, NY)",
@@ -4665,8 +4735,8 @@
    "position": "Asked for more time",
    "state": "NY",
    "posted": "2026-09-29",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10013",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-10013"
   },
   {
    "name": "Virginia Funders Network",
@@ -4674,8 +4744,8 @@
    "position": "Asked for more time",
    "state": "VA",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-8785",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-8785"
   },
   {
    "name": "Housing Opportunities Made Equal of Virginia (HOME)",
@@ -4683,8 +4753,8 @@
    "position": "Asked for more time",
    "state": "VA",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9318",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9318"
   },
   {
    "name": "The Cambodian Family Community Center (Santa Ana, CA)",
@@ -4692,8 +4762,8 @@
    "position": "Asked for more time",
    "state": "CA",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9315",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9315"
   },
   {
    "name": "Woka Foundation",
@@ -4701,8 +4771,8 @@
    "position": "Oppose",
    "state": "",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9417",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9417"
   },
   {
    "name": "Heartland Fund",
@@ -4710,8 +4780,8 @@
    "position": "Asked for more time",
    "state": "",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-8595",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-8595"
   },
   {
    "name": "Foundation for Child Development (NY)",
@@ -4719,8 +4789,8 @@
    "position": "Asked for more time",
    "state": "NY",
    "posted": "2026-09-25",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9096",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-9096"
   },
   {
    "name": "KABOOM!",
@@ -4728,8 +4798,8 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-09-24",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7448",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7448"
   },
   {
    "name": "North Star Civic Foundation (Oregon)",
@@ -4737,8 +4807,8 @@
    "position": "Oppose",
    "state": "OR",
    "posted": "2026-09-24",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7608",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7608"
   },
   {
    "name": "Forefront",
@@ -4746,8 +4816,8 @@
    "position": "Oppose",
    "state": "IL",
    "posted": "2026-09-24",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7417",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7417"
   },
   {
    "name": "National Congress of American Indians (NCAI)",
@@ -4755,8 +4825,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-24",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7597",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7597"
   },
   {
    "name": "Avengers Youth Mentoring Organization (Detroit, MI & Houston, TX)",
@@ -4764,8 +4834,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-09-24",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7978",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7978"
   },
   {
    "name": "Grantmakers Concerned with Immigrants and Refugees (GCIR)",
@@ -4773,8 +4843,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6197",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6197"
   },
   {
    "name": "Center for Renewing America",
@@ -4782,8 +4852,8 @@
    "position": "Support",
    "state": "National",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5957",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5957"
   },
   {
    "name": "Southeast Asia Resource Action Center (SEARAC)",
@@ -4791,8 +4861,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6844",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6844"
   },
   {
    "name": "Jail and Outreach Ministry (Pontiac, MI)",
@@ -4800,8 +4870,8 @@
    "position": "Oppose",
    "state": "MI",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6000",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6000"
   },
   {
    "name": "Attorneys General of Minnesota, California and 19 other states",
@@ -4809,8 +4879,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5759",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-5759"
   },
   {
    "name": "Clinton, Oklahoma City Council member",
@@ -4818,8 +4888,8 @@
    "position": "Oppose",
    "state": "OK",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7045",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7045"
   },
   {
    "name": "Fair Housing Resource Center, Inc. (Ohio)",
@@ -4827,8 +4897,8 @@
    "position": "Oppose",
    "state": "OH",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7124",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-7124"
   },
   {
    "name": "Women\u2019s Fund of Rhode Island",
@@ -4836,8 +4906,8 @@
    "position": "Oppose",
    "state": "RI",
    "posted": "2026-09-23",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6078",
-   "wfn_member": true
+   "wfn_member": true,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-6078"
   },
   {
    "name": "Onion Foundation (Maine)",
@@ -4845,8 +4915,8 @@
    "position": "Oppose",
    "state": "ME",
    "posted": "2026-09-21",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1645",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1645"
   },
   {
    "name": "Grove Foundation",
@@ -4854,8 +4924,8 @@
    "position": "Asked for more time",
    "state": "",
    "posted": "2026-09-18",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1047",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1047"
   },
   {
    "name": "National Education Association",
@@ -4863,8 +4933,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-18",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0996",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0996"
   },
   {
    "name": "Morgan Family Foundation (Yellow Springs, OH)",
@@ -4872,8 +4942,8 @@
    "position": "Asked for more time",
    "state": "OH",
    "posted": "2026-09-18",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1044",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-1044"
   },
   {
    "name": "Funders' Committee for Civic Participation (FCCP)",
@@ -4881,8 +4951,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-17",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0932",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0932"
   },
   {
    "name": "Leadership Conference on Civil and Human Rights and 10 organizations",
@@ -4890,8 +4960,8 @@
    "position": "Asked for more time",
    "state": "National",
    "posted": "2026-09-17",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0953",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0953"
   },
   {
    "name": "Garifuna Coalition USA, Inc. (Bronx, NY)",
@@ -4899,8 +4969,8 @@
    "position": "Oppose",
    "state": "NY",
    "posted": "2026-09-16",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0843",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0843"
   },
   {
    "name": "Hogar del Inmigrante, Inc. (North Carolina)",
@@ -4908,8 +4978,8 @@
    "position": "Oppose",
    "state": "NC",
    "posted": "2026-09-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0085",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0085"
   },
   {
    "name": "Latino Community Foundation",
@@ -4917,8 +4987,8 @@
    "position": "Asked for more time",
    "state": "CA",
    "posted": "2026-09-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0100",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0100"
   },
   {
    "name": "Goldstein Law Partners (PA)",
@@ -4926,8 +4996,8 @@
    "position": "Support",
    "state": "PA",
    "posted": "2026-09-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0063",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0063"
   },
   {
    "name": "Census Funder Collaborative",
@@ -4935,30 +5005,30 @@
    "position": "Oppose",
    "state": "National",
    "posted": "2026-09-15",
-   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0013",
-   "wfn_member": false
+   "wfn_member": false,
+   "url": "https://www.regulations.gov/comment/USBC-2026-0628-0013"
   }
  ],
  "templates": [
   {
    "id": 1,
-   "copies": 16351
+   "copies": 16370
   },
   {
    "id": 2,
-   "copies": 12584
+   "copies": 12682
   },
   {
    "id": 3,
-   "copies": 8034
+   "copies": 8163
   },
   {
    "id": 4,
-   "copies": 4312
+   "copies": 4641
   },
   {
    "id": 5,
-   "copies": 3154
+   "copies": 3210
   },
   {
    "id": 6,
@@ -4970,7 +5040,7 @@
   },
   {
    "id": 8,
-   "copies": 1896
+   "copies": 1902
   },
   {
    "id": 9,
