@@ -64,7 +64,7 @@ td.date,td.st{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--i
 <main>
 <nav><a href="trends.html">Trends</a><a href="organizations.html" aria-current="page">Organizations</a><a href="index.html">Search</a><a href="https://www.regulations.gov/docket/USBC-2026-0628">Docket on Regulations.gov</a></nav>
 <h1>Organizations that have filed</h1>
-<p class="lede" id="lede">Every organization, government and tribe that has commented on the proposed 2030 Census rule, reviewed by Women's Funding Network. Click a name to read its comment.</p>
+<p class="lede" id="lede">Every organization, state and local government, and Tribal Nation that has commented on the proposed 2030 Census rule, reviewed by Women's Funding Network. Click a name to read its comment.</p>
 
 <div class="tally" id="tally" role="group" aria-label="Filter by position"></div>
 <div class="filters">
@@ -133,7 +133,7 @@ fetch("data/trends.json", {cache: "no-cache"}).then(r => r.json()).then(t => {
   O = t.organizations || [];
   [...new Set(O.map(o => o.group))].sort().forEach(g => $("type").add(new Option(g, g)));
   const members = O.filter(o => o.wfn_member).length;
-  $("lede").innerHTML = `${O.length} organizations, governments and tribes have commented on the proposed 2030 Census rule, ` +
+  $("lede").innerHTML = `${O.length} organizations, state and local governments, and Tribal Nations have commented on the proposed 2030 Census rule, ` +
     `including ${members} WFN member${members === 1 ? "" : "s"}. Reviewed by Women's Funding Network; click a name to read its comment. ` +
     `Updated ${new Date(t.built.slice(0, 10) + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"})}.`;
   tally(); render();
