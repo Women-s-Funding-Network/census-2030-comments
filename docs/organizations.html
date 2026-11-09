@@ -49,6 +49,13 @@ td.date,td.st{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--i
 .member{display:inline-block;font-size:11px;font-weight:700;border-radius:999px;padding:1px 7px;margin-left:6px;background:var(--chip);color:var(--accent-ink);vertical-align:1px;white-space:nowrap}
 .empty{padding:24px;text-align:center;color:var(--muted)}
 .note{color:var(--muted);font-size:13px;margin-top:16px;max-width:760px}
+.cosign{margin-top:32px;max-width:760px}
+.cosign h2{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:400;font-size:22px;line-height:1.25;margin:0 0 6px;color:var(--brand-ink)}
+.cosign p{color:var(--ink-2);margin:0 0 12px}
+.cosign ul{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.cosign li{padding:10px 14px;border-bottom:1px solid var(--line)}.cosign li:last-child{border-bottom:0}
+.cosign .who{font-weight:600}.cosign .via{display:block;font-size:14px;color:var(--ink-2)}
+.cosign .also{font-size:13px;color:var(--muted)}
 @media (max-width:640px){td.type,th.type{display:none}}
 </style>
 </head>
@@ -78,6 +85,11 @@ td.date,td.st{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--i
   <thead><tr><th data-k="name">Organization</th><th data-k="group" class="type">Type</th><th data-k="position">Position</th><th data-k="state">State</th><th data-k="posted" aria-sort="descending">Filed</th></tr></thead>
   <tbody id="rows"></tbody>
 </table></div>
+<section class="cosign" id="cosign" hidden aria-labelledby="cosign-h">
+  <h2 id="cosign-h">WFN members who co-signed joint letters</h2>
+  <p>These members added their names to letters filed by coalitions. The table above lists each joint letter once, under the coalition's name.</p>
+  <ul id="cosign-list"></ul>
+</section>
 <p class="note" id="note">Positions are WFN's reading of each comment. "Asked for more time or consultation" covers comments that asked to extend the comment period or for government-to-government consultation without taking a position on the rule. Comments appear on Regulations.gov 1 to 5 days after they are submitted, so recent filings may be missing.</p>
 </main>
 <script>
@@ -133,8 +145,20 @@ fetch("data/trends.json", {cache: "no-cache"}).then(r => r.json()).then(t => {
   O = t.organizations || [];
   [...new Set(O.map(o => o.group))].sort().forEach(g => $("type").add(new Option(g, g)));
   const members = O.filter(o => o.wfn_member).length;
+  const C = t.member_cosigns || [];
+  const cosignOnly = new Set(C.filter(c => !c.own_letter).map(c => c.member)).size;
+  if (C.length) {
+    const byMember = {};
+    C.forEach(c => (byMember[c.member] = byMember[c.member] || []).push(c));
+    $("cosign-list").innerHTML = Object.entries(byMember).map(([m, cs]) =>
+      `<li><span class="who">${esc(m.replace(/’/g, "'"))}</span>${cs[0].own_letter ? ' <span class="also">· also filed its own letter</span>' : ""}` +
+      cs.map(c => `<span class="via">Signed <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.letter)}</a></span>`).join("") + `</li>`).join("");
+    $("cosign").hidden = false;
+  }
   $("lede").innerHTML = `${O.length} organizations, state and local governments, and Tribal Nations have commented on the proposed 2030 Census rule, ` +
-    `including ${members} WFN member${members === 1 ? "" : "s"}. Reviewed by Women's Funding Network; click a name to read its comment. ` +
+    `including ${members} WFN member${members === 1 ? "" : "s"}` +
+    (cosignOnly ? `; ${cosignOnly} more WFN member${cosignOnly === 1 ? "" : "s"} co-signed <a href="#cosign">joint letters</a>` : "") +
+    `. Reviewed by Women's Funding Network; click a name to read its comment. ` +
     `Updated ${new Date(t.built.slice(0, 10) + "T12:00:00").toLocaleDateString("en-US", {month: "long", day: "numeric", year: "numeric"})}.`;
   tally(); render();
 }).catch(() => { $("rows").innerHTML = `<tr><td colspan="5" class="empty">The list couldn't load. Please refresh the page.</td></tr>`; });
